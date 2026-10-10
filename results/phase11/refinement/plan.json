@@ -1,0 +1,19 @@
+{
+  "catalogue_sha256": "a0e2612fa9befeb6dabc0c83a73dd295c6b14d888ae7349950b26a972d367f7f",
+  "protocol_sha256": "fa5f74bb0c4e45c3627c1540dd52cbb03e2867d62e83cf0c92f7b8a18cd7fa09",
+  "levels_mm": [
+    2.0,
+    1.0,
+    0.5,
+    0.25,
+    0.125,
+    0.0625
+  ],
+  "response_angles_degrees": [
+    -20.0,
+    0.0,
+    20.0
+  ],
+  "clarification": "Extend a connected binary if any declared response angle remains numerically unresolved; historical nominal acceptance does not shortcut added-angle checks. Stop only when all three angle gates pass, an attempt fails/resources defer, or planned levels end.",
+  "created_before_refinements": true
+}

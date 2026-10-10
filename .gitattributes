@@ -1,0 +1,3 @@
+# Keep archived evidence, manifests and source snapshots byte-for-byte intact.
+# Platform-dependent newline conversion would invalidate their SHA-256 hashes.
+* -text

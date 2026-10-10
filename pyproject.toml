@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prometheus-mechanics"
+version = "0.1.0"
+description = "Reproducible PROMETHEUS-01 numerical mechanics research benchmark"
+requires-python = ">=3.11"
+dependencies = ["numpy>=2.0,<3", "scipy>=1.14,<2"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+plots = ["matplotlib>=3.9,<4"]
+
+[tool.setuptools.packages.find]
+include = ["prometheus*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

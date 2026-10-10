@@ -1,0 +1,13 @@
+{
+  "status": "converged",
+  "evaluations": 133,
+  "wall_seconds": 12.041200799983926,
+  "solve_seconds": 9.023920900013763,
+  "best_evaluation": 133,
+  "final_compliance_n_mm": 1323.3677749191281,
+  "final_max_change": 0.009216626237088743,
+  "final_relative_compliance_spread": 0.00011689918666363822,
+  "best_compliance_n_mm": 1323.3677749191281,
+  "physical_sha256": "7d635a8e8cd9a5bda9f30c365076da2026b920fe7216b15a1b75178b198cef87",
+  "raw_sha256": "07350d9da0f1792bad91b3e37630746f8aab96c5bca203441a49d5ab43370b68"
+}

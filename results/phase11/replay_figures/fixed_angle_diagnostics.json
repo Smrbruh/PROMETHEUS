@@ -1,0 +1,974 @@
+[
+  {
+    "run": "results\\phase11\\replay_v040",
+    "candidate": "B0",
+    "h_mm": 2.0,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 468.3223531822505,
+      "0": 446.53343867578906,
+      "20": 333.759641404686
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v040",
+    "candidate": "B0",
+    "h_mm": 2.0,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 470.5830443149122,
+      "0": 448.8861537523521,
+      "20": 335.6880239766875
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v040",
+    "candidate": "B0",
+    "h_mm": 1.0,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 470.5485611569445,
+      "0": 448.8765801431113,
+      "20": 335.69913660981183
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v040",
+    "candidate": "B0",
+    "h_mm": 1.0,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 471.48524120511985,
+      "0": 449.867629649201,
+      "20": 336.5231994052419
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v040",
+    "candidate": "B0",
+    "h_mm": 0.5,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 471.5012497546366,
+      "0": 449.8933104129564,
+      "20": 336.5506449200894
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v040",
+    "candidate": "B0",
+    "h_mm": 0.5,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 471.90878755024806,
+      "0": 450.32973579156203,
+      "20": 336.9171726970924
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v040",
+    "candidate": "B1",
+    "h_mm": 2.0,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 13104.207989938534,
+      "0": 12658.59102905171,
+      "20": 9497.533122778264
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v040",
+    "candidate": "B1",
+    "h_mm": 2.0,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 13396.181543773511,
+      "0": 12936.206367219296,
+      "20": 9702.553661974485
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v040",
+    "candidate": "B1",
+    "h_mm": 1.0,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 13353.334644533017,
+      "0": 12896.453122614052,
+      "20": 9674.166538725016
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v040",
+    "candidate": "B1",
+    "h_mm": 1.0,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 13460.576929011477,
+      "0": 12998.407158732654,
+      "20": 9749.563647273602
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v040",
+    "candidate": "B1",
+    "h_mm": 0.5,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 13448.63252334278,
+      "0": 12987.600593725545,
+      "20": 9742.087792437302
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v040",
+    "candidate": "B1",
+    "h_mm": 0.5,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 13490.85206000776,
+      "0": 13027.747319051856,
+      "20": 9771.82174433555
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v040",
+    "candidate": "B2",
+    "h_mm": 2.0,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 10680.94283730067,
+      "0": 10538.99319806815,
+      "20": 8160.688505820018
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v040",
+    "candidate": "B3",
+    "h_mm": 2.0,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1881.0485271417997,
+      "0": 1802.4530264374077,
+      "20": 1473.5719878067152
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v040",
+    "candidate": "B3",
+    "h_mm": 2.0,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1941.9778554964844,
+      "0": 1860.606379803108,
+      "20": 1525.0879280138536
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v040",
+    "candidate": "B3",
+    "h_mm": 1.0,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1930.1320887067104,
+      "0": 1850.144225794075,
+      "20": 1516.2436558680222
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v040",
+    "candidate": "B3",
+    "h_mm": 1.0,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1949.120411278544,
+      "0": 1868.7722596110534,
+      "20": 1533.0360855279494
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v040",
+    "candidate": "B3",
+    "h_mm": 0.5,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1945.8699268649984,
+      "0": 1865.9500608245469,
+      "20": 1530.6919182472639
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v040",
+    "candidate": "B3",
+    "h_mm": 0.5,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1951.9261555645617,
+      "0": 1872.107810707922,
+      "20": 1536.3545662825748
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v040",
+    "candidate": "B3_binary",
+    "h_mm": 2.0,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1133.7327189881034,
+      "0": 1123.2671992841888,
+      "20": 970.6090641471253
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v040",
+    "candidate": "B3_binary",
+    "h_mm": 2.0,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1202.8021689225293,
+      "0": 1203.0118943275822,
+      "20": 1054.8643384757697
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v040",
+    "candidate": "B3_binary",
+    "h_mm": 1.0,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1195.2379426524828,
+      "0": 1194.9489105431746,
+      "20": 1046.1912641154388
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v040",
+    "candidate": "B3_binary",
+    "h_mm": 1.0,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1228.1142744473877,
+      "0": 1234.0322555643963,
+      "20": 1087.9218203093671
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v040",
+    "candidate": "B3_binary",
+    "h_mm": 0.5,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1225.1113338285838,
+      "0": 1230.6595722137765,
+      "20": 1084.179679632818
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v040",
+    "candidate": "B3_binary",
+    "h_mm": 0.5,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1239.9571806743047,
+      "0": 1248.4806148508408,
+      "20": 1103.2157348385176
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v040",
+    "candidate": "B3_threshold",
+    "h_mm": 2.0,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1142.8628911596575,
+      "0": 1137.6028423255289,
+      "20": 987.4328962743974
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v040",
+    "candidate": "B3_threshold",
+    "h_mm": 2.0,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1214.1140178585488,
+      "0": 1220.6995759081408,
+      "20": 1075.5861625125146
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v040",
+    "candidate": "B3_threshold",
+    "h_mm": 1.0,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1206.2985068646578,
+      "0": 1212.180245557225,
+      "20": 1066.3225891772524
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v040",
+    "candidate": "B3_threshold",
+    "h_mm": 1.0,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1240.273905992294,
+      "0": 1252.915879111245,
+      "20": 1109.9483272220232
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v040",
+    "candidate": "B3_threshold",
+    "h_mm": 0.5,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1237.162179938164,
+      "0": 1249.3515340098375,
+      "20": 1105.9613971185315
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v040",
+    "candidate": "B3_threshold",
+    "h_mm": 0.5,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1252.505203509263,
+      "0": 1267.9103391219585,
+      "20": 1125.8360218466623
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v035",
+    "candidate": "B0",
+    "h_mm": 2.0,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 468.3223531822505,
+      "0": 446.53343867578906,
+      "20": 333.759641404686
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v035",
+    "candidate": "B0",
+    "h_mm": 2.0,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 470.5830443149122,
+      "0": 448.8861537523521,
+      "20": 335.6880239766875
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v035",
+    "candidate": "B0",
+    "h_mm": 1.0,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 470.5485611569445,
+      "0": 448.8765801431113,
+      "20": 335.69913660981183
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v035",
+    "candidate": "B0",
+    "h_mm": 1.0,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 471.48524120511985,
+      "0": 449.867629649201,
+      "20": 336.5231994052419
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v035",
+    "candidate": "B0",
+    "h_mm": 0.5,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 471.5012497546366,
+      "0": 449.8933104129564,
+      "20": 336.5506449200894
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v035",
+    "candidate": "B0",
+    "h_mm": 0.5,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 471.90878755024806,
+      "0": 450.32973579156203,
+      "20": 336.9171726970924
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v035",
+    "candidate": "B1",
+    "h_mm": 2.0,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 20995.65507231802,
+      "0": 20152.514453729396,
+      "20": 15043.435391045405
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v035",
+    "candidate": "B1",
+    "h_mm": 2.0,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 21869.86633358712,
+      "0": 20933.680643247037,
+      "20": 15577.59745119438
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v035",
+    "candidate": "B1",
+    "h_mm": 1.0,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 21747.661623075353,
+      "0": 20825.453005684274,
+      "20": 15504.616638445259
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v035",
+    "candidate": "B1",
+    "h_mm": 1.0,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 22105.766727599217,
+      "0": 21141.80300523259,
+      "20": 15717.669251411242
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v035",
+    "candidate": "B1",
+    "h_mm": 0.5,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 22066.01134274763,
+      "0": 21107.683927364003,
+      "20": 15695.669314261811
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v035",
+    "candidate": "B1",
+    "h_mm": 0.5,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 22216.81947200001,
+      "0": 21240.022508918704,
+      "20": 15783.997647960037
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v035",
+    "candidate": "B2",
+    "h_mm": 2.0,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 18476.125896473288,
+      "0": 18256.37624096944,
+      "20": 14156.505643126675
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v035",
+    "candidate": "B3",
+    "h_mm": 2.0,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 2800.543041823533,
+      "0": 2680.662844849088,
+      "20": 2212.2884301136087
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v035",
+    "candidate": "B3",
+    "h_mm": 2.0,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 2906.298693667086,
+      "0": 2779.6619957491835,
+      "20": 2300.08172271795
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v035",
+    "candidate": "B3",
+    "h_mm": 1.0,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 2885.459690369432,
+      "0": 2761.5301407832944,
+      "20": 2284.5589085374136
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v035",
+    "candidate": "B3",
+    "h_mm": 1.0,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 2918.502333480703,
+      "0": 2793.300904578497,
+      "20": 2313.1700794868148
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v035",
+    "candidate": "B3",
+    "h_mm": 0.5,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 2912.7267915115117,
+      "0": 2788.348080729804,
+      "20": 2309.001127609081
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v035",
+    "candidate": "B3",
+    "h_mm": 0.5,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 2923.207188132793,
+      "0": 2798.787041151515,
+      "20": 2318.5663501236136
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v045",
+    "candidate": "B0",
+    "h_mm": 2.0,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 468.3223531822505,
+      "0": 446.53343867578906,
+      "20": 333.759641404686
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v045",
+    "candidate": "B0",
+    "h_mm": 2.0,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 470.5830443149122,
+      "0": 448.8861537523521,
+      "20": 335.6880239766875
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v045",
+    "candidate": "B0",
+    "h_mm": 1.0,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 470.5485611569445,
+      "0": 448.8765801431113,
+      "20": 335.69913660981183
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v045",
+    "candidate": "B0",
+    "h_mm": 1.0,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 471.48524120511985,
+      "0": 449.867629649201,
+      "20": 336.5231994052419
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v045",
+    "candidate": "B0",
+    "h_mm": 0.5,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 471.5012497546366,
+      "0": 449.8933104129564,
+      "20": 336.5506449200894
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v045",
+    "candidate": "B0",
+    "h_mm": 0.5,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 471.90878755024806,
+      "0": 450.32973579156203,
+      "20": 336.9171726970924
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v045",
+    "candidate": "B1",
+    "h_mm": 2.0,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 6728.910474411594,
+      "0": 6651.760574677798,
+      "20": 5132.1236735745715
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v045",
+    "candidate": "B1",
+    "h_mm": 2.0,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 6835.635234175177,
+      "0": 6755.863912917857,
+      "20": 5211.520652799881
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v045",
+    "candidate": "B1",
+    "h_mm": 1.0,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 6822.1302219834215,
+      "0": 6743.031969601209,
+      "20": 5202.0588541666175
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v045",
+    "candidate": "B1",
+    "h_mm": 1.0,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 6862.726728663297,
+      "0": 6782.515372112518,
+      "20": 5232.109426009803
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v045",
+    "candidate": "B1",
+    "h_mm": 0.5,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 6858.929863345303,
+      "0": 6779.027558978429,
+      "20": 5229.640235583422
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v045",
+    "candidate": "B1",
+    "h_mm": 0.5,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 6875.431973806271,
+      "0": 6795.0493452581995,
+      "20": 5241.821474681301
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v045",
+    "candidate": "B2",
+    "h_mm": 2.0,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 6742.345745553785,
+      "0": 6642.299271172835,
+      "20": 5135.27493631822
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v045",
+    "candidate": "B3",
+    "h_mm": 2.0,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1395.429520221342,
+      "0": 1323.3677749191274,
+      "20": 1062.4842943423453
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v045",
+    "candidate": "B3",
+    "h_mm": 2.0,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1434.7583679291463,
+      "0": 1360.573183559795,
+      "20": 1094.72308689692
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v045",
+    "candidate": "B3",
+    "h_mm": 1.0,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1427.1945479193419,
+      "0": 1354.0307621046181,
+      "20": 1089.4031368229735
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v045",
+    "candidate": "B3",
+    "h_mm": 1.0,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1439.418749947449,
+      "0": 1365.9582717846902,
+      "20": 1099.961939552322
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v045",
+    "candidate": "B3",
+    "h_mm": 0.5,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1437.376386421978,
+      "0": 1364.22714534681,
+      "20": 1098.5824743188198
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v045",
+    "candidate": "B3",
+    "h_mm": 0.5,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1441.2967264349174,
+      "0": 1368.2080380233529,
+      "20": 1102.1942961619561
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v045",
+    "candidate": "B3_binary",
+    "h_mm": 2.0,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1009.0114701484491,
+      "0": 977.9405543344833,
+      "20": 813.1532218171938
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v045",
+    "candidate": "B3_binary",
+    "h_mm": 2.0,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1059.2050570890851,
+      "0": 1032.4073534739741,
+      "20": 866.720702204802
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v045",
+    "candidate": "B3_binary",
+    "h_mm": 1.0,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1053.7025993667978,
+      "0": 1026.9589612966543,
+      "20": 861.4070945991577
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v045",
+    "candidate": "B3_binary",
+    "h_mm": 1.0,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1076.1696354767357,
+      "0": 1051.7546736714994,
+      "20": 885.9311638777069
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v045",
+    "candidate": "B3_binary",
+    "h_mm": 0.5,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1074.2291846022601,
+      "0": 1049.8458005198006,
+      "20": 884.077625707724
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v045",
+    "candidate": "B3_binary",
+    "h_mm": 0.5,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1084.0901781141715,
+      "0": 1060.7897484914556,
+      "20": 894.8974859675553
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v045",
+    "candidate": "B3_threshold",
+    "h_mm": 2.0,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 996.7880186877499,
+      "0": 963.4382824747486,
+      "20": 797.379756115668
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v045",
+    "candidate": "B3_threshold",
+    "h_mm": 2.0,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1044.2110331671688,
+      "0": 1014.6450472699472,
+      "20": 847.4594599048801
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v045",
+    "candidate": "B3_threshold",
+    "h_mm": 1.0,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1038.6230980422,
+      "0": 1009.0387803313266,
+      "20": 841.9986152908485
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v045",
+    "candidate": "B3_threshold",
+    "h_mm": 1.0,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1059.407288786001,
+      "0": 1031.779999693667,
+      "20": 864.3077908184451
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v045",
+    "candidate": "B3_threshold",
+    "h_mm": 0.5,
+    "family": "Q4",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1057.493244470636,
+      "0": 1029.8939978556473,
+      "20": 862.4938030125921
+    },
+    "status": "discrete_model_diagnostic"
+  },
+  {
+    "run": "results\\phase11\\replay_v045",
+    "candidate": "B3_threshold",
+    "h_mm": 0.5,
+    "family": "P2",
+    "compliance_n_mm_by_angle_degrees": {
+      "-20": 1066.5257781213306,
+      "0": 1039.8130430611388,
+      "20": 872.2035236460146
+    },
+    "status": "discrete_model_diagnostic"
+  }
+]

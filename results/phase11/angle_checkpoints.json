@@ -1,0 +1,1486 @@
+[
+  {
+    "catalog_key": "v040_B3_binary",
+    "angle_degrees": -20.0,
+    "finest_h_mm": 0.25,
+    "label": {
+      "schema_version": "phase1.1-reference-label-v1",
+      "numerical_status": "unresolved",
+      "passed": false,
+      "eligible_reference": false,
+      "classification": "unresolved",
+      "verified_metrics": [
+        "compliance_n_mm",
+        "max_pad_displacement_mm"
+      ],
+      "physical_validation": "not_assessed",
+      "finest_is_exact_truth": false,
+      "historical_label": {
+        "passed": false,
+        "status": "resolution_unverified",
+        "q4_compliance_h1_to_h0_5": 0.029017497996105972,
+        "q4_pad_h1_to_h0_5": 0.02708022164950264,
+        "p2_compliance_h1_to_h0_5": 0.011572754205855742,
+        "p2_pad_h1_to_h0_5": 0.010865129707917094,
+        "finest_compliance_agreement": 0.014274184496804032,
+        "finest_pad_agreement": 0.013295902327938557,
+        "q4_compliance_h2_to_h1": 0.05998726023056691,
+        "p2_compliance_h2_to_h1": 0.02513739904037325,
+        "compliance_refinement_trend_improves": true,
+        "q4_compliance_nondecreasing": true,
+        "p2_compliance_nondecreasing": true,
+        "compliance_monotonicity_relative_tolerance": 1e-08,
+        "physical_validation": "not_assessed"
+      },
+      "historical_label_modified": false,
+      "reason_codes": [
+        "resolution_gates_failed"
+      ],
+      "reasons": [
+        "Failed gates: q4_compliance_refinement"
+      ],
+      "selected_levels_mm": [
+        1.0,
+        0.5,
+        0.25
+      ],
+      "reference_estimate": null,
+      "thresholds": {
+        "compliance_relative": 0.01,
+        "pad_relative": 0.02,
+        "compliance_monotonicity_relative": 1e-08,
+        "compliance_trend_comparison_slack": 1e-10,
+        "volume_full_domain_fraction_slack": 1e-06,
+        "same_h_q4_p2_agreement_required": true
+      },
+      "geometry_status": "geometry_valid",
+      "geometry_reason": "Edge connectivity, preserved pads and absence of local point contacts established",
+      "constraint_status": "within_budget",
+      "constraint_reason": "Measured material volume satisfies the declared budget and tolerance",
+      "frozen_identity": {
+        "candidate": "B3_binary",
+        "hash": "c38c48cc7095e2cb1230bd5543a84694ac02867f54753b476ab57937d8f3c26b",
+        "representation": "binary",
+        "source_h_mm": 2.0,
+        "problem_signature": "db7c15eb47dd953b45df1684fe9366bc75010910f8d34bc1d21b770560c1b325",
+        "source_geometry_hash": "d82f15258d19e8901879bcbd238013f2fbb52684123eb133b2f056c82ebcbc7a",
+        "response_angle_degrees": -20.0
+      },
+      "response_angle_degrees": -20.0,
+      "response_scope": "Fixed -20-degree load; no other angle, angular maximum, stress or physical claim",
+      "attempted_levels_mm": [
+        2.0,
+        1.0,
+        0.5,
+        0.25
+      ],
+      "committed_levels_mm": [
+        2.0,
+        1.0,
+        0.5,
+        0.25
+      ],
+      "q4_refinement": {
+        "previous_compliance_change": 0.024384225621963632,
+        "last_compliance_change": 0.010989623866952361,
+        "last_pad_change": 0.01056183669873841,
+        "compliance_changes_decrease": true,
+        "compliance_nondecreasing": true
+      },
+      "p2_refinement": {
+        "previous_compliance_change": 0.009551060642655936,
+        "last_compliance_change": 0.004333525758977176,
+        "last_pad_change": 0.004209747485605278,
+        "compliance_changes_decrease": true,
+        "compliance_nondecreasing": true
+      },
+      "gates": {
+        "q4_compliance_refinement": false,
+        "p2_compliance_refinement": true,
+        "q4_pad_refinement": true,
+        "p2_pad_refinement": true,
+        "q4_decreasing_compliance_changes": true,
+        "p2_decreasing_compliance_changes": true,
+        "q4_compliance_monotonicity": true,
+        "p2_compliance_monotonicity": true,
+        "finest_same_h_compliance_agreement": true,
+        "finest_same_h_pad_agreement": true
+      },
+      "finest_compliance_agreement": 0.005323389777714691,
+      "finest_pad_agreement": 0.005077047744877224,
+      "finest_observed_metrics": {
+        "mesh_h_mm": 0.25,
+        "Q4": {
+          "compliance_n_mm": 1238.7244496045353,
+          "max_pad_displacement_mm": 1.2716940347782464
+        },
+        "P2": {
+          "compliance_n_mm": 1245.3539541134996,
+          "max_pad_displacement_mm": 1.2781834330947797
+        }
+      },
+      "status": "unresolved"
+    }
+  },
+  {
+    "catalog_key": "v040_B3_binary",
+    "angle_degrees": 0.0,
+    "finest_h_mm": 0.25,
+    "label": {
+      "schema_version": "phase1.1-reference-label-v1",
+      "numerical_status": "unresolved",
+      "passed": false,
+      "eligible_reference": false,
+      "classification": "unresolved",
+      "verified_metrics": [
+        "compliance_n_mm",
+        "max_pad_displacement_mm"
+      ],
+      "physical_validation": "not_assessed",
+      "finest_is_exact_truth": false,
+      "historical_label": {
+        "passed": false,
+        "status": "resolution_unverified",
+        "q4_compliance_h1_to_h0_5": 0.029017497996105972,
+        "q4_pad_h1_to_h0_5": 0.02708022164950264,
+        "p2_compliance_h1_to_h0_5": 0.011572754205855742,
+        "p2_pad_h1_to_h0_5": 0.010865129707917094,
+        "finest_compliance_agreement": 0.014274184496804032,
+        "finest_pad_agreement": 0.013295902327938557,
+        "q4_compliance_h2_to_h1": 0.05998726023056691,
+        "p2_compliance_h2_to_h1": 0.02513739904037325,
+        "compliance_refinement_trend_improves": true,
+        "q4_compliance_nondecreasing": true,
+        "p2_compliance_nondecreasing": true,
+        "compliance_monotonicity_relative_tolerance": 1e-08,
+        "physical_validation": "not_assessed"
+      },
+      "historical_label_modified": false,
+      "reason_codes": [
+        "resolution_gates_failed"
+      ],
+      "reasons": [
+        "Failed gates: q4_compliance_refinement"
+      ],
+      "selected_levels_mm": [
+        1.0,
+        0.5,
+        0.25
+      ],
+      "reference_estimate": null,
+      "thresholds": {
+        "compliance_relative": 0.01,
+        "pad_relative": 0.02,
+        "compliance_monotonicity_relative": 1e-08,
+        "compliance_trend_comparison_slack": 1e-10,
+        "volume_full_domain_fraction_slack": 1e-06,
+        "same_h_q4_p2_agreement_required": true
+      },
+      "geometry_status": "geometry_valid",
+      "geometry_reason": "Edge connectivity, preserved pads and absence of local point contacts established",
+      "constraint_status": "within_budget",
+      "constraint_reason": "Measured material volume satisfies the declared budget and tolerance",
+      "frozen_identity": {
+        "candidate": "B3_binary",
+        "hash": "c38c48cc7095e2cb1230bd5543a84694ac02867f54753b476ab57937d8f3c26b",
+        "representation": "binary",
+        "source_h_mm": 2.0,
+        "problem_signature": "54409d409b105f87431821bc09f6513ae57e59322ea7375bbe43574b6dfe5619",
+        "source_geometry_hash": "d82f15258d19e8901879bcbd238013f2fbb52684123eb133b2f056c82ebcbc7a",
+        "response_angle_degrees": 0.0
+      },
+      "response_angle_degrees": 0.0,
+      "response_scope": "Fixed 0-degree load; no other angle, angular maximum, stress or physical claim",
+      "attempted_levels_mm": [
+        2.0,
+        1.0,
+        0.5,
+        0.25
+      ],
+      "committed_levels_mm": [
+        2.0,
+        1.0,
+        0.5,
+        0.25
+      ],
+      "q4_refinement": {
+        "previous_compliance_change": 0.029017497996105972,
+        "last_compliance_change": 0.01317194980466062,
+        "last_pad_change": 0.012315436768686527,
+        "compliance_changes_decrease": true,
+        "compliance_nondecreasing": true
+      },
+      "p2_refinement": {
+        "previous_compliance_change": 0.011572754205855742,
+        "last_compliance_change": 0.005229626647869324,
+        "last_pad_change": 0.0049296891661728464,
+        "compliance_changes_decrease": true,
+        "compliance_nondecreasing": true
+      },
+      "gates": {
+        "q4_compliance_refinement": false,
+        "p2_compliance_refinement": true,
+        "q4_pad_refinement": true,
+        "p2_pad_refinement": true,
+        "q4_decreasing_compliance_changes": true,
+        "p2_decreasing_compliance_changes": true,
+        "q4_compliance_monotonicity": true,
+        "p2_compliance_monotonicity": true,
+        "finest_same_h_compliance_agreement": true,
+        "finest_same_h_pad_agreement": true
+      },
+      "finest_compliance_agreement": 0.006340732494534436,
+      "finest_pad_agreement": 0.0059174864904672515,
+      "finest_observed_metrics": {
+        "mesh_h_mm": 0.25,
+        "Q4": {
+          "compliance_n_mm": 1247.0861280951342,
+          "max_pad_displacement_mm": 1.2638239256838621
+        },
+        "P2": {
+          "compliance_n_mm": 1255.044026536264,
+          "max_pad_displacement_mm": 1.2713471050024086
+        }
+      },
+      "status": "unresolved"
+    }
+  },
+  {
+    "catalog_key": "v040_B3_binary",
+    "angle_degrees": 20.0,
+    "finest_h_mm": 0.25,
+    "label": {
+      "schema_version": "phase1.1-reference-label-v1",
+      "numerical_status": "unresolved",
+      "passed": false,
+      "eligible_reference": false,
+      "classification": "unresolved",
+      "verified_metrics": [
+        "compliance_n_mm",
+        "max_pad_displacement_mm"
+      ],
+      "physical_validation": "not_assessed",
+      "finest_is_exact_truth": false,
+      "historical_label": {
+        "passed": false,
+        "status": "resolution_unverified",
+        "q4_compliance_h1_to_h0_5": 0.029017497996105972,
+        "q4_pad_h1_to_h0_5": 0.02708022164950264,
+        "p2_compliance_h1_to_h0_5": 0.011572754205855742,
+        "p2_pad_h1_to_h0_5": 0.010865129707917094,
+        "finest_compliance_agreement": 0.014274184496804032,
+        "finest_pad_agreement": 0.013295902327938557,
+        "q4_compliance_h2_to_h1": 0.05998726023056691,
+        "p2_compliance_h2_to_h1": 0.02513739904037325,
+        "compliance_refinement_trend_improves": true,
+        "q4_compliance_nondecreasing": true,
+        "p2_compliance_nondecreasing": true,
+        "compliance_monotonicity_relative_tolerance": 1e-08,
+        "physical_validation": "not_assessed"
+      },
+      "historical_label_modified": false,
+      "reason_codes": [
+        "resolution_gates_failed"
+      ],
+      "reasons": [
+        "Failed gates: q4_compliance_refinement"
+      ],
+      "selected_levels_mm": [
+        1.0,
+        0.5,
+        0.25
+      ],
+      "reference_estimate": null,
+      "thresholds": {
+        "compliance_relative": 0.01,
+        "pad_relative": 0.02,
+        "compliance_monotonicity_relative": 1e-08,
+        "compliance_trend_comparison_slack": 1e-10,
+        "volume_full_domain_fraction_slack": 1e-06,
+        "same_h_q4_p2_agreement_required": true
+      },
+      "geometry_status": "geometry_valid",
+      "geometry_reason": "Edge connectivity, preserved pads and absence of local point contacts established",
+      "constraint_status": "within_budget",
+      "constraint_reason": "Measured material volume satisfies the declared budget and tolerance",
+      "frozen_identity": {
+        "candidate": "B3_binary",
+        "hash": "c38c48cc7095e2cb1230bd5543a84694ac02867f54753b476ab57937d8f3c26b",
+        "representation": "binary",
+        "source_h_mm": 2.0,
+        "problem_signature": "98ca29b47939a45b2beb39108198c6e65836c0fd9061607ef0673fa13a8fa080",
+        "source_geometry_hash": "d82f15258d19e8901879bcbd238013f2fbb52684123eb133b2f056c82ebcbc7a",
+        "response_angle_degrees": 20.0
+      },
+      "response_angle_degrees": 20.0,
+      "response_scope": "Fixed 20-degree load; no other angle, angular maximum, stress or physical claim",
+      "attempted_levels_mm": [
+        2.0,
+        1.0,
+        0.5,
+        0.25
+      ],
+      "committed_levels_mm": [
+        2.0,
+        1.0,
+        0.5,
+        0.25
+      ],
+      "q4_refinement": {
+        "previous_compliance_change": 0.035038855856664754,
+        "last_compliance_change": 0.015879948998657845,
+        "last_pad_change": 0.014666264422189025,
+        "compliance_changes_decrease": true,
+        "compliance_nondecreasing": true
+      },
+      "p2_refinement": {
+        "previous_compliance_change": 0.013863031541504532,
+        "last_compliance_change": 0.006242066506140399,
+        "last_pad_change": 0.005825636742813095,
+        "compliance_changes_decrease": true,
+        "compliance_nondecreasing": true
+      },
+      "gates": {
+        "q4_compliance_refinement": false,
+        "p2_compliance_refinement": true,
+        "q4_pad_refinement": true,
+        "p2_pad_refinement": true,
+        "q4_decreasing_compliance_changes": true,
+        "p2_decreasing_compliance_changes": true,
+        "q4_compliance_monotonicity": true,
+        "p2_compliance_monotonicity": true,
+        "finest_same_h_compliance_agreement": true,
+        "finest_same_h_pad_agreement": true
+      },
+      "finest_compliance_agreement": 0.007630645901625683,
+      "finest_pad_agreement": 0.0070148760901306085,
+      "finest_observed_metrics": {
+        "mesh_h_mm": 0.25,
+        "Q4": {
+          "compliance_n_mm": 1101.6742098991533,
+          "max_pad_displacement_mm": 1.1424290286858019
+        },
+        "P2": {
+          "compliance_n_mm": 1110.145335856415,
+          "max_pad_displacement_mm": 1.1504996411099278
+        }
+      },
+      "status": "unresolved"
+    }
+  },
+  {
+    "catalog_key": "v040_B3_threshold",
+    "angle_degrees": -20.0,
+    "finest_h_mm": 0.25,
+    "label": {
+      "schema_version": "phase1.1-reference-label-v1",
+      "numerical_status": "unresolved",
+      "passed": false,
+      "eligible_reference": false,
+      "classification": "unresolved",
+      "verified_metrics": [
+        "compliance_n_mm",
+        "max_pad_displacement_mm"
+      ],
+      "physical_validation": "not_assessed",
+      "finest_is_exact_truth": false,
+      "historical_label": {
+        "passed": false,
+        "status": "resolution_unverified",
+        "q4_compliance_h1_to_h0_5": 0.02975246553170667,
+        "q4_pad_h1_to_h0_5": 0.027870978263281495,
+        "p2_compliance_h1_to_h0_5": 0.011826120150654608,
+        "p2_pad_h1_to_h0_5": 0.011147686520779762,
+        "finest_compliance_agreement": 0.01463731664572844,
+        "finest_pad_agreement": 0.01369271487189052,
+        "q4_compliance_h2_to_h1": 0.06152336131943291,
+        "p2_compliance_h2_to_h1": 0.02571306161907438,
+        "compliance_refinement_trend_improves": true,
+        "q4_compliance_nondecreasing": true,
+        "p2_compliance_nondecreasing": true,
+        "compliance_monotonicity_relative_tolerance": 1e-08,
+        "physical_validation": "not_assessed"
+      },
+      "historical_label_modified": false,
+      "reason_codes": [
+        "resolution_gates_failed"
+      ],
+      "reasons": [
+        "Failed gates: q4_compliance_refinement"
+      ],
+      "selected_levels_mm": [
+        1.0,
+        0.5,
+        0.25
+      ],
+      "reference_estimate": null,
+      "thresholds": {
+        "compliance_relative": 0.01,
+        "pad_relative": 0.02,
+        "compliance_monotonicity_relative": 1e-08,
+        "compliance_trend_comparison_slack": 1e-10,
+        "volume_full_domain_fraction_slack": 1e-06,
+        "same_h_q4_p2_agreement_required": true
+      },
+      "geometry_status": "geometry_valid",
+      "geometry_reason": "Edge connectivity, preserved pads and absence of local point contacts established",
+      "constraint_status": "within_budget",
+      "constraint_reason": "Measured material volume satisfies the declared budget and tolerance",
+      "frozen_identity": {
+        "candidate": "B3_threshold",
+        "hash": "882b7095cf53de675d7e3e3752706c99ee4e0e88905c7478f684a9713df941fc",
+        "representation": "binary",
+        "source_h_mm": 2.0,
+        "problem_signature": "db7c15eb47dd953b45df1684fe9366bc75010910f8d34bc1d21b770560c1b325",
+        "source_geometry_hash": "d82f15258d19e8901879bcbd238013f2fbb52684123eb133b2f056c82ebcbc7a",
+        "response_angle_degrees": -20.0
+      },
+      "response_angle_degrees": -20.0,
+      "response_scope": "Fixed -20-degree load; no other angle, angular maximum, stress or physical claim",
+      "attempted_levels_mm": [
+        2.0,
+        1.0,
+        0.5,
+        0.25
+      ],
+      "committed_levels_mm": [
+        2.0,
+        1.0,
+        0.5,
+        0.25
+      ],
+      "q4_refinement": {
+        "previous_compliance_change": 0.024947152098562162,
+        "last_compliance_change": 0.011244502351584949,
+        "last_pad_change": 0.010836155369171695,
+        "compliance_changes_decrease": true,
+        "compliance_nondecreasing": true
+      },
+      "p2_refinement": {
+        "previous_compliance_change": 0.009765466428961346,
+        "last_compliance_change": 0.00443050702423825,
+        "last_pad_change": 0.004314258543519429,
+        "compliance_changes_decrease": true,
+        "compliance_nondecreasing": true
+      },
+      "gates": {
+        "q4_compliance_refinement": false,
+        "p2_compliance_refinement": true,
+        "q4_pad_refinement": true,
+        "p2_pad_refinement": true,
+        "q4_decreasing_compliance_changes": true,
+        "p2_decreasing_compliance_changes": true,
+        "q4_compliance_monotonicity": true,
+        "p2_compliance_monotonicity": true,
+        "finest_same_h_compliance_agreement": true,
+        "finest_same_h_pad_agreement": true
+      },
+      "finest_compliance_agreement": 0.005442801264270824,
+      "finest_pad_agreement": 0.005205409651092523,
+      "finest_observed_metrics": {
+        "mesh_h_mm": 0.25,
+        "Q4": {
+          "compliance_n_mm": 1251.2316572504947,
+          "max_pad_displacement_mm": 1.2845330503539867
+        },
+        "P2": {
+          "compliance_n_mm": 1258.0791319403725,
+          "max_pad_displacement_mm": 1.2912545592989788
+        }
+      },
+      "status": "unresolved"
+    }
+  },
+  {
+    "catalog_key": "v040_B3_threshold",
+    "angle_degrees": 0.0,
+    "finest_h_mm": 0.25,
+    "label": {
+      "schema_version": "phase1.1-reference-label-v1",
+      "numerical_status": "unresolved",
+      "passed": false,
+      "eligible_reference": false,
+      "classification": "unresolved",
+      "verified_metrics": [
+        "compliance_n_mm",
+        "max_pad_displacement_mm"
+      ],
+      "physical_validation": "not_assessed",
+      "finest_is_exact_truth": false,
+      "historical_label": {
+        "passed": false,
+        "status": "resolution_unverified",
+        "q4_compliance_h1_to_h0_5": 0.02975246553170667,
+        "q4_pad_h1_to_h0_5": 0.027870978263281495,
+        "p2_compliance_h1_to_h0_5": 0.011826120150654608,
+        "p2_pad_h1_to_h0_5": 0.011147686520779762,
+        "finest_compliance_agreement": 0.01463731664572844,
+        "finest_pad_agreement": 0.01369271487189052,
+        "q4_compliance_h2_to_h1": 0.06152336131943291,
+        "p2_compliance_h2_to_h1": 0.02571306161907438,
+        "compliance_refinement_trend_improves": true,
+        "q4_compliance_nondecreasing": true,
+        "p2_compliance_nondecreasing": true,
+        "compliance_monotonicity_relative_tolerance": 1e-08,
+        "physical_validation": "not_assessed"
+      },
+      "historical_label_modified": false,
+      "reason_codes": [
+        "resolution_gates_failed"
+      ],
+      "reasons": [
+        "Failed gates: q4_compliance_refinement"
+      ],
+      "selected_levels_mm": [
+        1.0,
+        0.5,
+        0.25
+      ],
+      "reference_estimate": null,
+      "thresholds": {
+        "compliance_relative": 0.01,
+        "pad_relative": 0.02,
+        "compliance_monotonicity_relative": 1e-08,
+        "compliance_trend_comparison_slack": 1e-10,
+        "volume_full_domain_fraction_slack": 1e-06,
+        "same_h_q4_p2_agreement_required": true
+      },
+      "geometry_status": "geometry_valid",
+      "geometry_reason": "Edge connectivity, preserved pads and absence of local point contacts established",
+      "constraint_status": "within_budget",
+      "constraint_reason": "Measured material volume satisfies the declared budget and tolerance",
+      "frozen_identity": {
+        "candidate": "B3_threshold",
+        "hash": "882b7095cf53de675d7e3e3752706c99ee4e0e88905c7478f684a9713df941fc",
+        "representation": "binary",
+        "source_h_mm": 2.0,
+        "problem_signature": "54409d409b105f87431821bc09f6513ae57e59322ea7375bbe43574b6dfe5619",
+        "source_geometry_hash": "d82f15258d19e8901879bcbd238013f2fbb52684123eb133b2f056c82ebcbc7a",
+        "response_angle_degrees": 0.0
+      },
+      "response_angle_degrees": 0.0,
+      "response_scope": "Fixed 0-degree load; no other angle, angular maximum, stress or physical claim",
+      "attempted_levels_mm": [
+        2.0,
+        1.0,
+        0.5,
+        0.25
+      ],
+      "committed_levels_mm": [
+        2.0,
+        1.0,
+        0.5,
+        0.25
+      ],
+      "q4_refinement": {
+        "previous_compliance_change": 0.02975246553170667,
+        "last_compliance_change": 0.01349594259417181,
+        "last_pad_change": 0.012670111225487944,
+        "compliance_changes_decrease": true,
+        "compliance_nondecreasing": true
+      },
+      "p2_refinement": {
+        "previous_compliance_change": 0.011826120150654608,
+        "last_compliance_change": 0.005343067359298817,
+        "last_pad_change": 0.005056327730048415,
+        "compliance_changes_decrease": true,
+        "compliance_nondecreasing": true
+      },
+      "gates": {
+        "q4_compliance_refinement": false,
+        "p2_compliance_refinement": true,
+        "q4_pad_refinement": true,
+        "p2_pad_refinement": true,
+        "q4_decreasing_compliance_changes": true,
+        "p2_decreasing_compliance_changes": true,
+        "q4_compliance_monotonicity": true,
+        "p2_compliance_monotonicity": true,
+        "finest_same_h_compliance_agreement": true,
+        "finest_same_h_pad_agreement": true
+      },
+      "finest_compliance_agreement": 0.0064938741954130045,
+      "finest_pad_agreement": 0.006086817173137466,
+      "finest_observed_metrics": {
+        "mesh_h_mm": 0.25,
+        "Q4": {
+          "compliance_n_mm": 1266.4433811810254,
+          "max_pad_displacement_mm": 1.2819035051598313
+        },
+        "P2": {
+          "compliance_n_mm": 1274.7212606821133,
+          "max_pad_displacement_mm": 1.2897540019681337
+        }
+      },
+      "status": "unresolved"
+    }
+  },
+  {
+    "catalog_key": "v040_B3_threshold",
+    "angle_degrees": 20.0,
+    "finest_h_mm": 0.25,
+    "label": {
+      "schema_version": "phase1.1-reference-label-v1",
+      "numerical_status": "unresolved",
+      "passed": false,
+      "eligible_reference": false,
+      "classification": "unresolved",
+      "verified_metrics": [
+        "compliance_n_mm",
+        "max_pad_displacement_mm"
+      ],
+      "physical_validation": "not_assessed",
+      "finest_is_exact_truth": false,
+      "historical_label": {
+        "passed": false,
+        "status": "resolution_unverified",
+        "q4_compliance_h1_to_h0_5": 0.02975246553170667,
+        "q4_pad_h1_to_h0_5": 0.027870978263281495,
+        "p2_compliance_h1_to_h0_5": 0.011826120150654608,
+        "p2_pad_h1_to_h0_5": 0.011147686520779762,
+        "finest_compliance_agreement": 0.01463731664572844,
+        "finest_pad_agreement": 0.01369271487189052,
+        "q4_compliance_h2_to_h1": 0.06152336131943291,
+        "p2_compliance_h2_to_h1": 0.02571306161907438,
+        "compliance_refinement_trend_improves": true,
+        "q4_compliance_nondecreasing": true,
+        "p2_compliance_nondecreasing": true,
+        "compliance_monotonicity_relative_tolerance": 1e-08,
+        "physical_validation": "not_assessed"
+      },
+      "historical_label_modified": false,
+      "reason_codes": [
+        "resolution_gates_failed"
+      ],
+      "reasons": [
+        "Failed gates: q4_compliance_refinement"
+      ],
+      "selected_levels_mm": [
+        1.0,
+        0.5,
+        0.25
+      ],
+      "reference_estimate": null,
+      "thresholds": {
+        "compliance_relative": 0.01,
+        "pad_relative": 0.02,
+        "compliance_monotonicity_relative": 1e-08,
+        "compliance_trend_comparison_slack": 1e-10,
+        "volume_full_domain_fraction_slack": 1e-06,
+        "same_h_q4_p2_agreement_required": true
+      },
+      "geometry_status": "geometry_valid",
+      "geometry_reason": "Edge connectivity, preserved pads and absence of local point contacts established",
+      "constraint_status": "within_budget",
+      "constraint_reason": "Measured material volume satisfies the declared budget and tolerance",
+      "frozen_identity": {
+        "candidate": "B3_threshold",
+        "hash": "882b7095cf53de675d7e3e3752706c99ee4e0e88905c7478f684a9713df941fc",
+        "representation": "binary",
+        "source_h_mm": 2.0,
+        "problem_signature": "98ca29b47939a45b2beb39108198c6e65836c0fd9061607ef0673fa13a8fa080",
+        "source_geometry_hash": "d82f15258d19e8901879bcbd238013f2fbb52684123eb133b2f056c82ebcbc7a",
+        "response_angle_degrees": 20.0
+      },
+      "response_angle_degrees": 20.0,
+      "response_scope": "Fixed 20-degree load; no other angle, angular maximum, stress or physical claim",
+      "attempted_levels_mm": [
+        2.0,
+        1.0,
+        0.5,
+        0.25
+      ],
+      "committed_levels_mm": [
+        2.0,
+        1.0,
+        0.5,
+        0.25
+      ],
+      "q4_refinement": {
+        "previous_compliance_change": 0.03584104114714484,
+        "last_compliance_change": 0.01622474866950208,
+        "last_pad_change": 0.015009482538399224,
+        "compliance_changes_decrease": true,
+        "compliance_nondecreasing": true
+      },
+      "p2_refinement": {
+        "previous_compliance_change": 0.0141119082320525,
+        "last_compliance_change": 0.0063521456485805695,
+        "last_pad_change": 0.00593867991764788,
+        "compliance_changes_decrease": true,
+        "compliance_nondecreasing": true
+      },
+      "gates": {
+        "q4_compliance_refinement": false,
+        "p2_compliance_refinement": true,
+        "q4_pad_refinement": true,
+        "p2_pad_refinement": true,
+        "q4_decreasing_compliance_changes": true,
+        "p2_decreasing_compliance_changes": true,
+        "q4_compliance_monotonicity": true,
+        "p2_compliance_monotonicity": true,
+        "finest_same_h_compliance_agreement": true,
+        "finest_same_h_pad_agreement": true
+      },
+      "finest_compliance_agreement": 0.007794946689720985,
+      "finest_pad_agreement": 0.007175723651527608,
+      "finest_observed_metrics": {
+        "mesh_h_mm": 0.25,
+        "Q4": {
+          "compliance_n_mm": 1124.201280346079,
+          "max_pad_displacement_mm": 1.1639434607338848
+        },
+        "P2": {
+          "compliance_n_mm": 1133.0332138456895,
+          "max_pad_displacement_mm": 1.1723559631466456
+        }
+      },
+      "status": "unresolved"
+    }
+  },
+  {
+    "catalog_key": "v045_B3_binary",
+    "angle_degrees": -20.0,
+    "finest_h_mm": 0.25,
+    "label": {
+      "schema_version": "phase1.1-reference-label-v1",
+      "numerical_status": "numerically_accepted",
+      "passed": true,
+      "eligible_reference": true,
+      "classification": "numerically_accepted",
+      "verified_metrics": [
+        "compliance_n_mm",
+        "max_pad_displacement_mm"
+      ],
+      "physical_validation": "not_assessed",
+      "finest_is_exact_truth": false,
+      "historical_label": {
+        "passed": false,
+        "status": "resolution_unverified",
+        "q4_compliance_h1_to_h0_5": 0.021800191239336863,
+        "q4_pad_h1_to_h0_5": 0.020313444378739744,
+        "p2_compliance_h1_to_h0_5": 0.008517309705155943,
+        "p2_pad_h1_to_h0_5": 0.007938489611483402,
+        "finest_compliance_agreement": 0.010316792735995372,
+        "finest_pad_agreement": 0.0096125014608239,
+        "q4_compliance_h2_to_h1": 0.04773161227424274,
+        "p2_compliance_h2_to_h1": 0.018395278558627198,
+        "compliance_refinement_trend_improves": true,
+        "q4_compliance_nondecreasing": true,
+        "p2_compliance_nondecreasing": true,
+        "compliance_monotonicity_relative_tolerance": 1e-08,
+        "physical_validation": "not_assessed"
+      },
+      "historical_label_modified": false,
+      "reason_codes": [],
+      "reasons": [],
+      "selected_levels_mm": [
+        1.0,
+        0.5,
+        0.25
+      ],
+      "reference_estimate": {
+        "kind": "accepted_numerical_estimate_not_exact_truth",
+        "mesh_h_mm": 0.25,
+        "element": "P2_triangle",
+        "compliance_n_mm": 1087.7215439622655,
+        "max_pad_displacement_mm": 1.1199538605889592
+      },
+      "thresholds": {
+        "compliance_relative": 0.01,
+        "pad_relative": 0.02,
+        "compliance_monotonicity_relative": 1e-08,
+        "compliance_trend_comparison_slack": 1e-10,
+        "volume_full_domain_fraction_slack": 1e-06,
+        "same_h_q4_p2_agreement_required": true
+      },
+      "geometry_status": "geometry_valid",
+      "geometry_reason": "Edge connectivity, preserved pads and absence of local point contacts established",
+      "constraint_status": "within_budget",
+      "constraint_reason": "Measured material volume satisfies the declared budget and tolerance",
+      "frozen_identity": {
+        "candidate": "B3_binary",
+        "hash": "a4191fd38fc58fbca7384eb57e6362e1f4cc70ecac01dba1b9a4021b0e9f1a48",
+        "representation": "binary",
+        "source_h_mm": 2.0,
+        "problem_signature": "9bb844198da403adbc8a36b62ae6f0dba2bc3ac50caca3db473f48db6fd62a9b",
+        "source_geometry_hash": "d82f15258d19e8901879bcbd238013f2fbb52684123eb133b2f056c82ebcbc7a",
+        "response_angle_degrees": -20.0
+      },
+      "response_angle_degrees": -20.0,
+      "response_scope": "Fixed -20-degree load; no other angle, angular maximum, stress or physical claim",
+      "attempted_levels_mm": [
+        2.0,
+        1.0,
+        0.5,
+        0.25
+      ],
+      "committed_levels_mm": [
+        2.0,
+        1.0,
+        0.5,
+        0.25
+      ],
+      "q4_refinement": {
+        "previous_compliance_change": 0.019108199190345426,
+        "last_compliance_change": 0.008419342551257944,
+        "last_pad_change": 0.008137949876442526,
+        "compliance_changes_decrease": true,
+        "compliance_nondecreasing": true
+      },
+      "p2_refinement": {
+        "previous_compliance_change": 0.007306165849794873,
+        "last_compliance_change": 0.0033385068708540436,
+        "last_pad_change": 0.003241959083422268,
+        "compliance_changes_decrease": true,
+        "compliance_nondecreasing": true
+      },
+      "gates": {
+        "q4_compliance_refinement": true,
+        "p2_compliance_refinement": true,
+        "q4_pad_refinement": true,
+        "p2_pad_refinement": true,
+        "q4_decreasing_compliance_changes": true,
+        "p2_decreasing_compliance_changes": true,
+        "q4_compliance_monotonicity": true,
+        "p2_compliance_monotonicity": true,
+        "finest_same_h_compliance_agreement": true,
+        "finest_same_h_pad_agreement": true
+      },
+      "finest_compliance_agreement": 0.0040187327900297306,
+      "finest_pad_agreement": 0.003873316196700028,
+      "finest_observed_metrics": {
+        "mesh_h_mm": 0.25,
+        "Q4": {
+          "compliance_n_mm": 1083.3502817271226,
+          "max_pad_displacement_mm": 1.1156159251611832
+        },
+        "P2": {
+          "compliance_n_mm": 1087.7215439622655,
+          "max_pad_displacement_mm": 1.1199538605889592
+        }
+      },
+      "status": "numerically_accepted"
+    }
+  },
+  {
+    "catalog_key": "v045_B3_binary",
+    "angle_degrees": 0.0,
+    "finest_h_mm": 0.25,
+    "label": {
+      "schema_version": "phase1.1-reference-label-v1",
+      "numerical_status": "numerically_accepted",
+      "passed": true,
+      "eligible_reference": true,
+      "classification": "numerically_accepted",
+      "verified_metrics": [
+        "compliance_n_mm",
+        "max_pad_displacement_mm"
+      ],
+      "physical_validation": "not_assessed",
+      "finest_is_exact_truth": false,
+      "historical_label": {
+        "passed": false,
+        "status": "resolution_unverified",
+        "q4_compliance_h1_to_h0_5": 0.021800191239336863,
+        "q4_pad_h1_to_h0_5": 0.020313444378739744,
+        "p2_compliance_h1_to_h0_5": 0.008517309705155943,
+        "p2_pad_h1_to_h0_5": 0.007938489611483402,
+        "finest_compliance_agreement": 0.010316792735995372,
+        "finest_pad_agreement": 0.0096125014608239,
+        "q4_compliance_h2_to_h1": 0.04773161227424274,
+        "p2_compliance_h2_to_h1": 0.018395278558627198,
+        "compliance_refinement_trend_improves": true,
+        "q4_compliance_nondecreasing": true,
+        "p2_compliance_nondecreasing": true,
+        "compliance_monotonicity_relative_tolerance": 1e-08,
+        "physical_validation": "not_assessed"
+      },
+      "historical_label_modified": false,
+      "reason_codes": [],
+      "reasons": [],
+      "selected_levels_mm": [
+        1.0,
+        0.5,
+        0.25
+      ],
+      "reference_estimate": {
+        "kind": "accepted_numerical_estimate_not_exact_truth",
+        "mesh_h_mm": 0.25,
+        "element": "P2_triangle",
+        "compliance_n_mm": 1064.9412930853964,
+        "max_pad_displacement_mm": 1.093211149264298
+      },
+      "thresholds": {
+        "compliance_relative": 0.01,
+        "pad_relative": 0.02,
+        "compliance_monotonicity_relative": 1e-08,
+        "compliance_trend_comparison_slack": 1e-10,
+        "volume_full_domain_fraction_slack": 1e-06,
+        "same_h_q4_p2_agreement_required": true
+      },
+      "geometry_status": "geometry_valid",
+      "geometry_reason": "Edge connectivity, preserved pads and absence of local point contacts established",
+      "constraint_status": "within_budget",
+      "constraint_reason": "Measured material volume satisfies the declared budget and tolerance",
+      "frozen_identity": {
+        "candidate": "B3_binary",
+        "hash": "a4191fd38fc58fbca7384eb57e6362e1f4cc70ecac01dba1b9a4021b0e9f1a48",
+        "representation": "binary",
+        "source_h_mm": 2.0,
+        "problem_signature": "5dda08a8e2d399f34c010e4e272c554d9435a0697e0f4775c02006fe73f1940e",
+        "source_geometry_hash": "d82f15258d19e8901879bcbd238013f2fbb52684123eb133b2f056c82ebcbc7a",
+        "response_angle_degrees": 0.0
+      },
+      "response_angle_degrees": 0.0,
+      "response_scope": "Fixed 0-degree load; no other angle, angular maximum, stress or physical claim",
+      "attempted_levels_mm": [
+        2.0,
+        1.0,
+        0.5,
+        0.25
+      ],
+      "committed_levels_mm": [
+        2.0,
+        1.0,
+        0.5,
+        0.25
+      ],
+      "q4_refinement": {
+        "previous_compliance_change": 0.021800191239336863,
+        "last_compliance_change": 0.009656518057556114,
+        "last_pad_change": 0.008998512213742493,
+        "compliance_changes_decrease": true,
+        "compliance_nondecreasing": true
+      },
+      "p2_refinement": {
+        "previous_compliance_change": 0.008517309705155943,
+        "last_compliance_change": 0.0038983788316750813,
+        "last_pad_change": 0.003636976715143365,
+        "compliance_changes_decrease": true,
+        "compliance_nondecreasing": true
+      },
+      "gates": {
+        "q4_compliance_refinement": true,
+        "p2_compliance_refinement": true,
+        "q4_pad_refinement": true,
+        "p2_pad_refinement": true,
+        "q4_decreasing_compliance_changes": true,
+        "p2_decreasing_compliance_changes": true,
+        "q4_compliance_monotonicity": true,
+        "p2_compliance_monotonicity": true,
+        "finest_same_h_compliance_agreement": true,
+        "finest_same_h_pad_agreement": true
+      },
+      "finest_compliance_agreement": 0.004562492535255718,
+      "finest_pad_agreement": 0.004254287778775563,
+      "finest_observed_metrics": {
+        "mesh_h_mm": 0.25,
+        "Q4": {
+          "compliance_n_mm": 1060.0825063852087,
+          "max_pad_displacement_mm": 1.0885603144323617
+        },
+        "P2": {
+          "compliance_n_mm": 1064.9412930853964,
+          "max_pad_displacement_mm": 1.093211149264298
+        }
+      },
+      "status": "numerically_accepted"
+    }
+  },
+  {
+    "catalog_key": "v045_B3_binary",
+    "angle_degrees": 20.0,
+    "finest_h_mm": 0.25,
+    "label": {
+      "schema_version": "phase1.1-reference-label-v1",
+      "numerical_status": "unresolved",
+      "passed": false,
+      "eligible_reference": false,
+      "classification": "unresolved",
+      "verified_metrics": [
+        "compliance_n_mm",
+        "max_pad_displacement_mm"
+      ],
+      "physical_validation": "not_assessed",
+      "finest_is_exact_truth": false,
+      "historical_label": {
+        "passed": false,
+        "status": "resolution_unverified",
+        "q4_compliance_h1_to_h0_5": 0.021800191239336863,
+        "q4_pad_h1_to_h0_5": 0.020313444378739744,
+        "p2_compliance_h1_to_h0_5": 0.008517309705155943,
+        "p2_pad_h1_to_h0_5": 0.007938489611483402,
+        "finest_compliance_agreement": 0.010316792735995372,
+        "finest_pad_agreement": 0.0096125014608239,
+        "q4_compliance_h2_to_h1": 0.04773161227424274,
+        "p2_compliance_h2_to_h1": 0.018395278558627198,
+        "compliance_refinement_trend_improves": true,
+        "q4_compliance_nondecreasing": true,
+        "p2_compliance_nondecreasing": true,
+        "compliance_monotonicity_relative_tolerance": 1e-08,
+        "physical_validation": "not_assessed"
+      },
+      "historical_label_modified": false,
+      "reason_codes": [
+        "resolution_gates_failed"
+      ],
+      "reasons": [
+        "Failed gates: q4_compliance_refinement"
+      ],
+      "selected_levels_mm": [
+        1.0,
+        0.5,
+        0.25
+      ],
+      "reference_estimate": null,
+      "thresholds": {
+        "compliance_relative": 0.01,
+        "pad_relative": 0.02,
+        "compliance_monotonicity_relative": 1e-08,
+        "compliance_trend_comparison_slack": 1e-10,
+        "volume_full_domain_fraction_slack": 1e-06,
+        "same_h_q4_p2_agreement_required": true
+      },
+      "geometry_status": "geometry_valid",
+      "geometry_reason": "Edge connectivity, preserved pads and absence of local point contacts established",
+      "constraint_status": "within_budget",
+      "constraint_reason": "Measured material volume satisfies the declared budget and tolerance",
+      "frozen_identity": {
+        "candidate": "B3_binary",
+        "hash": "a4191fd38fc58fbca7384eb57e6362e1f4cc70ecac01dba1b9a4021b0e9f1a48",
+        "representation": "binary",
+        "source_h_mm": 2.0,
+        "problem_signature": "9d722ea673cf3cba8ba4a8860d72028ca7998e68d15a5fbddc561986066fa295",
+        "source_geometry_hash": "d82f15258d19e8901879bcbd238013f2fbb52684123eb133b2f056c82ebcbc7a",
+        "response_angle_degrees": 20.0
+      },
+      "response_angle_degrees": 20.0,
+      "response_scope": "Fixed 20-degree load; no other angle, angular maximum, stress or physical claim",
+      "attempted_levels_mm": [
+        2.0,
+        1.0,
+        0.5,
+        0.25
+      ],
+      "committed_levels_mm": [
+        2.0,
+        1.0,
+        0.5,
+        0.25
+      ],
+      "q4_refinement": {
+        "previous_compliance_change": 0.02564314540866022,
+        "last_compliance_change": 0.011353348843095377,
+        "last_pad_change": 0.010264087709617238,
+        "compliance_changes_decrease": true,
+        "compliance_nondecreasing": true
+      },
+      "p2_refinement": {
+        "previous_compliance_change": 0.010019384600409392,
+        "last_compliance_change": 0.004594114197017974,
+        "last_pad_change": 0.004174235646872892,
+        "compliance_changes_decrease": true,
+        "compliance_nondecreasing": true
+      },
+      "gates": {
+        "q4_compliance_refinement": false,
+        "p2_compliance_refinement": true,
+        "q4_pad_refinement": true,
+        "p2_pad_refinement": true,
+        "q4_decreasing_compliance_changes": true,
+        "p2_decreasing_compliance_changes": true,
+        "q4_compliance_monotonicity": true,
+        "p2_compliance_monotonicity": true,
+        "finest_same_h_compliance_agreement": true,
+        "finest_same_h_pad_agreement": true
+      },
+      "finest_compliance_agreement": 0.005336420140399475,
+      "finest_pad_agreement": 0.004837315469517503,
+      "finest_observed_metrics": {
+        "mesh_h_mm": 0.25,
+        "Q4": {
+          "compliance_n_mm": 894.2301323462584,
+          "max_pad_displacement_mm": 0.9518737118470768
+        },
+        "P2": {
+          "compliance_n_mm": 899.0277219886561,
+          "max_pad_displacement_mm": 0.9565006070300662
+        }
+      },
+      "status": "unresolved"
+    }
+  },
+  {
+    "catalog_key": "v045_B3_threshold",
+    "angle_degrees": -20.0,
+    "finest_h_mm": 0.25,
+    "label": {
+      "schema_version": "phase1.1-reference-label-v1",
+      "numerical_status": "numerically_accepted",
+      "passed": true,
+      "eligible_reference": false,
+      "classification": "constraint_over_budget",
+      "verified_metrics": [
+        "compliance_n_mm",
+        "max_pad_displacement_mm"
+      ],
+      "physical_validation": "not_assessed",
+      "finest_is_exact_truth": false,
+      "historical_label": {
+        "passed": false,
+        "status": "resolution_unverified",
+        "q4_compliance_h1_to_h0_5": 0.02024986801335237,
+        "q4_pad_h1_to_h0_5": 0.01882050055742017,
+        "p2_compliance_h1_to_h0_5": 0.0077254689398999635,
+        "p2_pad_h1_to_h0_5": 0.007180441254298568,
+        "finest_compliance_agreement": 0.009539258303868321,
+        "finest_pad_agreement": 0.008865998624986509,
+        "q4_compliance_h2_to_h1": 0.0451920171409118,
+        "p2_compliance_h2_to_h1": 0.016607176363960592,
+        "compliance_refinement_trend_improves": true,
+        "q4_compliance_nondecreasing": true,
+        "p2_compliance_nondecreasing": true,
+        "compliance_monotonicity_relative_tolerance": 1e-08,
+        "physical_validation": "not_assessed"
+      },
+      "historical_label_modified": false,
+      "reason_codes": [],
+      "reasons": [],
+      "selected_levels_mm": [
+        1.0,
+        0.5,
+        0.25
+      ],
+      "reference_estimate": {
+        "kind": "accepted_numerical_estimate_not_exact_truth",
+        "mesh_h_mm": 0.25,
+        "element": "P2_triangle",
+        "compliance_n_mm": 1069.7896732166255,
+        "max_pad_displacement_mm": 1.1015049610133374
+      },
+      "thresholds": {
+        "compliance_relative": 0.01,
+        "pad_relative": 0.02,
+        "compliance_monotonicity_relative": 1e-08,
+        "compliance_trend_comparison_slack": 1e-10,
+        "volume_full_domain_fraction_slack": 1e-06,
+        "same_h_q4_p2_agreement_required": true
+      },
+      "geometry_status": "geometry_valid",
+      "geometry_reason": "Edge connectivity, preserved pads and absence of local point contacts established",
+      "constraint_status": "over_budget",
+      "constraint_reason": "Measured material volume exceeds the declared budget and tolerance",
+      "frozen_identity": {
+        "candidate": "B3_threshold",
+        "hash": "eb73e2d514d16b7d10bb36dbd3f0f7fa734f5a23055698cbb0cbe3e4a979fcee",
+        "representation": "binary",
+        "source_h_mm": 2.0,
+        "problem_signature": "9bb844198da403adbc8a36b62ae6f0dba2bc3ac50caca3db473f48db6fd62a9b",
+        "source_geometry_hash": "d82f15258d19e8901879bcbd238013f2fbb52684123eb133b2f056c82ebcbc7a",
+        "response_angle_degrees": -20.0
+      },
+      "response_angle_degrees": -20.0,
+      "response_scope": "Fixed -20-degree load; no other angle, angular maximum, stress or physical claim",
+      "attempted_levels_mm": [
+        2.0,
+        1.0,
+        0.5,
+        0.25
+      ],
+      "committed_levels_mm": [
+        2.0,
+        1.0,
+        0.5,
+        0.25
+      ],
+      "q4_refinement": {
+        "previous_compliance_change": 0.017844224090416947,
+        "last_compliance_change": 0.007797442262901431,
+        "last_pad_change": 0.0075111146009344135,
+        "compliance_changes_decrease": true,
+        "compliance_nondecreasing": true
+      },
+      "p2_refinement": {
+        "previous_compliance_change": 0.006674465335351626,
+        "last_compliance_change": 0.003050968968022501,
+        "last_pad_change": 0.0029511101298925015,
+        "compliance_changes_decrease": true,
+        "compliance_nondecreasing": true
+      },
+      "gates": {
+        "q4_compliance_refinement": true,
+        "p2_compliance_refinement": true,
+        "q4_pad_refinement": true,
+        "p2_pad_refinement": true,
+        "q4_decreasing_compliance_changes": true,
+        "p2_decreasing_compliance_changes": true,
+        "q4_compliance_monotonicity": true,
+        "p2_compliance_monotonicity": true,
+        "finest_same_h_compliance_agreement": true,
+        "finest_same_h_pad_agreement": true
+      },
+      "finest_compliance_agreement": 0.0037258587790625253,
+      "finest_pad_agreement": 0.0035787991480160835,
+      "finest_observed_metrics": {
+        "mesh_h_mm": 0.25,
+        "Q4": {
+          "compliance_n_mm": 1065.803787970921,
+          "max_pad_displacement_mm": 1.0975628959973274
+        },
+        "P2": {
+          "compliance_n_mm": 1069.7896732166255,
+          "max_pad_displacement_mm": 1.1015049610133374
+        }
+      },
+      "status": "constraint_over_budget"
+    }
+  },
+  {
+    "catalog_key": "v045_B3_threshold",
+    "angle_degrees": 0.0,
+    "finest_h_mm": 0.25,
+    "label": {
+      "schema_version": "phase1.1-reference-label-v1",
+      "numerical_status": "numerically_accepted",
+      "passed": true,
+      "eligible_reference": false,
+      "classification": "constraint_over_budget",
+      "verified_metrics": [
+        "compliance_n_mm",
+        "max_pad_displacement_mm"
+      ],
+      "physical_validation": "not_assessed",
+      "finest_is_exact_truth": false,
+      "historical_label": {
+        "passed": false,
+        "status": "resolution_unverified",
+        "q4_compliance_h1_to_h0_5": 0.02024986801335237,
+        "q4_pad_h1_to_h0_5": 0.01882050055742017,
+        "p2_compliance_h1_to_h0_5": 0.0077254689398999635,
+        "p2_pad_h1_to_h0_5": 0.007180441254298568,
+        "finest_compliance_agreement": 0.009539258303868321,
+        "finest_pad_agreement": 0.008865998624986509,
+        "q4_compliance_h2_to_h1": 0.0451920171409118,
+        "p2_compliance_h2_to_h1": 0.016607176363960592,
+        "compliance_refinement_trend_improves": true,
+        "q4_compliance_nondecreasing": true,
+        "p2_compliance_nondecreasing": true,
+        "compliance_monotonicity_relative_tolerance": 1e-08,
+        "physical_validation": "not_assessed"
+      },
+      "historical_label_modified": false,
+      "reason_codes": [],
+      "reasons": [],
+      "selected_levels_mm": [
+        1.0,
+        0.5,
+        0.25
+      ],
+      "reference_estimate": {
+        "kind": "accepted_numerical_estimate_not_exact_truth",
+        "mesh_h_mm": 0.25,
+        "element": "P2_triangle",
+        "compliance_n_mm": 1043.5067811476956,
+        "max_pad_displacement_mm": 1.0725763258084586
+      },
+      "thresholds": {
+        "compliance_relative": 0.01,
+        "pad_relative": 0.02,
+        "compliance_monotonicity_relative": 1e-08,
+        "compliance_trend_comparison_slack": 1e-10,
+        "volume_full_domain_fraction_slack": 1e-06,
+        "same_h_q4_p2_agreement_required": true
+      },
+      "geometry_status": "geometry_valid",
+      "geometry_reason": "Edge connectivity, preserved pads and absence of local point contacts established",
+      "constraint_status": "over_budget",
+      "constraint_reason": "Measured material volume exceeds the declared budget and tolerance",
+      "frozen_identity": {
+        "candidate": "B3_threshold",
+        "hash": "eb73e2d514d16b7d10bb36dbd3f0f7fa734f5a23055698cbb0cbe3e4a979fcee",
+        "representation": "binary",
+        "source_h_mm": 2.0,
+        "problem_signature": "5dda08a8e2d399f34c010e4e272c554d9435a0697e0f4775c02006fe73f1940e",
+        "source_geometry_hash": "d82f15258d19e8901879bcbd238013f2fbb52684123eb133b2f056c82ebcbc7a",
+        "response_angle_degrees": 0.0
+      },
+      "response_angle_degrees": 0.0,
+      "response_scope": "Fixed 0-degree load; no other angle, angular maximum, stress or physical claim",
+      "attempted_levels_mm": [
+        2.0,
+        1.0,
+        0.5,
+        0.25
+      ],
+      "committed_levels_mm": [
+        2.0,
+        1.0,
+        0.5,
+        0.25
+      ],
+      "q4_refinement": {
+        "previous_compliance_change": 0.02024986801335237,
+        "last_compliance_change": 0.00888482228230422,
+        "last_pad_change": 0.008257025840066653,
+        "compliance_changes_decrease": true,
+        "compliance_nondecreasing": true
+      },
+      "p2_refinement": {
+        "previous_compliance_change": 0.007725468939900182,
+        "last_compliance_change": 0.0035397355851336573,
+        "last_pad_change": 0.0032925998120010734,
+        "compliance_changes_decrease": true,
+        "compliance_nondecreasing": true
+      },
+      "gates": {
+        "q4_compliance_refinement": true,
+        "p2_compliance_refinement": true,
+        "q4_pad_refinement": true,
+        "p2_pad_refinement": true,
+        "q4_decreasing_compliance_changes": true,
+        "p2_decreasing_compliance_changes": true,
+        "q4_compliance_monotonicity": true,
+        "p2_compliance_monotonicity": true,
+        "finest_same_h_compliance_agreement": true,
+        "finest_same_h_pad_agreement": true
+      },
+      "finest_compliance_agreement": 0.004197700981841691,
+      "finest_pad_agreement": 0.003904620967741403,
+      "finest_observed_metrics": {
+        "mesh_h_mm": 0.25,
+        "Q4": {
+          "compliance_n_mm": 1039.1264517079135,
+          "max_pad_displacement_mm": 1.0683883217972039
+        },
+        "P2": {
+          "compliance_n_mm": 1043.5067811476956,
+          "max_pad_displacement_mm": 1.0725763258084586
+        }
+      },
+      "status": "constraint_over_budget"
+    }
+  },
+  {
+    "catalog_key": "v045_B3_threshold",
+    "angle_degrees": 20.0,
+    "finest_h_mm": 0.25,
+    "label": {
+      "schema_version": "phase1.1-reference-label-v1",
+      "numerical_status": "unresolved",
+      "passed": false,
+      "eligible_reference": false,
+      "classification": "constraint_over_budget",
+      "verified_metrics": [
+        "compliance_n_mm",
+        "max_pad_displacement_mm"
+      ],
+      "physical_validation": "not_assessed",
+      "finest_is_exact_truth": false,
+      "historical_label": {
+        "passed": false,
+        "status": "resolution_unverified",
+        "q4_compliance_h1_to_h0_5": 0.02024986801335237,
+        "q4_pad_h1_to_h0_5": 0.01882050055742017,
+        "p2_compliance_h1_to_h0_5": 0.0077254689398999635,
+        "p2_pad_h1_to_h0_5": 0.007180441254298568,
+        "finest_compliance_agreement": 0.009539258303868321,
+        "finest_pad_agreement": 0.008865998624986509,
+        "q4_compliance_h2_to_h1": 0.0451920171409118,
+        "p2_compliance_h2_to_h1": 0.016607176363960592,
+        "compliance_refinement_trend_improves": true,
+        "q4_compliance_nondecreasing": true,
+        "p2_compliance_nondecreasing": true,
+        "compliance_monotonicity_relative_tolerance": 1e-08,
+        "physical_validation": "not_assessed"
+      },
+      "historical_label_modified": false,
+      "reason_codes": [
+        "resolution_gates_failed"
+      ],
+      "reasons": [
+        "Failed gates: q4_compliance_refinement"
+      ],
+      "selected_levels_mm": [
+        1.0,
+        0.5,
+        0.25
+      ],
+      "reference_estimate": null,
+      "thresholds": {
+        "compliance_relative": 0.01,
+        "pad_relative": 0.02,
+        "compliance_monotonicity_relative": 1e-08,
+        "compliance_trend_comparison_slack": 1e-10,
+        "volume_full_domain_fraction_slack": 1e-06,
+        "same_h_q4_p2_agreement_required": true
+      },
+      "geometry_status": "geometry_valid",
+      "geometry_reason": "Edge connectivity, preserved pads and absence of local point contacts established",
+      "constraint_status": "over_budget",
+      "constraint_reason": "Measured material volume exceeds the declared budget and tolerance",
+      "frozen_identity": {
+        "candidate": "B3_threshold",
+        "hash": "eb73e2d514d16b7d10bb36dbd3f0f7fa734f5a23055698cbb0cbe3e4a979fcee",
+        "representation": "binary",
+        "source_h_mm": 2.0,
+        "problem_signature": "9d722ea673cf3cba8ba4a8860d72028ca7998e68d15a5fbddc561986066fa295",
+        "source_geometry_hash": "d82f15258d19e8901879bcbd238013f2fbb52684123eb133b2f056c82ebcbc7a",
+        "response_angle_degrees": 20.0
+      },
+      "response_angle_degrees": 20.0,
+      "response_scope": "Fixed 20-degree load; no other angle, angular maximum, stress or physical claim",
+      "attempted_levels_mm": [
+        2.0,
+        1.0,
+        0.5,
+        0.25
+      ],
+      "committed_levels_mm": [
+        2.0,
+        1.0,
+        0.5,
+        0.25
+      ],
+      "q4_refinement": {
+        "previous_compliance_change": 0.02376270722196062,
+        "last_compliance_change": 0.01040937209578505,
+        "last_pad_change": 0.00938760727410098,
+        "compliance_changes_decrease": true,
+        "compliance_nondecreasing": true
+      },
+      "p2_refinement": {
+        "previous_compliance_change": 0.00905262661008684,
+        "last_compliance_change": 0.004157146954948602,
+        "last_pad_change": 0.0037686261107712175,
+        "compliance_changes_decrease": true,
+        "compliance_nondecreasing": true
+      },
+      "gates": {
+        "q4_compliance_refinement": false,
+        "p2_compliance_refinement": true,
+        "q4_pad_refinement": true,
+        "p2_pad_refinement": true,
+        "q4_decreasing_compliance_changes": true,
+        "p2_decreasing_compliance_changes": true,
+        "q4_compliance_monotonicity": true,
+        "p2_compliance_monotonicity": true,
+        "finest_same_h_compliance_agreement": true,
+        "finest_same_h_pad_agreement": true
+      },
+      "finest_compliance_agreement": 0.004884745397102193,
+      "finest_pad_agreement": 0.0044208237992859325,
+      "finest_observed_metrics": {
+        "mesh_h_mm": 0.25,
+        "Q4": {
+          "compliance_n_mm": 871.5662605245238,
+          "max_pad_displacement_mm": 0.9310212161815546
+        },
+        "P2": {
+          "compliance_n_mm": 875.8445381005878,
+          "max_pad_displacement_mm": 0.9351553733119221
+        }
+      },
+      "status": "constraint_over_budget"
+    }
+  }
+]

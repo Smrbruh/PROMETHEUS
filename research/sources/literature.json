@@ -1,0 +1,614 @@
+[
+  {
+    "id": "L01",
+    "title": "Material interpolation schemes in topology optimization",
+    "authors": [
+      "M. P. Bendsøe",
+      "O. Sigmund"
+    ],
+    "year": 1999,
+    "venue": "Archive of Applied Mechanics 69, 635–654",
+    "url": "https://link.springer.com/article/10.1007/s004190050248",
+    "doi": "10.1007/s004190050248",
+    "access": "Publisher abstract/metadata; full article subscription restricted",
+    "contribution": "Analyzes density interpolation against effective-material bounds.",
+    "supported_claim": "SIMP-style density interpolation has physical admissibility conditions.",
+    "limitations": "Does not make gray densities directly manufacturable.",
+    "accessed": "2026-10-10"
+  },
+  {
+    "id": "L02",
+    "title": "Efficient topology optimization in MATLAB using 88 lines of code",
+    "authors": [
+      "Erik Andreassen",
+      "Anders Clausen",
+      "Mattias Schevenels",
+      "Boyan Stefanov Lazarov",
+      "Ole Sigmund"
+    ],
+    "year": 2011,
+    "venue": "Structural and Multidisciplinary Optimization 43(1), 1–16",
+    "url": "https://orbit.dtu.dk/en/publications/efficient-topology-optimization-in-matlab-using-88-lines-of-code/",
+    "doi": "10.1007/s00158-010-0594-7",
+    "access": "Author institution abstract/metadata; code described in paper",
+    "contribution": "Compact vectorized density-filtered compliance optimization.",
+    "supported_claim": "Provides a reproducible educational SIMP/OC reference.",
+    "limitations": "Educational benchmark is not independent product verification; code reuse terms need checking.",
+    "accessed": "2026-10-10"
+  },
+  {
+    "id": "L03",
+    "title": "Structural optimization using sensitivity analysis and a level-set method",
+    "authors": [
+      "Grégoire Allaire",
+      "François Jouve",
+      "Anca-Maria Toader"
+    ],
+    "year": 2004,
+    "venue": "Journal of Computational Physics 194, 363–393",
+    "url": "https://www.cmap.polytechnique.fr/~allaire/ajt-jcp.pdf",
+    "doi": "10.1016/j.jcp.2003.09.032",
+    "access": "Author-hosted original PDF accessible",
+    "contribution": "Combines shape derivatives, adjoints and level-set boundary evolution.",
+    "supported_claim": "Boundary-based topology/shape optimization predates neural design.",
+    "limitations": "Hole nucleation and representation details affect reachable designs; not a global guarantee.",
+    "accessed": "2026-10-10"
+  },
+  {
+    "id": "L04",
+    "title": "A simple evolutionary procedure for structural optimization",
+    "authors": [
+      "Y. M. Xie",
+      "G. P. Steven"
+    ],
+    "year": 1993,
+    "venue": "Computers & Structures 49(5), 885–896",
+    "url": "https://www.sciencedirect.com/science/article/pii/004579499390035C/pdf",
+    "doi": "10.1016/0045-7949(93)90035-C",
+    "access": "Publisher abstract/metadata; full PDF restricted",
+    "contribution": "Progressively removes low-stressed material.",
+    "supported_claim": "ESO is established structural material-removal optimization.",
+    "limitations": "Irreversible removal may lose useful paths; not equivalent to a genetic algorithm.",
+    "accessed": "2026-10-10"
+  },
+  {
+    "id": "L05",
+    "title": "Convergent and mesh-independent solutions for the bi-directional evolutionary structural optimization method",
+    "authors": [
+      "X. Huang",
+      "Y. M. Xie"
+    ],
+    "year": 2007,
+    "venue": "Finite Elements in Analysis and Design 43, 1039–1049",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0168874X07000777",
+    "doi": "10.1016/j.finel.2007.06.006",
+    "access": "Publisher record and author-uploaded original manuscript inspected; DOI direct fetch failed",
+    "contribution": "Filtered sensitivities and history stabilize bidirectional element updates.",
+    "supported_claim": "BESO adds material as well as removes it; filtering matters.",
+    "limitations": "Local solutions and initialization sensitivity remain.",
+    "accessed": "2026-10-10"
+  },
+  {
+    "id": "L06",
+    "title": "A fast and elitist multiobjective genetic algorithm: NSGA-II",
+    "authors": [
+      "Kalyanmoy Deb",
+      "Amrit Pratap",
+      "Sameer Agarwal",
+      "T. Meyarivan"
+    ],
+    "year": 2002,
+    "venue": "IEEE Transactions on Evolutionary Computation 6(2), 182–197",
+    "url": "https://ieeexplore.ieee.org/document/996017",
+    "doi": "10.1109/4235.996017",
+    "access": "Publisher metadata/abstract; original PDF on university teaching site inspected",
+    "contribution": "Elitist nondominated sorting and diversity-preserving multiobjective search.",
+    "supported_claim": "Pareto evolutionary search and constraint handling are mature.",
+    "limitations": "Population evaluations can dominate structural simulation costs.",
+    "accessed": "2026-10-10"
+  },
+  {
+    "id": "L07",
+    "title": "On projection methods, convergence and robust formulations in topology optimization",
+    "authors": [
+      "Fengwen Wang",
+      "Boyan Stefanov Lazarov",
+      "Ole Sigmund"
+    ],
+    "year": 2011,
+    "venue": "Structural and Multidisciplinary Optimization 43, 767–784",
+    "url": "https://doi.org/10.1007/s00158-010-0602-y",
+    "doi": "10.1007/s00158-010-0602-y",
+    "access": "Publisher abstract/metadata; correction notice identified, not fully audited",
+    "contribution": "Eroded, intermediate and dilated projections address local/global mesh convergence.",
+    "supported_claim": "Manufacturing variation through multiple projected realizations is established.",
+    "limitations": "Use corrected version; a projection is not a complete manufacturing process model.",
+    "accessed": "2026-10-10"
+  },
+  {
+    "id": "L08",
+    "title": "Shape and topology optimization of the robust compliance via the level set method",
+    "authors": [
+      "Frédéric de Gournay",
+      "Grégoire Allaire",
+      "François Jouve"
+    ],
+    "year": 2008,
+    "venue": "ESAIM: Control, Optimisation and Calculus of Variations 14(1), 43–70",
+    "url": "https://www.esaim-cocv.org/articles/cocv/pdf/2008/01/cocv0609.pdf",
+    "doi": "10.1051/cocv:2007048",
+    "access": "Publisher PDF and author institution abstract/metadata accessible",
+    "contribution": "Computes worst load perturbations and robust shape derivatives.",
+    "supported_claim": "Worst-case adversarial load design is established prior art.",
+    "limitations": "Guarantees depend on linear elasticity and specified admissible perturbations.",
+    "accessed": "2026-10-10"
+  },
+  {
+    "id": "L09",
+    "title": "A general framework for robust topology optimization under load-uncertainty including stress constraints",
+    "authors": [
+      "Carl-Johan Thore",
+      "Erik Holmberg",
+      "Anders Klarbring"
+    ],
+    "year": 2017,
+    "venue": "Computer Methods in Applied Mechanics and Engineering 319, 1–18",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0045782516318102",
+    "doi": "10.1016/j.cma.2017.02.015",
+    "access": "Publisher abstract, equations and metadata accessible; complete article not audited",
+    "contribution": "Quadratic worst-load objectives/constraints recast as nonlinear semidefinite programming.",
+    "supported_claim": "Worst compliance plus worst stress is already formulated.",
+    "limitations": "Does not cover arbitrary contact, process defects or unmodeled physics.",
+    "accessed": "2026-10-10"
+  },
+  {
+    "id": "L10",
+    "title": "Efficient reanalysis techniques for robust topology optimization",
+    "authors": [
+      "Oded Amir",
+      "Ole Sigmund",
+      "Boyan S. Lazarov",
+      "Mattias Schevenels"
+    ],
+    "year": 2012,
+    "venue": "Computer Methods in Applied Mechanics and Engineering 245–246, 217–231",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0045782512002289",
+    "doi": "10.1016/j.cma.2012.07.008",
+    "access": "Publisher abstract, methodological excerpts and metadata accessible",
+    "contribution": "Reanalysis reduces repeated FE work in fabrication-robust optimization.",
+    "supported_claim": "Reduced/reused solves are a non-neural acceleration baseline.",
+    "limitations": "Approximation accuracy must be checked as topology changes.",
+    "accessed": "2026-10-10"
+  },
+  {
+    "id": "L11",
+    "title": "JAX-FEM: A differentiable GPU-accelerated 3D finite element solver for automatic inverse design and mechanistic data science",
+    "authors": [
+      "Tianju Xue",
+      "Shuheng Liao",
+      "Zhengtao Gan",
+      "Chanwook Park",
+      "Xiaoyu Xie",
+      "Wing Kam Liu",
+      "Jian Cao"
+    ],
+    "year": 2023,
+    "venue": "Computer Physics Communications 291, 108802",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0010465523001479",
+    "doi": "10.1016/j.cpc.2023.108802",
+    "access": "Publisher original article excerpts/program summary and arXiv preprint accessible",
+    "contribution": "Automatic differentiation and adjoints for FE inverse design.",
+    "supported_claim": "Differentiable FE does not require learning a surrogate; CPU and GPU paths exist.",
+    "limitations": "Reported GPU speedups are hardware-specific and author-reported; GPLv3 program summary.",
+    "accessed": "2026-10-10"
+  },
+  {
+    "id": "L12",
+    "title": "TOuNN: Topology Optimization using Neural Networks",
+    "authors": [
+      "Aaditya Chandrasekhar",
+      "Krishnan Suresh"
+    ],
+    "year": 2021,
+    "venue": "Structural and Multidisciplinary Optimization 63, 1135–1149",
+    "url": "https://doi.org/10.1007/s00158-020-02748-4",
+    "doi": "10.1007/s00158-020-02748-4",
+    "access": "Author institution record and original GPL-3.0 GitHub repository inspected",
+    "contribution": "Neural density representation optimized through a conventional FE solver.",
+    "supported_claim": "A neural parameterization can optimize without a pretrained dataset.",
+    "limitations": "Network optimization adds nonconvexity; mesh-independent representation does not remove FE discretization.",
+    "accessed": "2026-10-10"
+  },
+  {
+    "id": "L13",
+    "title": "Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations",
+    "authors": [
+      "M. Raissi",
+      "P. Perdikaris",
+      "G. E. Karniadakis"
+    ],
+    "year": 2019,
+    "venue": "Journal of Computational Physics 378, 686–707",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0021999118307125",
+    "doi": "10.1016/j.jcp.2018.10.045",
+    "access": "Publisher abstract/metadata and author institutional record inspected",
+    "contribution": "PDE residuals regularize neural forward/inverse models.",
+    "supported_claim": "PINNs combine governing equations and observations.",
+    "limitations": "A training loss is not a certified discretization or bracket safety bound.",
+    "accessed": "2026-10-10"
+  },
+  {
+    "id": "L14",
+    "title": "Characterizing possible failure modes in physics-informed neural networks",
+    "authors": [
+      "Aditi S. Krishnapriyan",
+      "Amir Gholami",
+      "Shandian Zhe",
+      "Robert M. Kirby",
+      "Michael W. Mahoney"
+    ],
+    "year": 2021,
+    "venue": "Advances in Neural Information Processing Systems 34",
+    "url": "https://papers.neurips.cc/paper_files/paper/2021/hash/df438e5206f31600e6ae4af72f2725f1-Abstract.html",
+    "doi": null,
+    "access": "Conference primary abstract and paper accessible",
+    "contribution": "Studies PINN optimization failure and mitigating curricula/sequential training.",
+    "supported_claim": "Physics-informed soft losses can fail even with adequate network expressivity.",
+    "limitations": "Examples concern convection/reaction/diffusion; not direct bracket validation.",
+    "accessed": "2026-10-10"
+  },
+  {
+    "id": "L15",
+    "title": "Learning Mesh-Based Simulation with Graph Networks",
+    "authors": [
+      "Tobias Pfaff",
+      "Meire Fortunato",
+      "Alvaro Sanchez-Gonzalez",
+      "Peter W. Battaglia"
+    ],
+    "year": 2021,
+    "venue": "International Conference on Learning Representations",
+    "url": "https://arxiv.org/abs/2010.03409",
+    "doi": "10.48550/arXiv.2010.03409",
+    "access": "Author preprint, project site and official code README inspected",
+    "contribution": "Mesh message passing learns simulation dynamics.",
+    "supported_claim": "GNNs can handle mesh connectivity and selected resolution/geometry changes.",
+    "limitations": "Training simulations and rollout errors matter; reported acceleration excludes a universal generalization guarantee.",
+    "accessed": "2026-10-10"
+  },
+  {
+    "id": "L16",
+    "title": "Diffusion Models Beat GANs on Topology Optimization",
+    "authors": [
+      "François Mazé",
+      "Faez Ahmed"
+    ],
+    "year": 2023,
+    "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://arxiv.org/abs/2208.09591",
+    "doi": "10.48550/arXiv.2208.09591",
+    "access": "2022 author preprint and author project page confirming AAAI 2023 inspected",
+    "contribution": "TopoDiff guides diffusion with compliance and connectivity surrogates.",
+    "supported_claim": "Performance/constraint-guided neural candidate generation is prior art.",
+    "limitations": "Comparison against GANs is not proof of beating SIMP including training cost; numerical 2D setting.",
+    "accessed": "2026-10-10"
+  },
+  {
+    "id": "L17",
+    "title": "Latent Space Diffusion for Topology Optimization",
+    "authors": [
+      "Aaron Lutheran",
+      "Srijan Das",
+      "Alireza Tabarraei"
+    ],
+    "year": 2025,
+    "venue": "arXiv preprint, submitted 7 August 2025",
+    "url": "https://arxiv.org/abs/2508.05624",
+    "doi": "10.48550/arXiv.2508.05624",
+    "access": "Author preprint abstract/metadata inspected; no peer-reviewed venue verified",
+    "contribution": "Latent diffusion uses stress/energy/load fields and auxiliary feasibility penalties.",
+    "supported_claim": "Recent frontier includes physics-conditioned latent generation.",
+    "limitations": "Author-reported synthetic tests; independent replication and physical manufacturing evidence not identified.",
+    "accessed": "2026-10-10"
+  },
+  {
+    "id": "L18",
+    "title": "SimJEB: Simulated Jet Engine Bracket Dataset",
+    "authors": [
+      "Eamon Whalen",
+      "Azariah Beyene",
+      "Caitlin Mueller"
+    ],
+    "year": 2021,
+    "venue": "Computer Graphics Forum 40(5), 9–17",
+    "url": "https://simjeb.github.io/",
+    "doi": "10.1111/cgf.14353",
+    "access": "Original paper, author project page and dataset link verified; dataset not downloaded",
+    "contribution": "381 crowdsourced brackets with consistent FE conditions.",
+    "supported_claim": "A relevant existing 3D bracket geometry/simulation benchmark is available.",
+    "limitations": "Simulation labels are not physical measurements; data license must be checked separately from website code.",
+    "accessed": "2026-10-10"
+  },
+  {
+    "id": "L19",
+    "title": "DeepJEB: 3D Deep Learning-Based Synthetic Jet Engine Bracket Dataset",
+    "authors": [
+      "Seongjun Hong",
+      "Yongmin Kwon",
+      "Dongju Shin",
+      "Jangseop Park",
+      "Namwoo Kang"
+    ],
+    "year": 2025,
+    "venue": "ASME Journal of Mechanical Design 147(4), 041703; preprint first posted June 2024",
+    "url": "https://dataset.narnia.ai/deepjeb.html",
+    "doi": "10.1115/1.4067089",
+    "access": "Author dataset page and arXiv metadata verified; full dataset not downloaded",
+    "contribution": "Synthetic bracket geometry and automated structural labels extend SimJEB.",
+    "supported_claim": "Provides 3D surrogate-learning data; author page declares ODC-By v1.0.",
+    "limitations": "Generative ancestry risks train/test leakage; author page counts require dataset-manifest audit.",
+    "accessed": "2026-10-10"
+  },
+  {
+    "id": "L20",
+    "title": "Bayesian Optimization with Inequality Constraints",
+    "authors": [
+      "Jacob R. Gardner",
+      "Matt J. Kusner",
+      "Zhixiang (Eddie) Xu",
+      "Kilian Q. Weinberger",
+      "John P. Cunningham"
+    ],
+    "year": 2014,
+    "venue": "Proceedings of Machine Learning Research 32(2), 937–945",
+    "url": "https://proceedings.mlr.press/v32/gardner14.html",
+    "doi": null,
+    "access": "Proceedings primary page/PDF accessible; PDF resolves malformed author field in HTML metadata",
+    "contribution": "Surrogates objective and expensive feasibility jointly.",
+    "supported_claim": "Constraint-aware sequential expensive-evaluation selection is established.",
+    "limitations": "Most suitable when design dimension and surrogate misspecification are controlled.",
+    "accessed": "2026-10-10"
+  },
+  {
+    "id": "L21",
+    "title": "AK-MCS: An active learning reliability method combining Kriging and Monte Carlo Simulation",
+    "authors": [
+      "B. Echard",
+      "N. Gayton",
+      "M. Lemaire"
+    ],
+    "year": 2011,
+    "venue": "Structural Safety 33(2), 145–154",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0167473011000038",
+    "doi": "10.1016/j.strusafe.2011.01.002",
+    "access": "Publisher abstract and methodological excerpts accessible; direct DOI fetch failed",
+    "contribution": "Active Kriging learns the limit-state classification over a Monte Carlo population.",
+    "supported_claim": "Learning near uncertain failure boundaries is established.",
+    "limitations": "Probability estimates depend on assumed input distributions, candidate sampling and surrogate calibration.",
+    "accessed": "2026-10-10"
+  },
+  {
+    "id": "L22",
+    "title": "Bayesian calibration of computer models",
+    "authors": [
+      "Marc C. Kennedy",
+      "Anthony O'Hagan"
+    ],
+    "year": 2001,
+    "venue": "Journal of the Royal Statistical Society: Series B 63(3), 425–464",
+    "url": "https://rss.onlinelibrary.wiley.com/doi/abs/10.1111/1467-9868.00294",
+    "doi": "10.1111/1467-9868.00294",
+    "access": "Publisher abstract/metadata; citation year 2001 despite web 'first published' 2002 field",
+    "contribution": "Calibration includes parameter uncertainty and model discrepancy.",
+    "supported_claim": "Learning model-to-observation discrepancy is established.",
+    "limitations": "Parameter/discrepancy confounding requires informative experiments and held-out checks.",
+    "accessed": "2026-10-10"
+  },
+  {
+    "id": "L23",
+    "title": "An additive manufacturing filter for topology optimization of print-ready designs",
+    "authors": [
+      "Matthijs Langelaar"
+    ],
+    "year": 2017,
+    "venue": "Structural and Multidisciplinary Optimization 55(3), 871–883",
+    "url": "https://doi.org/10.1007/s00158-016-1522-2",
+    "doi": "10.1007/s00158-016-1522-2",
+    "access": "Publisher article and institutional PDF accessible; MATLAB supplement identified",
+    "contribution": "Build-direction filter enforces geometric AM overhang restrictions.",
+    "supported_claim": "AM supportability can be embedded into density optimization.",
+    "limitations": "Geometric printability excludes full process, residual-stress and material qualification.",
+    "accessed": "2026-10-10"
+  },
+  {
+    "id": "L24",
+    "title": "A Bayesian experimental autonomous researcher for mechanical design",
+    "authors": [
+      "Aldair E. Gongora",
+      "Bowen Xu",
+      "Wyatt Perry",
+      "Chika Okoye",
+      "Patrick Riley",
+      "Kristofer G. Reyes",
+      "Elise F. Morgan",
+      "Keith A. Brown"
+    ],
+    "year": 2020,
+    "venue": "Science Advances 6(15), eaaz1708",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7148087/",
+    "doi": "10.1126/sciadv.aaz1708",
+    "access": "Open original paper and author experimental dataset link accessible",
+    "contribution": "BEAR joins robotic AM/testing with Bayesian experiment choice.",
+    "supported_claim": "Closed-loop autonomous mechanical experimentation has physical evidence.",
+    "limitations": "Parametric structures and experimental hardware; not arbitrary bracket invention or independent replication.",
+    "accessed": "2026-10-10"
+  },
+  {
+    "id": "L25",
+    "title": "Using simulation to accelerate autonomous experimentation: A case study using mechanics",
+    "authors": [
+      "Aldair E. Gongora",
+      "Kelsey L. Snapp",
+      "Emily Whiting",
+      "Patrick Riley",
+      "Kristofer G. Reyes",
+      "Elise F. Morgan",
+      "Keith A. Brown"
+    ],
+    "year": 2021,
+    "venue": "iScience 24(4), 102262",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8010472/",
+    "doi": "10.1016/j.isci.2021.102262",
+    "access": "Open original paper and author dataset page accessible",
+    "contribution": "FE priors and discrepancy modeling guide autonomous mechanical tests.",
+    "supported_claim": "Simulation, measured discrepancy and adaptive experiment choice are already combined.",
+    "limitations": "Benefit depends on property and simulator informativeness; cross-lab replication not verified.",
+    "accessed": "2026-10-10"
+  },
+  {
+    "id": "L26",
+    "title": "Topology Optimization of an Aerospace Bracket: Numerical and Experimental Investigation",
+    "authors": [
+      "Onyekachi Okorie",
+      "Asma Perveen",
+      "Didier Talamona",
+      "Konstantinos Kostas"
+    ],
+    "year": 2023,
+    "venue": "Applied Sciences 13(24), 13218",
+    "url": "https://www.mdpi.com/2076-3417/13/24/13218",
+    "doi": "10.3390/app132413218",
+    "access": "Open original article accessible",
+    "contribution": "Compares density/level-set designs and printed PLA bracket compression tests.",
+    "supported_claim": "Physical bracket checks are feasible and already demonstrated.",
+    "limitations": "Specific material/process/loading; does not establish flight qualification, fatigue or general safety.",
+    "accessed": "2026-10-10"
+  },
+  {
+    "id": "L27",
+    "title": "PATO: Producibility-Aware Topology Optimization using Deep Learning for Metal Additive Manufacturing",
+    "authors": [
+      "Naresh S. Iyer",
+      "Amir M. Mirzendehdel",
+      "Sathyanarayanan Raghavan",
+      "Yang Jiao",
+      "Erva Ulu",
+      "Morad Behandish",
+      "Saigopal Nelaturi",
+      "Dean M. Robinson"
+    ],
+    "year": 2021,
+    "venue": "arXiv preprint, submitted 8 December 2021; later venue not verified",
+    "url": "https://arxiv.org/abs/2112.04552",
+    "doi": "10.48550/arXiv.2112.04552",
+    "access": "Author preprint abstract/metadata inspected; experimental claims not independently audited",
+    "contribution": "Learned crack-index field and its gradients augment topology optimization.",
+    "supported_claim": "Manufacturing surrogate plus differentiable design plus experiments is prior art.",
+    "limitations": "Process-specific crack proxy and training domain; independent replication not identified.",
+    "accessed": "2026-10-10"
+  },
+  {
+    "id": "L28",
+    "title": "Structural design through reinforcement learning",
+    "authors": [
+      "Thomas Rochefort-Beaudoin",
+      "Aurelian Vadean",
+      "Niels Aage",
+      "Sofiane Achiche"
+    ],
+    "year": 2025,
+    "venue": "Engineering Applications of Artificial Intelligence 161 Part C, 112273; arXiv preprint 2024",
+    "url": "https://arxiv.org/abs/2407.07288",
+    "doi": "10.1016/j.engappai.2025.112273",
+    "access": "Primary preprint, publisher metadata/search excerpts and original SOgym GPL-3.0 repository inspected; publisher direct fetch intermittently 403",
+    "contribution": "SOgym frames structural component placement as reinforcement learning.",
+    "supported_claim": "PPO/Dreamer-based continuous topology design and reusable environment already exist.",
+    "limitations": "Substantial training; preprint reports a gap to traditional optimization, not universal superiority.",
+    "accessed": "2026-10-10"
+  },
+  {
+    "id": "L29",
+    "title": "Material interpolation in finite strain topology optimization: a comprehensive assessment and a generalized energy-strain-combined interpolation scheme",
+    "authors": [
+      "Jike Han",
+      "Zhaoyou Sun",
+      "Yangjun Luo",
+      "Shinji Nishiwaki"
+    ],
+    "year": 2026,
+    "venue": "Structural and Multidisciplinary Optimization 69, article 122; 29 April 2026",
+    "url": "https://link.springer.com/article/10.1007/s00158-026-04332-8",
+    "doi": "10.1007/s00158-026-04332-8",
+    "access": "Open publisher original article inspected",
+    "contribution": "Compares finite-strain material/energy/strain interpolation consistency.",
+    "supported_claim": "Small-strain-equivalent schemes can differ under finite deformation.",
+    "limitations": "Specialized nonlinear frontier; independent replication not verified.",
+    "accessed": "2026-10-10"
+  },
+  {
+    "id": "L30",
+    "title": "The method of moving asymptotes—a new method for structural optimization",
+    "authors": [
+      "Krister Svanberg"
+    ],
+    "year": 1987,
+    "venue": "International Journal for Numerical Methods in Engineering 24(2), 359–373",
+    "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/nme.1620240207",
+    "doi": "10.1002/nme.1620240207",
+    "access": "Publisher abstract/metadata and university-hosted original PDF inspected",
+    "contribution": "Sequential convex approximations with moving asymptotes.",
+    "supported_claim": "MMA is an established constrained gradient optimization baseline.",
+    "limitations": "Requires suitable sensitivities/scaling; implementations have separate licenses.",
+    "accessed": "2026-10-10"
+  },
+  {
+    "id": "L31",
+    "title": "On the usefulness of non-gradient approaches in topology optimization",
+    "authors": [
+      "Ole Sigmund"
+    ],
+    "year": 2011,
+    "venue": "Structural and Multidisciplinary Optimization 43(5), 589–596",
+    "url": "https://orbit.dtu.dk/en/publications/on-the-usefulness-of-non-gradient-approaches-in-topology-optimiza/",
+    "doi": "10.1007/s00158-011-0638-7",
+    "access": "Author institution abstract/metadata accessible; forum article",
+    "contribution": "Critiques comparisons of expensive nongradient methods against weak TO baselines.",
+    "supported_claim": "Function-evaluation budgets and strong gradient baselines are essential.",
+    "limitations": "Argument is specific to suitable topology problems; not a universal rejection of derivative-free search.",
+    "accessed": "2026-10-10"
+  },
+  {
+    "id": "L32",
+    "title": "A new generation 99 line Matlab code for compliance topology optimization and its extension to 3D",
+    "authors": [
+      "Federico Ferrari",
+      "Ole Sigmund"
+    ],
+    "year": 2020,
+    "venue": "Structural and Multidisciplinary Optimization 62, 2211–2228",
+    "url": "https://orbit.dtu.dk/en/publications/a-new-generation-99-line-matlab-code-for-compliance-topology-opti/",
+    "doi": "10.1007/s00158-020-02629-w",
+    "access": "Author institution abstract/metadata and preprint accessible",
+    "contribution": "top99neo/top3D125 improve classical code assembly/filter/update efficiency.",
+    "supported_claim": "Modern optimized classical references are available beyond top88.",
+    "limitations": "Reported speedups are implementation/hardware dependent; dependencies and code terms require audit.",
+    "accessed": "2026-10-10"
+  },
+  {
+    "id": "L33",
+    "title": "Reinforcement Learning and Graph Embedding for Binary Truss Topology Optimization Under Stress and Displacement Constraints",
+    "authors": [
+      "Kazuki Hayashi",
+      "Makoto Ohsaki"
+    ],
+    "year": 2020,
+    "venue": "Frontiers in Built Environment 6, 59",
+    "url": "https://www.frontiersin.org/journals/built-environment/articles/10.3389/fbuil.2020.00059/pdf",
+    "doi": "10.3389/fbuil.2020.00059",
+    "access": "Open original publisher PDF inspected",
+    "contribution": "Graph-embedded reinforcement learning for constrained truss member selection.",
+    "supported_claim": "RL plus graph representation plus stress/displacement constraints predates PROMETHEUS.",
+    "limitations": "Truss action spaces differ from general continuum bracket geometry.",
+    "accessed": "2026-10-10"
+  }
+]

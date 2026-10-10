@@ -1,0 +1,7 @@
+[
+  {
+    "catalog_key": "v035_repair",
+    "status": "not_evaluated_no_repair_fields_supplied",
+    "reason": "Repair audit was unavailable for this independent postprocessing batch; no waiting or parent-field substitution"
+  }
+]

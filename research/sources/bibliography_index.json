@@ -1,0 +1,1079 @@
+[
+  {
+    "ids": [
+      "L01"
+    ],
+    "doi": "10.1007/s004190050248",
+    "url": "https://link.springer.com/article/10.1007/s004190050248",
+    "title": "Material interpolation schemes in topology optimization",
+    "ledgers": [
+      "literature.json"
+    ]
+  },
+  {
+    "ids": [
+      "L02",
+      "M01"
+    ],
+    "doi": "10.1007/s00158-010-0594-7",
+    "url": "https://orbit.dtu.dk/en/publications/efficient-topology-optimization-in-matlab-using-88-lines-of-code/",
+    "title": "Efficient topology optimization in MATLAB using 88 lines of code",
+    "ledgers": [
+      "literature.json",
+      "mechanics.json"
+    ]
+  },
+  {
+    "ids": [
+      "L03"
+    ],
+    "doi": "10.1016/j.jcp.2003.09.032",
+    "url": "https://www.cmap.polytechnique.fr/~allaire/ajt-jcp.pdf",
+    "title": "Structural optimization using sensitivity analysis and a level-set method",
+    "ledgers": [
+      "literature.json"
+    ]
+  },
+  {
+    "ids": [
+      "L04"
+    ],
+    "doi": "10.1016/0045-7949(93)90035-C",
+    "url": "https://www.sciencedirect.com/science/article/pii/004579499390035C/pdf",
+    "title": "A simple evolutionary procedure for structural optimization",
+    "ledgers": [
+      "literature.json"
+    ]
+  },
+  {
+    "ids": [
+      "L05"
+    ],
+    "doi": "10.1016/j.finel.2007.06.006",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0168874X07000777",
+    "title": "Convergent and mesh-independent solutions for the bi-directional evolutionary structural optimization method",
+    "ledgers": [
+      "literature.json"
+    ]
+  },
+  {
+    "ids": [
+      "L06"
+    ],
+    "doi": "10.1109/4235.996017",
+    "url": "https://ieeexplore.ieee.org/document/996017",
+    "title": "A fast and elitist multiobjective genetic algorithm: NSGA-II",
+    "ledgers": [
+      "literature.json"
+    ]
+  },
+  {
+    "ids": [
+      "L07",
+      "M02"
+    ],
+    "doi": "10.1007/s00158-010-0602-y",
+    "url": "https://doi.org/10.1007/s00158-010-0602-y",
+    "title": "On projection methods, convergence and robust formulations in topology optimization",
+    "ledgers": [
+      "literature.json",
+      "mechanics.json"
+    ]
+  },
+  {
+    "ids": [
+      "L08"
+    ],
+    "doi": "10.1051/cocv:2007048",
+    "url": "https://www.esaim-cocv.org/articles/cocv/pdf/2008/01/cocv0609.pdf",
+    "title": "Shape and topology optimization of the robust compliance via the level set method",
+    "ledgers": [
+      "literature.json"
+    ]
+  },
+  {
+    "ids": [
+      "L09",
+      "R01"
+    ],
+    "doi": "10.1016/j.cma.2017.02.015",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0045782516318102",
+    "title": "A general framework for robust topology optimization under load-uncertainty including stress constraints",
+    "ledgers": [
+      "literature.json",
+      "prior_art.json"
+    ]
+  },
+  {
+    "ids": [
+      "L10"
+    ],
+    "doi": "10.1016/j.cma.2012.07.008",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0045782512002289",
+    "title": "Efficient reanalysis techniques for robust topology optimization",
+    "ledgers": [
+      "literature.json"
+    ]
+  },
+  {
+    "ids": [
+      "L11"
+    ],
+    "doi": "10.1016/j.cpc.2023.108802",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0010465523001479",
+    "title": "JAX-FEM: A differentiable GPU-accelerated 3D finite element solver for automatic inverse design and mechanistic data science",
+    "ledgers": [
+      "literature.json"
+    ]
+  },
+  {
+    "ids": [
+      "L12"
+    ],
+    "doi": "10.1007/s00158-020-02748-4",
+    "url": "https://doi.org/10.1007/s00158-020-02748-4",
+    "title": "TOuNN: Topology Optimization using Neural Networks",
+    "ledgers": [
+      "literature.json"
+    ]
+  },
+  {
+    "ids": [
+      "L13"
+    ],
+    "doi": "10.1016/j.jcp.2018.10.045",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0021999118307125",
+    "title": "Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations",
+    "ledgers": [
+      "literature.json"
+    ]
+  },
+  {
+    "ids": [
+      "L14"
+    ],
+    "doi": null,
+    "url": "https://papers.neurips.cc/paper_files/paper/2021/hash/df438e5206f31600e6ae4af72f2725f1-Abstract.html",
+    "title": "Characterizing possible failure modes in physics-informed neural networks",
+    "ledgers": [
+      "literature.json"
+    ]
+  },
+  {
+    "ids": [
+      "L15"
+    ],
+    "doi": "10.48550/arXiv.2010.03409",
+    "url": "https://arxiv.org/abs/2010.03409",
+    "title": "Learning Mesh-Based Simulation with Graph Networks",
+    "ledgers": [
+      "literature.json"
+    ]
+  },
+  {
+    "ids": [
+      "L16"
+    ],
+    "doi": "10.48550/arXiv.2208.09591",
+    "url": "https://arxiv.org/abs/2208.09591",
+    "title": "Diffusion Models Beat GANs on Topology Optimization",
+    "ledgers": [
+      "literature.json"
+    ]
+  },
+  {
+    "ids": [
+      "L17"
+    ],
+    "doi": "10.48550/arXiv.2508.05624",
+    "url": "https://arxiv.org/abs/2508.05624",
+    "title": "Latent Space Diffusion for Topology Optimization",
+    "ledgers": [
+      "literature.json"
+    ]
+  },
+  {
+    "ids": [
+      "L18"
+    ],
+    "doi": "10.1111/cgf.14353",
+    "url": "https://simjeb.github.io/",
+    "title": "SimJEB: Simulated Jet Engine Bracket Dataset",
+    "ledgers": [
+      "literature.json"
+    ]
+  },
+  {
+    "ids": [
+      "L19"
+    ],
+    "doi": "10.1115/1.4067089",
+    "url": "https://dataset.narnia.ai/deepjeb.html",
+    "title": "DeepJEB: 3D Deep Learning-Based Synthetic Jet Engine Bracket Dataset",
+    "ledgers": [
+      "literature.json"
+    ]
+  },
+  {
+    "ids": [
+      "L20"
+    ],
+    "doi": null,
+    "url": "https://proceedings.mlr.press/v32/gardner14.html",
+    "title": "Bayesian Optimization with Inequality Constraints",
+    "ledgers": [
+      "literature.json"
+    ]
+  },
+  {
+    "ids": [
+      "L21",
+      "R02"
+    ],
+    "doi": "10.1016/j.strusafe.2011.01.002",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0167473011000038",
+    "title": "AK-MCS: An active learning reliability method combining Kriging and Monte Carlo Simulation",
+    "ledgers": [
+      "literature.json",
+      "prior_art.json"
+    ]
+  },
+  {
+    "ids": [
+      "L22",
+      "R08"
+    ],
+    "doi": "10.1111/1467-9868.00294",
+    "url": "https://rss.onlinelibrary.wiley.com/doi/abs/10.1111/1467-9868.00294",
+    "title": "Bayesian calibration of computer models",
+    "ledgers": [
+      "literature.json",
+      "prior_art.json"
+    ]
+  },
+  {
+    "ids": [
+      "L23"
+    ],
+    "doi": "10.1007/s00158-016-1522-2",
+    "url": "https://doi.org/10.1007/s00158-016-1522-2",
+    "title": "An additive manufacturing filter for topology optimization of print-ready designs",
+    "ledgers": [
+      "literature.json"
+    ]
+  },
+  {
+    "ids": [
+      "L24"
+    ],
+    "doi": "10.1126/sciadv.aaz1708",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7148087/",
+    "title": "A Bayesian experimental autonomous researcher for mechanical design",
+    "ledgers": [
+      "literature.json"
+    ]
+  },
+  {
+    "ids": [
+      "L25"
+    ],
+    "doi": "10.1016/j.isci.2021.102262",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8010472/",
+    "title": "Using simulation to accelerate autonomous experimentation: A case study using mechanics",
+    "ledgers": [
+      "literature.json"
+    ]
+  },
+  {
+    "ids": [
+      "L26"
+    ],
+    "doi": "10.3390/app132413218",
+    "url": "https://www.mdpi.com/2076-3417/13/24/13218",
+    "title": "Topology Optimization of an Aerospace Bracket: Numerical and Experimental Investigation",
+    "ledgers": [
+      "literature.json"
+    ]
+  },
+  {
+    "ids": [
+      "L27"
+    ],
+    "doi": "10.48550/arXiv.2112.04552",
+    "url": "https://arxiv.org/abs/2112.04552",
+    "title": "PATO: Producibility-Aware Topology Optimization using Deep Learning for Metal Additive Manufacturing",
+    "ledgers": [
+      "literature.json"
+    ]
+  },
+  {
+    "ids": [
+      "L28"
+    ],
+    "doi": "10.1016/j.engappai.2025.112273",
+    "url": "https://arxiv.org/abs/2407.07288",
+    "title": "Structural design through reinforcement learning",
+    "ledgers": [
+      "literature.json"
+    ]
+  },
+  {
+    "ids": [
+      "L29"
+    ],
+    "doi": "10.1007/s00158-026-04332-8",
+    "url": "https://link.springer.com/article/10.1007/s00158-026-04332-8",
+    "title": "Material interpolation in finite strain topology optimization: a comprehensive assessment and a generalized energy-strain-combined interpolation scheme",
+    "ledgers": [
+      "literature.json"
+    ]
+  },
+  {
+    "ids": [
+      "L30"
+    ],
+    "doi": "10.1002/nme.1620240207",
+    "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/nme.1620240207",
+    "title": "The method of moving asymptotes—a new method for structural optimization",
+    "ledgers": [
+      "literature.json"
+    ]
+  },
+  {
+    "ids": [
+      "L31"
+    ],
+    "doi": "10.1007/s00158-011-0638-7",
+    "url": "https://orbit.dtu.dk/en/publications/on-the-usefulness-of-non-gradient-approaches-in-topology-optimiza/",
+    "title": "On the usefulness of non-gradient approaches in topology optimization",
+    "ledgers": [
+      "literature.json"
+    ]
+  },
+  {
+    "ids": [
+      "L32"
+    ],
+    "doi": "10.1007/s00158-020-02629-w",
+    "url": "https://orbit.dtu.dk/en/publications/a-new-generation-99-line-matlab-code-for-compliance-topology-opti/",
+    "title": "A new generation 99 line Matlab code for compliance topology optimization and its extension to 3D",
+    "ledgers": [
+      "literature.json"
+    ]
+  },
+  {
+    "ids": [
+      "L33"
+    ],
+    "doi": "10.3389/fbuil.2020.00059",
+    "url": "https://www.frontiersin.org/journals/built-environment/articles/10.3389/fbuil.2020.00059/pdf",
+    "title": "Reinforcement Learning and Graph Embedding for Binary Truss Topology Optimization Under Stress and Displacement Constraints",
+    "ledgers": [
+      "literature.json"
+    ]
+  },
+  {
+    "ids": [
+      "M03"
+    ],
+    "doi": null,
+    "url": "https://www.asme.org/getmedia/e446ce87-543d-4e2d-ba2c-67a18b64bc5b/vvuq-intro-module-part-2-verification.pdf",
+    "title": "Introduction to VVUQ | Part 2: Verification",
+    "ledgers": [
+      "mechanics.json"
+    ]
+  },
+  {
+    "ids": [
+      "M04"
+    ],
+    "doi": null,
+    "url": "https://www.comsol.com/blogs/how-identify-resolve-singularities-model-meshing",
+    "title": "How to Identify and Resolve Singularities in the Model when Meshing",
+    "ledgers": [
+      "mechanics.json"
+    ]
+  },
+  {
+    "ids": [
+      "M05"
+    ],
+    "doi": "10.21105/joss.02369",
+    "url": "https://joss.theoj.org/papers/10.21105/joss.02369",
+    "title": "scikit-fem: A Python package for finite element assembly",
+    "ledgers": [
+      "mechanics.json"
+    ]
+  },
+  {
+    "ids": [
+      "M06"
+    ],
+    "doi": null,
+    "url": "https://scikit-fem.readthedocs.io/en/latest/listofexamples.html",
+    "title": "Gallery of examples — scikit-fem documentation",
+    "ledgers": [
+      "mechanics.json"
+    ]
+  },
+  {
+    "ids": [
+      "R03"
+    ],
+    "doi": "10.1016/j.strusafe.2021.102174",
+    "url": "https://arxiv.org/abs/2106.01713",
+    "title": "Active learning for structural reliability: survey, general framework and benchmark",
+    "ledgers": [
+      "prior_art.json"
+    ]
+  },
+  {
+    "ids": [
+      "R04"
+    ],
+    "doi": "10.1016/j.apm.2021.07.020",
+    "url": "https://discovery.ucl.ac.uk/id/eprint/10134527/",
+    "title": "Robust optimisation of computationally expensive models using adaptive multi-fidelity emulation",
+    "ledgers": [
+      "prior_art.json"
+    ]
+  },
+  {
+    "ids": [
+      "R05"
+    ],
+    "doi": "10.1016/j.cma.2024.116773",
+    "url": "https://arxiv.org/abs/2310.03298",
+    "title": "A Latent Variable Approach for Non-Hierarchical Multi-Fidelity Adaptive Sampling",
+    "ledgers": [
+      "prior_art.json"
+    ]
+  },
+  {
+    "ids": [
+      "R06"
+    ],
+    "doi": "10.1016/j.cma.2025.118714",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0045782525009867",
+    "title": "Robust topology optimization of continuum structures under material uncertainties using multifidelity Monte Carlo",
+    "ledgers": [
+      "prior_art.json"
+    ]
+  },
+  {
+    "ids": [
+      "R07"
+    ],
+    "doi": "10.48550/arXiv.2606.20191",
+    "url": "https://arxiv.org/abs/2606.20191",
+    "title": "AK-MCS-C2: Active Kriging Monte Carlo Simulation method with conformal certification for failure probability estimation",
+    "ledgers": [
+      "prior_art.json"
+    ]
+  },
+  {
+    "ids": [
+      "R09"
+    ],
+    "doi": "10.1016/j.jcp.2025.114469",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S002199912500751X",
+    "title": "Bayesian experimental design for model discrepancy calibration: An auto-differentiable ensemble Kalman inversion approach",
+    "ledgers": [
+      "prior_art.json"
+    ]
+  },
+  {
+    "ids": [
+      "R10"
+    ],
+    "doi": null,
+    "url": "https://patents.google.com/patent/US11468634B2/en",
+    "title": "Machine learning techniques for generating designs for three-dimensional objects",
+    "ledgers": [
+      "prior_art.json"
+    ]
+  },
+  {
+    "ids": [
+      "R11"
+    ],
+    "doi": null,
+    "url": "https://papers.nips.cc/paper_files/paper/2017/hash/df1f1d20ee86704251795841e6a9405a-Abstract.html",
+    "title": "Multi-Information Source Optimization",
+    "ledgers": [
+      "prior_art.json"
+    ]
+  },
+  {
+    "ids": [
+      "R12"
+    ],
+    "doi": "10.52202/068431-1298",
+    "url": "https://papers.neurips.cc/paper_files/paper/2022/hash/71c31ebf577ffdad5f4a74156daad518-Abstract-Conference.html",
+    "title": "Multi-Fidelity Best-Arm Identification",
+    "ledgers": [
+      "prior_art.json"
+    ]
+  },
+  {
+    "ids": [
+      "R13"
+    ],
+    "doi": "10.1016/j.automatica.2018.12.008",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0005109818306071",
+    "title": "An efficient simulation procedure for ranking the top simulated designs in the presence of stochastic constraints",
+    "ledgers": [
+      "prior_art.json"
+    ]
+  },
+  {
+    "ids": [
+      "T01"
+    ],
+    "doi": null,
+    "url": "https://help.autodesk.com/cloudhelp/ENU/Fusion-GenerativeDesign/files/GD-OVERVIEW.htm",
+    "title": "Generative Design overview",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T02"
+    ],
+    "doi": null,
+    "url": "https://help.autodesk.com/cloudhelp/ENU/Fusion-GenerativeDesign/files/GD-DESIGN-CRITERIA.htm",
+    "title": "Design criteria",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T03"
+    ],
+    "doi": null,
+    "url": "https://forums.autodesk.com/t5/fusion-design-validate-document/early-access-and-future-direction-for-the-fusion-simulation-api/td-p/14226159",
+    "title": "Early Access and Future Direction for the Fusion Simulation API",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T04"
+    ],
+    "doi": null,
+    "url": "https://help.altair.com/hwsolvers/os/topics/getting_started/features_os_c.htm",
+    "title": "Features",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T05"
+    ],
+    "doi": null,
+    "url": "https://help.altair.com/hwsolvers/os/topics/solvers/os/topology_opt_design_variables_r.htm",
+    "title": "Design Variables",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T06"
+    ],
+    "doi": null,
+    "url": "https://2025.help.altair.com/2025.1/hwsolvers/os/topics/solvers/os/mfg_topology_opt_intro_c.htm",
+    "title": "Topology Optimization Manufacturability",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T07"
+    ],
+    "doi": null,
+    "url": "https://help.altair.com/inspire/inspireapi/PackageReference/Inspire_/Structure_/Structure_.html",
+    "title": "Structure",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T08"
+    ],
+    "doi": null,
+    "url": "https://help.altair.com/inspire/en_us/topics/shared/get_started/licensing_t.htm",
+    "title": "Licensing Features",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T09"
+    ],
+    "doi": null,
+    "url": "https://ansyshelp.ansys.com/public/Views/Secured/corp/v261/en/mech_struct_opt/ds_topo_opt_level_set.html",
+    "title": "Topology Optimization - Level Set Based",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T10"
+    ],
+    "doi": null,
+    "url": "https://ansyshelp.ansys.com/public/Views/Secured/corp/v261/en/mech_struct_opt/ds_topo_opt_limitations.html",
+    "title": "Topology Optimization - Density Based",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T11"
+    ],
+    "doi": null,
+    "url": "https://mechanical.docs.pyansys.com/version/stable/user_guide/embedding/licensing.html",
+    "title": "License management",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T12"
+    ],
+    "doi": null,
+    "url": "https://www.ansys.com/legal/terms-and-conditions/academic-usage",
+    "title": "Academic Usage Terms and Conditions",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T13"
+    ],
+    "doi": null,
+    "url": "https://www.ntop.com/platform/",
+    "title": "The nTop Platform",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T14"
+    ],
+    "doi": null,
+    "url": "https://support.ntop.com/hc/en-us/articles/5039055770131-What-type-of-material-model-does-the-Topology-Optimization-block-use",
+    "title": "What type of material model does the Topology Optimization block use?",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T15"
+    ],
+    "doi": null,
+    "url": "https://support.ntop.com/hc/en-us/articles/360048490094-Can-I-use-more-than-one-objective-in-a-Topology-Optimization",
+    "title": "Can I use more than one objective in a Topology Optimization?",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T16"
+    ],
+    "doi": null,
+    "url": "https://support.ntop.com/hc/en-us/articles/360048490154-Understanding-the-Optimization-settings",
+    "title": "Understanding the Optimization settings",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T17"
+    ],
+    "doi": null,
+    "url": "https://support.ntop.com/hc/en-us/sections/360010614114-Optimization",
+    "title": "Optimization",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T18"
+    ],
+    "doi": null,
+    "url": "https://learn.ntop.com/courses/330-ntop-automate/lessons/what-is-ntop-automate/",
+    "title": "What is nTop Automate?",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T19"
+    ],
+    "doi": null,
+    "url": "https://www.ntop.com/eula/",
+    "title": "End User License Agreement (EULA)",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T20"
+    ],
+    "doi": null,
+    "url": "https://github.com/FreeCAD/FreeCAD",
+    "title": "FreeCAD repository and README",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T21"
+    ],
+    "doi": null,
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/main/LICENSE",
+    "title": "FreeCAD LICENSE",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T22"
+    ],
+    "doi": null,
+    "url": "https://www.dhondt.de/ov_calcu.htm",
+    "title": "Overview of the finite element capabilities of CalculiX Version 2.23",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T23"
+    ],
+    "doi": null,
+    "url": "https://www.dhondt.de/",
+    "title": "CalculiX: A Free Software Three-Dimensional Structural Finite Element Program",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T24"
+    ],
+    "doi": null,
+    "url": "https://www.dhondt.de/gpl-2.0.txt",
+    "title": "GNU General Public License Version 2 (CalculiX linked license)",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T25"
+    ],
+    "doi": null,
+    "url": "https://github.com/kinnala/scikit-fem",
+    "title": "scikit-fem repository and README",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T26"
+    ],
+    "doi": null,
+    "url": "https://github.com/kinnala/scikit-fem/blob/master/LICENSE",
+    "title": "scikit-fem LICENSE",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T27"
+    ],
+    "doi": null,
+    "url": "https://github.com/FEniCS/dolfinx",
+    "title": "DOLFINx repository and README",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T28"
+    ],
+    "doi": null,
+    "url": "https://gmsh.info/doc/texinfo/",
+    "title": "Gmsh 4.15.2 Reference Manual",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T29"
+    ],
+    "doi": null,
+    "url": "https://occt3d.com/open-cascade-technology/index.html",
+    "title": "Open CASCADE Technology",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T30"
+    ],
+    "doi": null,
+    "url": "https://www.topopt.mek.dtu.dk/apps-and-software/efficient-topology-optimization-in-matlab",
+    "title": "Efficient topology optimization in MATLAB using 88 lines of code (software page)",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T31"
+    ],
+    "doi": null,
+    "url": "https://docs.scipy.org/doc/scipy/reference/optimize.html",
+    "title": "Optimization and root finding (scipy.optimize)",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T32"
+    ],
+    "doi": null,
+    "url": "https://raw.githubusercontent.com/scipy/scipy/main/LICENSE.txt",
+    "title": "SciPy LICENSE.txt",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T33"
+    ],
+    "doi": null,
+    "url": "https://pymoo.org/",
+    "title": "pymoo: Multi-objective Optimization in Python documentation",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T34"
+    ],
+    "doi": null,
+    "url": "https://raw.githubusercontent.com/anyoptimization/pymoo/main/LICENSE",
+    "title": "pymoo LICENSE",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T35"
+    ],
+    "doi": null,
+    "url": "https://botorch.org/docs/v0.16.0/multi_objective",
+    "title": "Multi-Objective Bayesian Optimization",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T36"
+    ],
+    "doi": null,
+    "url": "https://raw.githubusercontent.com/meta-pytorch/botorch/main/LICENSE",
+    "title": "BoTorch LICENSE",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T37"
+    ],
+    "doi": null,
+    "url": "https://support.ntop.com/hc/en-us/articles/56187020699923-How-to-use-an-ONNX-neural-network-as-a-surrogate-model",
+    "title": "How to use an ONNX neural network as a surrogate model",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T38"
+    ],
+    "doi": null,
+    "url": "https://www.ansys.com/en-gb/products/ai/simai",
+    "title": "Ansys SimAI: AI for Accelerated Simulation",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T39"
+    ],
+    "doi": null,
+    "url": "https://ansyshelp.ansys.com/public/Views/Secured/SimAI/v000/en/SimAI_ug/SimAI_ug/C_UG_SAI_data_upload.html",
+    "title": "Data Upload",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T40"
+    ],
+    "doi": null,
+    "url": "https://www.physicsx.ai/platform",
+    "title": "PhysicsX Platform",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T41"
+    ],
+    "doi": null,
+    "url": "https://www.neuralconcept.com/platform",
+    "title": "The engineering platform to scale AI-first design",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T42"
+    ],
+    "doi": null,
+    "url": "https://simai-pro.docs.ansys.com/version/stable/tutorial/example_bracket.html",
+    "title": "Simple Bracket",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T43"
+    ],
+    "doi": null,
+    "url": "https://help.autodesk.com/cloudhelp/ENU/Fusion-Simulate/files/GUID-8CC26683-A6DD-4FDC-80BD-0DC40D7ACAF2.htm",
+    "title": "Fusion study types",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T44"
+    ],
+    "doi": null,
+    "url": "https://ansyshelp.ansys.com/public/Views/Secured/corp/v261/en/mech_struct_opt/ds_topo_objective.html",
+    "title": "Define Design Objectives",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T45"
+    ],
+    "doi": null,
+    "url": "https://support.ntop.com/hc/en-us/articles/360061698333-System-Requirements-Guide",
+    "title": "System Requirements Guide",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T46"
+    ],
+    "doi": null,
+    "url": "https://www.topopt.mek.dtu.dk/-/media/subsites/topopt/apps/dokumenter-og-filer-til-apps/top88.m",
+    "title": "top88.m",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T47"
+    ],
+    "doi": null,
+    "url": "https://raw.githubusercontent.com/Open-Cascade-SAS/OCCT/master/OCCT_LGPL_EXCEPTION.txt",
+    "title": "OCCT LGPL exception",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T48"
+    ],
+    "doi": null,
+    "url": "https://help.altair.com/inspire/en_us/topics/inspire/structure/optimization_topology.htm",
+    "title": "Topology Optimization",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T49"
+    ],
+    "doi": null,
+    "url": "https://help.altair.com/hwsolvers/os/topics/solvers/os/responses.htm",
+    "title": "Responses",
+    "ledgers": [
+      "tools.json"
+    ]
+  },
+  {
+    "ids": [
+      "T50"
+    ],
+    "doi": null,
+    "url": "https://www.ansys.com/en-in/academic/students/ansys-student",
+    "title": "Download Ansys Student",
+    "ledgers": [
+      "tools.json"
+    ]
+  }
+]

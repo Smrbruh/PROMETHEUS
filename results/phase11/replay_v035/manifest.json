@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "benchmark_id": "PROMETHEUS-01-v0",
+  "research_date": "2026-10-10",
+  "started_utc": "2026-10-10T19:14:30.917424+00:00",
+  "command": [
+    "C:\\Users\\sayni\\Desktop\\PROMETHEUS\\prometheus\\run.py",
+    "--volume",
+    ".35",
+    "--repeats",
+    "1",
+    "--output",
+    "C:\\Users\\sayni\\Desktop\\PROMETHEUS\\results\\phase11\\replay_v035"
+  ],
+  "material": {
+    "E": 70000.0,
+    "nu": 0.3,
+    "density": 2.7e-06,
+    "thickness": 5.0
+  },
+  "benchmark": {
+    "volume_fraction": 0.35,
+    "load": 1000.0,
+    "filter_radius": 6.0,
+    "p": 3.0,
+    "emin_ratio": 1e-06,
+    "xmin": 0.001,
+    "move": 0.2,
+    "max_evaluations": 300,
+    "min_evaluations": 30
+  },
+  "meshes_mm": [
+    2.0,
+    1.0,
+    0.5
+  ],
+  "repeats": 1,
+  "python": "3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.4.6",
+  "scipy": "1.17.1",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "source_sha256": {
+    "prometheus\\__init__.py": "011381afc7b1e793fb1ac9b241aebf1be608b55926ed3809f91364f2db843db2",
+    "prometheus\\binary_audit.py": "eee3c118471ab29e981707edb2a254884767204369a6fa200ba1f0c0eebc1701",
+    "prometheus\\envelope.py": "07a73a8c49541678e58185a1c35a3690b01442a2b8c229dfa36238528474e165",
+    "prometheus\\evaluation.py": "911d2ee4ea0ac9e22f4a9930e0b1f1beef752f9f8612a243bcdc1a3a66c0c73c",
+    "prometheus\\fem.py": "f054d215bfb39499f80ff48eea2bb641fc3f88b904ca86d701916091ad101708",
+    "prometheus\\geometry.py": "e62e0f937feef76a69deeff2d682f4d84655f0efc3dffd39890667fc6123f4a5",
+    "prometheus\\kinematic_audit.py": "43f9713d72c4d98fa1e700c47466f8379e27b93d73d678fdd105302c40d79997",
+    "prometheus\\models.py": "92486625e6222bc5b6189475b4d9b26d61ab74e6fd0a8b89bbdd67969c9e55c7",
+    "prometheus\\optimization.py": "52945ab69fd87c81eb1c7429b950b90ad26c70c91015827253bc79cc7249d662",
+    "prometheus\\reference_labels.py": "6f6973c3664b8cb6ff5be4c28d8e2881de938d44d450cfd280a51de50def7adc",
+    "prometheus\\run.py": "f3110c09061144e67c265d1b1251db17139f42b904ec8b0f9da7a51c3deebde9",
+    "prometheus\\verification.py": "386f5d076685df93560c770b0b67180a2b1fc9c182089da5a1dc789d3e7e567c"
+  },
+  "units": {
+    "length": "mm",
+    "force": "N",
+    "modulus": "MPa",
+    "mass": "kg",
+    "compliance": "N mm"
+  },
+  "threads": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "numerical_backends": {
+    "numpy": {
+      "Compilers": {
+        "c": {
+          "name": "msvc",
+          "linker": "link",
+          "version": "19.44.35226",
+          "commands": "cl"
+        },
+        "cython": {
+          "name": "cython",
+          "linker": "cython",
+          "version": "3.2.4",
+          "commands": "cython"
+        },
+        "c++": {
+          "name": "msvc",
+          "linker": "link",
+          "version": "19.44.35226",
+          "commands": "cl"
+        }
+      },
+      "Machine Information": {
+        "host": {
+          "cpu": "x86_64",
+          "family": "x86_64",
+          "endian": "little",
+          "system": "windows"
+        },
+        "build": {
+          "cpu": "x86_64",
+          "family": "x86_64",
+          "endian": "little",
+          "system": "windows"
+        }
+      },
+      "Build Dependencies": {
+        "blas": {
+          "name": "scipy-openblas",
+          "found": true,
+          "version": "0.3.31.188.0",
+          "detection method": "pkgconfig",
+          "include directory": "C:/Users/runneradmin/AppData/Local/Temp/cibw-run-58rizu_g/cp314-win_amd64/build/venv/Lib/site-packages/scipy_openblas64/include",
+          "lib directory": "C:/Users/runneradmin/AppData/Local/Temp/cibw-run-58rizu_g/cp314-win_amd64/build/venv/Lib/site-packages/scipy_openblas64/lib",
+          "openblas configuration": "OpenBLAS 0.3.31.188.0  USE64BITINT DYNAMIC_ARCH NO_AFFINITY SkylakeX MAX_THREADS=24",
+          "pc file directory": "D:/a/numpy-release/numpy-release/.openblas"
+        },
+        "lapack": {
+          "name": "scipy-openblas",
+          "found": true,
+          "version": "0.3.31.188.0",
+          "detection method": "pkgconfig",
+          "include directory": "C:/Users/runneradmin/AppData/Local/Temp/cibw-run-58rizu_g/cp314-win_amd64/build/venv/Lib/site-packages/scipy_openblas64/include",
+          "lib directory": "C:/Users/runneradmin/AppData/Local/Temp/cibw-run-58rizu_g/cp314-win_amd64/build/venv/Lib/site-packages/scipy_openblas64/lib",
+          "openblas configuration": "OpenBLAS 0.3.31.188.0  USE64BITINT DYNAMIC_ARCH NO_AFFINITY SkylakeX MAX_THREADS=24",
+          "pc file directory": "D:/a/numpy-release/numpy-release/.openblas"
+        }
+      },
+      "Python Information": {
+        "path": "C:\\Users\\runneradmin\\AppData\\Local\\Temp\\build-env-r84kc4bu\\Scripts\\python.exe",
+        "version": "3.14"
+      },
+      "SIMD Extensions": {
+        "baseline": [
+          "X86_V2"
+        ],
+        "found": [
+          "X86_V3"
+        ]
+      }
+    },
+    "scipy": {
+      "Compilers": {
+        "c": {
+          "name": "gcc",
+          "linker": "ld.bfd",
+          "version": "10.3.0",
+          "commands": "C:\\Strawberry\\c\\bin\\ccache.EXE, cc"
+        },
+        "cython": {
+          "name": "cython",
+          "linker": "cython",
+          "version": "3.2.4",
+          "commands": "cython"
+        },
+        "c++": {
+          "name": "gcc",
+          "linker": "ld.bfd",
+          "version": "10.3.0",
+          "commands": "C:\\Strawberry\\c\\bin\\ccache.EXE, c++"
+        },
+        "fortran": {
+          "name": "gcc",
+          "linker": "ld.bfd",
+          "version": "10.3.0",
+          "commands": "gfortran"
+        },
+        "pythran": {
+          "version": "0.18.1",
+          "include directory": "C:\\Users\\runneradmin\\AppData\\Local\\Temp\\build-env-z6om7khk\\Lib\\site-packages/pythran"
+        }
+      },
+      "Machine Information": {
+        "host": {
+          "cpu": "x86_64",
+          "family": "x86_64",
+          "endian": "little",
+          "system": "windows"
+        },
+        "build": {
+          "cpu": "x86_64",
+          "family": "x86_64",
+          "endian": "little",
+          "system": "windows"
+        },
+        "cross-compiled": false
+      },
+      "Build Dependencies": {
+        "blas": {
+          "name": "scipy-openblas",
+          "found": true,
+          "version": "0.3.30",
+          "detection method": "pkgconfig",
+          "include directory": "C:/Users/runneradmin/AppData/Local/Temp/cibw-run-_ukqgne8/cp314-win_amd64/build/venv/Lib/site-packages/scipy_openblas32/include",
+          "lib directory": "C:/Users/runneradmin/AppData/Local/Temp/cibw-run-_ukqgne8/cp314-win_amd64/build/venv/Lib/site-packages/scipy_openblas32/lib",
+          "openblas configuration": "OpenBLAS 0.3.30 DYNAMIC_ARCH NO_AFFINITY Haswell MAX_THREADS=24",
+          "pc file directory": "D:/a/scipy/scipy",
+          "has ilp64": false
+        },
+        "lapack": {
+          "name": "scipy-openblas",
+          "found": true,
+          "version": "0.3.30",
+          "detection method": "pkgconfig",
+          "include directory": "C:/Users/runneradmin/AppData/Local/Temp/cibw-run-_ukqgne8/cp314-win_amd64/build/venv/Lib/site-packages/scipy_openblas32/include",
+          "lib directory": "C:/Users/runneradmin/AppData/Local/Temp/cibw-run-_ukqgne8/cp314-win_amd64/build/venv/Lib/site-packages/scipy_openblas32/lib",
+          "openblas configuration": "OpenBLAS 0.3.30 DYNAMIC_ARCH NO_AFFINITY Haswell MAX_THREADS=24",
+          "pc file directory": "D:/a/scipy/scipy",
+          "has ilp64": false
+        },
+        "pybind11": {
+          "name": "pybind11",
+          "version": "3.0.2",
+          "detection method": "config-tool",
+          "include directory": "unknown"
+        }
+      },
+      "Python Information": {
+        "path": "C:\\Users\\runneradmin\\AppData\\Local\\Temp\\build-env-z6om7khk\\Scripts\\python.exe",
+        "version": "3.14"
+      }
+    }
+  },
+  "specification_sha256": {
+    "MATHEMATICAL_FOUNDATION.md": "ae038ef7d57d16c1f744d276a4347810176e63635f1cf1c5045f48c250a69b79",
+    "BASELINE_EXPERIMENT.md": "626b65ea70bb1dde3207cf5c0ff6d57bbe93a97378b2cc8dbd03897f0771314d",
+    "VALIDATION_PROTOCOL.md": "77c70a449f1a486ddf64382bdb6ee227f773c126d2a41cd5e7082d223f719925",
+    "EXPERIMENT_PROTOCOL.md": "f8de5dac0f3a179b8162df0a49a2df8216b97215093cdecd99b0b3414ce382dd"
+  },
+  "resource_policy": "8 GiB peak checkpoint, conservative P2 assembly guard; not an OS hard limit"
+}

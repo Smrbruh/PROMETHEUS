@@ -1,0 +1,100 @@
+{
+  "candidate": "binary-d51ed6f3d6179ed716f11b90d5e49f2f018436296d4e413422614fe9b0d152bd",
+  "hash": "09f3f9a93969934b1f0bf8afe5c5d2385f949b36f584310296f04ea5cc463d0d",
+  "problem_signature": "866559087802b1868d0101ae443b20bbae110d5e0aabf6d3b62d4655de01f3ad",
+  "source_geometry_hash": "d82f15258d19e8901879bcbd238013f2fbb52684123eb133b2f056c82ebcbc7a",
+  "representation": "binary",
+  "mesh_h_mm": 0.25,
+  "source_h_mm": 2.0,
+  "volume_mm3": 11020.0,
+  "mass_kg": 0.029754,
+  "volume_fraction": 0.344375,
+  "volume_budget_fraction": 0.35,
+  "volume_feasible": true,
+  "pads_preserved": true,
+  "geometry_status": {
+    "valid": true,
+    "connected": true,
+    "pads_preserved": true,
+    "pads_present": true,
+    "support_pad_present": true,
+    "load_pad_present": true,
+    "pads_connected": true,
+    "component_count": 1,
+    "solid_cells": 35264,
+    "solid_area": 2204.0,
+    "offending_area": 0.0,
+    "component_areas": [
+      2204.0
+    ]
+  },
+  "status": "independent_verification_failed",
+  "solver_passed": true,
+  "optimization_feasible": true,
+  "independent_verified": false,
+  "physical_validation": "not_assessed",
+  "manufacturability": "not_assessed",
+  "response_feasibility": "not_defined_no_response_limit",
+  "stress_status": "diagnostic_only",
+  "factorizations": 1,
+  "rhs_solves": 2,
+  "q4_elements": 35264,
+  "q4_ndof": 74236,
+  "compliance_n_mm": 32269.45416345672,
+  "primary_analysis_seconds": 1.5470354999997653,
+  "diagnostics": {
+    "residual_max": 4.057793609110464e-09,
+    "symmetry_error": 3.9739229364907273e-17,
+    "energy_error_max": 2.480077465204746e-10,
+    "element_energy_error_max": 4.640619778531238e-09,
+    "force_balance_max": 1.0724323644192036e-08,
+    "moment_balance_max": 1.0019897554987741e-08,
+    "minimum_relative_lu_pivot": 0.0012984605832550512,
+    "pivot_ratio_is_condition_estimate": false,
+    "energy_includes_prescribed_displacement_work": false,
+    "solver": "scipy.sparse.linalg.splu",
+    "ordering": "COLAMD",
+    "passed": true
+  },
+  "load_gram": [
+    [
+      10069.830833642782,
+      16633.81601953453
+    ],
+    [
+      16633.81601954279,
+      32269.45416345672
+    ]
+  ],
+  "load_weighted_displacement_mm": 32.26945416345672,
+  "max_displacement_all_nodes_mm": 43.95181757027756,
+  "max_material_displacement_mm": 43.95181757027756,
+  "max_pad_displacement_mm": 43.95181757027756,
+  "small_deformation_review_trigger": true,
+  "worst_compliance_n_mm": 40364.60238328387,
+  "worst_angle_degrees": 20.0,
+  "load_gram_diagnostics": {
+    "reciprocity_relative": 2.8370582655792256e-13,
+    "reciprocity_tolerance": 1e-08,
+    "reciprocity_passed": true,
+    "uses_symmetric_quadratic_part": true
+  },
+  "grey_indicator": 0.0,
+  "wall_seconds": 13.070281599997543,
+  "cpu_seconds": 11.5,
+  "independent_failure": {
+    "type": "ArithmeticError",
+    "message": "P2 free-DOF equilibrium residual exceeds 1e-8"
+  },
+  "exception": {
+    "type": "ArithmeticError",
+    "message": "P2 free-DOF equilibrium residual exceeds 1e-8",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\sayni\\Desktop\\PROMETHEUS\\scripts\\phase11_refine.py\", line 69, in worker\n    record,arrays=evaluate_candidate(Candidate(entry['candidate_name'],np.load(ROOT/entry['array_path']),'binary'),\n                  ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        make_l_mesh(2.),Material(),Benchmark(volume_fraction=entry['volume_setting']),h,True,False)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\sayni\\Desktop\\PROMETHEUS\\prometheus\\evaluation.py\", line 169, in evaluate_candidate\n    checked=bracket_verify(mesh,moduli,material,load=benchmark.load)\n  File \"C:\\Users\\sayni\\Desktop\\PROMETHEUS\\prometheus\\verification.py\", line 363, in bracket_verify\n    result = solve_p2(p2, moduli, material, forces, {int(i): 0. for i in fixed})\n  File \"C:\\Users\\sayni\\Desktop\\PROMETHEUS\\prometheus\\verification.py\", line 291, in solve_p2\n    raise ArithmeticError(\"P2 free-DOF equilibrium residual exceeds 1e-8\")\nArithmeticError: P2 free-DOF equilibrium residual exceeds 1e-8\n"
+  },
+  "attempt_wall_seconds": 13.2930513000465,
+  "attempt_cpu_seconds": 11.625,
+  "process_peak_memory_bytes": 1850413056,
+  "source_archive": "results/phase11/geometry/arrays/v035_repair_d51ed6f3d6179ed7.npy",
+  "source_input_sha256": "b0753c4d637c2d9cf06bb8ab6a2cded0fd6048a534aedcd3af7a09717f2cae35",
+  "analyzed_array_sha256": "1a2febe9572c3a6a5ef6ddd27716017fd8817fcdc45f6d8d9ac3bb5b2e55c47a"
+}

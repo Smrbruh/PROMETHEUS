@@ -1,0 +1,9 @@
+{
+  "source": "results\\phase11\\refinement\\responses.json",
+  "source_sha256": "bbc941bd7574bfcce85add2dad8b06819e19e8ba97c0ccafcae49a452823c1af",
+  "script_sha256": "4287b7491838d23bbba94ebfb734946fe9c68b4b130cceb18b0cc13905eee101",
+  "wall_seconds": 3.5410453000222333,
+  "factorizations": 0,
+  "rhs_solves": 0,
+  "note": "A legibility revision; original table-export figures remain preserved."
+}

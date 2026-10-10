@@ -1,0 +1,61 @@
+h1 SIMP evaluation 1: C=10630.3311, V=0.400000000
+h1 SIMP evaluation 25: C=1886.65743, V=0.399999991
+h1 SIMP evaluation 50: C=1836.05454, V=0.399999995
+h1 SIMP evaluation 75: C=1829.60109, V=0.399999999
+h1 SIMP evaluation 100: C=1827.14119, V=0.399999994
+h1 SIMP evaluation 125: C=1825.91936, V=0.399999994
+h1 SIMP evaluation 150: C=1825.11351, V=0.399999998
+h1 SIMP evaluation 175: C=1824.54326, V=0.400000000
+h1 SIMP evaluation 200: C=1824.10482, V=0.399999998
+h1 SIMP evaluation 225: C=1823.77414, V=0.399999997
+h1 SIMP evaluation 250: C=1823.52931, V=0.399999992
+h1 SIMP evaluation 275: C=1823.34054, V=0.399999997
+Frozen h1 design: Q4 and independent P2 audit at h=1 mm
+Frozen h1 design: Q4 and independent P2 audit at h=0.5 mm
+{
+  "output": "C:\\Users\\sayni\\Desktop\\PROMETHEUS\\results\\phase11\\replay_h1",
+  "optimization": {
+    "status": "converged",
+    "evaluations": 288,
+    "wall_seconds": 139.74457959999563,
+    "solve_seconds": 112.63253380067181,
+    "best_evaluation": 288,
+    "final_compliance_n_mm": 1823.2591897618966,
+    "final_max_change": 0.005769451314965313,
+    "final_relative_compliance_spread": 3.296596279535623e-05,
+    "best_compliance_n_mm": 1823.2591897618966,
+    "raw_sha256": "d0193da12347f22aee3a40ce5167b0c8494bf6e0db673834ebcac7c0a9cbd724",
+    "physical_sha256": "637b3649a00a5f7c259727b3f40648862568ec61c61f3d7ce3c0b829d5c426d2"
+  },
+  "verification": {
+    "passed": false,
+    "status": "resolution_unverified",
+    "reason": "Required mesh sequence incomplete"
+  },
+  "two_level_diagnostics": {
+    "q4_compliance_h1_to_h0_5": 0.007813746158214147,
+    "q4_pad_h1_to_h0_5": 0.007481794194656935,
+    "p2_compliance_h1_to_h0_5": 0.0011852062389565102,
+    "p2_pad_h1_to_h0_5": 0.0010523441086507945,
+    "finest_compliance_agreement": 0.0028939137369766573,
+    "finest_pad_agreement": 0.0027616481060683757,
+    "status": "resolution_unverified",
+    "diagnostic_thresholds_met": true,
+    "complete_v3_acceptance": false,
+    "reason": "Only two frozen-field mesh levels; no third-level refinement trend",
+    "physical_validation": "not_assessed"
+  },
+  "cost": {
+    "optimization_factorizations": 288,
+    "optimization_rhs_solves": 288,
+    "evaluation_factorizations": 4,
+    "evaluation_rhs_solves": 8,
+    "failed_audit_attempts": 0,
+    "wall_seconds": 168.08047929999884,
+    "cpu_seconds": 126.453125,
+    "peak_memory_bytes": 2125692928,
+    "failed_attempt_cost_note": "Failed attempts remain in wall/CPU totals; unknown completed solve stages are not invented",
+    "completed_factorizations": 292,
+    "completed_rhs_solves": 296
+  }
+}

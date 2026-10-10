@@ -1,0 +1,200 @@
+{
+  "candidate": "B3_binary",
+  "hash": "c38c48cc7095e2cb1230bd5543a84694ac02867f54753b476ab57937d8f3c26b",
+  "problem_signature": "54409d409b105f87431821bc09f6513ae57e59322ea7375bbe43574b6dfe5619",
+  "source_geometry_hash": "d82f15258d19e8901879bcbd238013f2fbb52684123eb133b2f056c82ebcbc7a",
+  "representation": "binary",
+  "mesh_h_mm": 0.125,
+  "source_h_mm": 2.0,
+  "volume_mm3": 12800.0,
+  "mass_kg": 0.03456,
+  "volume_fraction": 0.4,
+  "volume_budget_fraction": 0.4,
+  "volume_feasible": true,
+  "pads_preserved": true,
+  "geometry_status": {
+    "valid": true,
+    "connected": true,
+    "pads_preserved": true,
+    "pads_present": true,
+    "support_pad_present": true,
+    "load_pad_present": true,
+    "pads_connected": true,
+    "component_count": 1,
+    "solid_cells": 163840,
+    "solid_area": 2560.0,
+    "offending_area": 0.0,
+    "component_areas": [
+      2560.0
+    ]
+  },
+  "status": "evaluated",
+  "solver_passed": true,
+  "optimization_feasible": true,
+  "independent_verified": false,
+  "physical_validation": "not_assessed",
+  "manufacturability": "not_assessed",
+  "response_feasibility": "not_defined_no_response_limit",
+  "stress_status": "diagnostic_only",
+  "factorizations": 2,
+  "rhs_solves": 4,
+  "q4_elements": 163840,
+  "q4_ndof": 335322,
+  "compliance_n_mm": 1254.5018419936575,
+  "primary_analysis_seconds": 13.528049500018824,
+  "diagnostics": {
+    "residual_max": 7.722604537696003e-10,
+    "symmetry_error": 1.342390606937757e-17,
+    "energy_error_max": 1.7097985919857361e-10,
+    "element_energy_error_max": 2.666900676899341e-09,
+    "force_balance_max": 4.081607018697253e-09,
+    "moment_balance_max": 3.265244174599502e-09,
+    "minimum_relative_lu_pivot": 0.004256454311035862,
+    "pivot_ratio_is_condition_estimate": false,
+    "energy_includes_prescribed_displacement_work": false,
+    "solver": "scipy.sparse.linalg.splu",
+    "ordering": "COLAMD",
+    "passed": true
+  },
+  "load_gram": [
+    [
+      593.7513450462458,
+      -105.25156144940603
+    ],
+    [
+      -105.25156140243503,
+      1254.5018419936575
+    ]
+  ],
+  "load_weighted_displacement_mm": 1.2545018419936576,
+  "max_displacement_all_nodes_mm": 1.2708623337912062,
+  "max_material_displacement_mm": 1.2708623337912062,
+  "max_pad_displacement_mm": 1.2708623337912062,
+  "small_deformation_review_trigger": true,
+  "worst_compliance_n_mm": 1270.8623660999629,
+  "worst_angle_degrees": -8.835467703382822,
+  "load_gram_diagnostics": {
+    "reciprocity_relative": 4.758803352095126e-11,
+    "reciprocity_tolerance": 1e-08,
+    "reciprocity_passed": true,
+    "uses_symmetric_quadratic_part": true
+  },
+  "grey_indicator": 0.0,
+  "independent": {
+    "element": "P2_triangle",
+    "load_gram": [
+      [
+        595.7341220485351,
+        -104.6205976492369
+      ],
+      [
+        -104.6205983416884,
+        1258.0728707169771
+      ]
+    ],
+    "diagnostics": {
+      "passed": true,
+      "solver_converged": true,
+      "element": "P2_triangle",
+      "triangles": 327680,
+      "nodes": 663005,
+      "ndof": 1326010,
+      "stiffness_nnz": 30268916,
+      "stiffness_quadrature": "three-point degree-two exact",
+      "symmetry_error": 4.753530451145527e-17,
+      "free_residual_relative": [
+        2.548906513337191e-09,
+        3.1083045860817287e-09
+      ],
+      "energy_error_relative": [
+        2.4351871660562176e-09,
+        3.449030865292651e-09
+      ],
+      "applied_resultant": [
+        [
+          999.9999999999961,
+          0.0
+        ],
+        [
+          0.0,
+          -999.9999999999961
+        ]
+      ],
+      "reaction_resultant": [
+        [
+          -1000.0000120762234,
+          3.9693657427619655e-07
+        ],
+        [
+          5.193141461745654e-06,
+          999.9999903777276
+        ]
+      ],
+      "reaction_moment": [
+        20000.000582466357,
+        119999.99917395682
+      ],
+      "applied_moment": [
+        -20000.0,
+        -119999.99999999999
+      ],
+      "resultant_balance": [
+        [
+          -1.2076223431023436e-05,
+          3.9693657427619655e-07
+        ],
+        [
+          5.193141461745654e-06,
+          -9.622271790021841e-06
+        ]
+      ],
+      "moment_balance": [
+        0.0005824663633120508,
+        -0.0008260432930455863
+      ],
+      "resultant_balance_relative": [
+        1.3145489363188522e-08,
+        9.630455495201094e-09
+      ],
+      "moment_balance_relative": [
+        4.853886360933775e-09,
+        6.883694108713246e-09
+      ],
+      "twice_strain_energy": [
+        595.734120597811,
+        1258.072866377845
+      ],
+      "prescribed_dofs": 1282,
+      "lu_pivot_min_max_ratio": 0.0014938697663882004,
+      "factorizations": 1,
+      "rhs": 2,
+      "conditioning_note": "LU pivot ratio is diagnostic, not a matrix condition estimate",
+      "max_pad_displacement": 1.2742428029345576,
+      "load_patch_mean_displacement": 1.258072870716977
+    },
+    "solver_passed": true,
+    "wall_seconds": 257.5998896000092,
+    "compliance_n_mm": 1258.0728707169771,
+    "load_gram_diagnostics": {
+      "reciprocity_relative": 6.995642074788987e-10,
+      "reciprocity_tolerance": 1e-08,
+      "reciprocity_passed": true,
+      "uses_symmetric_quadratic_part": true
+    },
+    "max_pad_displacement_mm": 1.2742428029345576,
+    "worst_compliance_n_mm": 1274.2054169387006,
+    "worst_angle_degrees": -8.765993091786212,
+    "q4_relative_compliance_difference": 0.002838491160916999,
+    "q4_relative_pad_difference": 0.0026529238662884977,
+    "triangles": 327680,
+    "ndof": 1326010
+  },
+  "wall_seconds": 280.4188763999846,
+  "cpu_seconds": 146.828125,
+  "attempt_wall_seconds": 280.4311829999788,
+  "attempt_cpu_seconds": 146.828125,
+  "process_peak_memory_bytes": 7468429312,
+  "source_archive": "results/phase1_v040_verified/candidates/B3_binary/physical_source.npy",
+  "source_input_sha256": "d4364bed4a234b372894a24d05460cf8c333945b9d61928b8ef1b80e657b7f3e",
+  "analyzed_array_sha256": "d4364bed4a234b372894a24d05460cf8c333945b9d61928b8ef1b80e657b7f3e"
+}

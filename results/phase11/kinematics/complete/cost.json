@@ -1,0 +1,12 @@
+{
+  "wall_seconds": 17.4554846000392,
+  "cpu_seconds": 8.171875,
+  "factorizations": 0,
+  "rhs_solves": 0,
+  "mechanics_solves": 0,
+  "original_records": 36,
+  "original_evaluated_records": 30,
+  "original_unavailable_records": 6,
+  "supplemental_records": 3,
+  "note": "Includes file reading, hashing, postprocessing and preceding JSON/CSV writes; excludes earlier archived solve costs"
+}

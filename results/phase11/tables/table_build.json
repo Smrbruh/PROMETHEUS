@@ -1,0 +1,13 @@
+{
+  "wall_seconds": 13.38681880000513,
+  "cpu_seconds": 7.296875,
+  "factorizations": 0,
+  "rhs_solves": 0,
+  "script_sha256": "76bfc9c65bb371289758bea99986c5da2328f13627193262344f7042708c036a",
+  "inputs": {
+    "results\\phase11\\geometry\\catalog.json": "a0e2612fa9befeb6dabc0c83a73dd295c6b14d888ae7349950b26a972d367f7f",
+    "results\\phase11\\refinement\\labels.json": "c311ab396f481b1f4536155a47c8136b92561b8b901258aed5cfdd6dc5376be9",
+    "results\\phase11\\refinement\\responses.json": "bbc941bd7574bfcce85add2dad8b06819e19e8ba97c0ccafcae49a452823c1af",
+    "results\\phase11\\refinement\\costs.json": "79f46fdc0fd4dd58fb4c97fdd93f62c1c2ad3728d3c521d217436d634af3d26f"
+  }
+}

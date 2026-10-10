@@ -1,0 +1,6 @@
+{
+  "exception": "ArgumentError",
+  "message": "argument 1: OverflowError: int too long to convert",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\sayni\\Desktop\\PROMETHEUS\\prometheus\\run.py\", line 117, in run_benchmark\n    try: opt=solve_simp(mesh,material,benchmark,callback=callback)\n             ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\sayni\\Desktop\\PROMETHEUS\\prometheus\\optimization.py\", line 310, in solve_simp\n    callback(row)\n    ~~~~~~~~^^^^^\n  File \"C:\\Users\\sayni\\Desktop\\PROMETHEUS\\prometheus\\run.py\", line 115, in callback\n    resource_checkpoint()\n    ~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\sayni\\Desktop\\PROMETHEUS\\prometheus\\run.py\", line 65, in resource_checkpoint\n    peak=peak_memory_bytes()\n  File \"C:\\Users\\sayni\\Desktop\\PROMETHEUS\\prometheus\\run.py\", line 55, in peak_memory_bytes\n    ok=ctypes.windll.psapi.GetProcessMemoryInfo(kernel.GetCurrentProcess(),ctypes.byref(counters),counters.cb)\nctypes.ArgumentError: argument 1: OverflowError: int too long to convert\n",
+  "history": null
+}

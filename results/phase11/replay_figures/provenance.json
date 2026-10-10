@@ -1,0 +1,9 @@
+{
+  "script_sha256": "d471ddafd9544e35944285a2537ac573f04f3fd638da7db2bedfdb81c596a55b",
+  "run_summary_sha256": {
+    "results\\phase11\\replay_v040": "d47ef3267a49d43995d3332fdc9a322e76c047cdf057b1c8b8e163d97bfcb7b3",
+    "results\\phase11\\replay_v035": "48d7727d970d352c645629d009ef77ba6434b50aa8d8d64a7e871967c1b813e4",
+    "results\\phase11\\replay_v045": "78b09b9257963756d19e052fb96a077ccc8285e57cde6ac5e81992a1921e790b"
+  },
+  "tie_rule": "Explicit reporting-only 2% relative separation margin, not a rigorous uncertainty interval; introduced during postprocessing and not used to tune designs."
+}

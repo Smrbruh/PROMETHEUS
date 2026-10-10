@@ -1,0 +1,35 @@
+# Phase 1.1 decision
+
+**Selective-verification study: deferred. Do not build a learned verifier from this catalogue.** The observed density/binary discrepancies have actionable conventional explanations: reconstruction changes the model, can disconnect retained material, can violate the budget, and can require finer spatial resolution. The fixed linear model also has a distinct large-displacement limitation. A learned acceptance prediction would not resolve any of these issues or supply missing reference labels.
+
+The study preserves Phase 1, introduces new immutable identities for changed masks, and records both accepted numerical estimates and explicit unresolved outcomes. Its evidence is [numerical truth audit](NUMERICAL_TRUTH_AUDIT.md), [binary geometry audit](BINARY_GEOMETRY_AUDIT.md), [reference-label protocol](REFERENCE_LABEL_PROTOCOL.md), [kinematic audit](KINEMATIC_AUDIT.md), and the [reproduction instructions](PHASE1_1_REPRODUCE.md).
+
+## What the evidence establishes
+
+- All four documented jobs reproduce the archived scientific outputs. The original **104 tests** remain intact; **232 tests pass**, including 128 added tests. [Reproduction](../results/phase11/reproduction.json), [test record](../results/phase11/tests_all.xml).
+- The .40 ranked binary gains an eligible numerical reference at all three angles, using h=.5/.25/.125. Nominal P2 compliance is **1258.072871 N mm** and the final Q4/P2 gap is **.28385%**. The .40/.45 B1 comparators remain eligible for the linear model. B0 is a resolved over-budget calibration.
+- Original .35 reconstructions remain geometry-rejected. The .35 B1 and new repair remain unresolved after P2 residual rejection. The .40 threshold and .45 ranked masks remain unresolved after memory failures. The .45 threshold is over budget and numerically unresolved. [39 candidate-angle rows](../results/phase11/tables/candidate_results.csv).
+- **13 new attempts** yielded eight complete paired evaluations and five failures/terminations, costing **957.992 s**. Known work is **22 factorizations / 42 RHS columns**, plus unknown work in two terminated workers. All failed attempts retain measured elapsed cost. [Consolidated cost ledger](../results/phase11/final_evaluation_costs.csv).
+- Eligible order persists at -20/0/+20°: none at .35; ranked B3 then B1 at .40; B1 alone at .45. The raw .35 repair/B1 order reverses with angle. At .45, nominal checks pass at .25 while +20° still requires refinement. [Angle checkpoints](../results/phase11/angle_checkpoints.json), [rankings](../results/phase11/tables/rankings.json).
+
+The [preservation check](../results/phase11/preservation_after.json) and [evidence audit](../results/phase11/evidence_audit.json) record byte preservation, provenance, recomputed labels and table consistency. Phase 1.1 is complete as an audit with explicit unresolved outcomes; it does not claim every candidate now has a reference response.
+
+Original volume/geometry rules and numerical tolerances are retained. A candidate can have resolved mechanics while being over budget; an algebraic or resource failure leaves mechanics unresolved; disconnected material is a geometry rejection. No category is a physical safety or manufacturing classification. An unchanged candidate's new reference evidence never replaces its archived Phase 1 label.
+
+The original optimized density fields and their binary reconstructions solve different coefficient/domain problems. Nominal numerical verification of a SIMP field therefore cannot certify its thresholded mask. Conventional reconstruction audits directly expose mass error, islands and local point contacts. The 21-mask sweep took no FEM solves and found only three masks that simultaneously pass geometry/contact and mass checks; none of the seven .35 thresholds does. The one explicit .35 repair removes nine floating cells and changes the mass, so it receives its own identity and charged verification history.
+
+Uniform refinement resolves some previously unresolved linear responses, but failed and capped attempts remain meaningful negative evidence about the available reference process. In particular, a P2 residual rejection is not proof of geometric failure, and a memory stop is not a convergence result. The original P2 residual exception does not retain the offending residual values; completed LU/RHS stages can be charged from its source path, but the rejected metrics cannot be manufactured.
+
+## Why a learned selector is not justified now
+
+For this small catalogue, exact geometry and mass screening is cheap and sufficient for those decisions. Three load orientations reuse two solved basis fields exactly. Conventional refinement provides transparent acceptance criteria and exposes unresolved cases directly. **Recommend against building a learned selective-verification method for this catalogue**, even where finer solves are costly: there is no measured selective-verification benefit, calibrated false-acceptance risk, representative training set or independent held-out geometry family. The three angles are correlated scenarios on the same shapes, not three independent validation populations.
+
+Resource-limited uniform refinement does not establish that learning is the appropriate remedy. First investigate deterministic alternatives such as instrumented residual/backward-error checks, fixed-policy iterative refinement, fill/memory accounting, and validated local mesh refinement for the unchanged domain. Such changes would require their own declared protocol and charged experiments; none was silently substituted in this phase. A positive future learning case would require a stable target model, defensible labels, a sufficiently diverse candidate population, and measured end-to-end benefit against those conventional methods. No claim of algorithmic novelty follows from the present audit.
+
+## Model adequacy and remaining boundary
+
+The linear equations remain useful as a numerical benchmark. They are not a defensible quantitatively accurate physical-response approximation for the highly flexible B1 designs at the stated 1,000 N load without a geometric-nonlinearity comparison: the archived canonical B1 regular-region quadratic/linear strain-norm ratio is 2.397 and displacement is about 11.42% of the 120-mm length. The binary designs have smaller kinematic corrections, but no physical error bound or validity criterion has been established for them either.
+
+The suitable next model is an objective geometrically nonlinear plane-stress equilibrium calculation with explicit material law, thickness closure and load convention, checked by nonlinear benchmarks and load-step/mesh studies. This is a model recommendation, not an implementation authorization for another phase or an extrapolation to a safe load. Out-of-plane behavior, actual joints and material data remain outside the present formulation. No design is declared physically unsafe solely from the displacement warning.
+
+Phase 2, an AI layer and product/UI work have not been started. The deliverable is a traceable numerical audit with justified estimates and honest unresolved labels.

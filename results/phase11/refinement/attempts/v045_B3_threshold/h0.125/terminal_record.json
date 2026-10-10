@@ -1,0 +1,24 @@
+{
+  "candidate": "B3_threshold",
+  "hash": "eb73e2d514d16b7d10bb36dbd3f0f7fa734f5a23055698cbb0cbe3e4a979fcee",
+  "representation": "binary",
+  "source_h_mm": 2.0,
+  "mesh_h_mm": 0.125,
+  "source_geometry_hash": "d82f15258d19e8901879bcbd238013f2fbb52684123eb133b2f056c82ebcbc7a",
+  "problem_signature": "5dda08a8e2d399f34c010e4e272c554d9435a0697e0f4775c02006fe73f1940e",
+  "volume_fraction": 0.4525,
+  "volume_budget_fraction": 0.45,
+  "volume_mm3": 14480.0,
+  "mass_kg": 0.039096,
+  "volume_feasible": false,
+  "pads_preserved": true,
+  "status": "memory_limit",
+  "solver_passed": false,
+  "factorizations": 0,
+  "rhs_solves": 0,
+  "termination": {
+    "reason": "memory_limit",
+    "exit_code": 1
+  },
+  "completed_solve_counts_known": false
+}

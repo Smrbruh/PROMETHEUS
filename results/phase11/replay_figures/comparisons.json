@@ -1,0 +1,353 @@
+[
+  {
+    "run": "results\\phase11\\replay_v040",
+    "volume_fraction": 0.4,
+    "equal_mass_binary_candidates": [
+      "B1",
+      "B3_binary"
+    ],
+    "coarse_valid_order": [
+      "B3_binary",
+      "B1"
+    ],
+    "independently_verified_order": [
+      "B1"
+    ],
+    "selected_coarse": "B3_binary",
+    "selected_verified": "B1",
+    "tie_reporting_relative_margin": 0.02,
+    "tie_rule_note": "Postprocessing reporting convention, not a certified error bound; no winner for <=2% separation",
+    "candidate_count": 6,
+    "mass_compliant_model_feasible_count": 5,
+    "valid_binary_geometry_count": 4,
+    "binary_geometry_count": 4,
+    "mass_compliant_independently_verified_count": 2,
+    "response_false_feasible_rate": null,
+    "response_false_feasible_reason": "No response limit or cheap feasibility classifier defined",
+    "partial_audit_budgets": [
+      {
+        "policy": "fixed_ID",
+        "attempt_budget": 1,
+        "attempted": [
+          "B1"
+        ],
+        "accepted": [
+          "B1"
+        ],
+        "selected": "B1",
+        "archived_audit_wall_seconds": 4.049327599990647,
+        "factorizations": 6,
+        "rhs_solves": 12,
+        "timing_note": "Conditional audit-only retrospective replay, not total algorithm cost or a separately timed policy. Common generation and screening are excluded from these increments. Full attempt includes mandatory terminal verification; counts include rerun coarse solves with no reuse credit.",
+        "common_prerequisites": {
+          "generation_factorizations": 114,
+          "generation_wall_seconds": 7.373359899967909,
+          "screening_factorizations": 2,
+          "screening_rhs_solves": 4,
+          "screening_primary_analysis_seconds": 0.034253899997565895,
+          "note": "Same generation and geometry/Q4 screening of both candidates charged to both policies; invalid geometry requires no Q4 solve. Screening wall overhead was not separately instrumented, so no end-to-end policy speedup is claimed."
+        }
+      },
+      {
+        "policy": "fixed_ID",
+        "attempt_budget": 2,
+        "attempted": [
+          "B1",
+          "B3_binary"
+        ],
+        "accepted": [
+          "B1"
+        ],
+        "selected": "B1",
+        "archived_audit_wall_seconds": 7.580567000026349,
+        "factorizations": 12,
+        "rhs_solves": 24,
+        "timing_note": "Conditional audit-only retrospective replay, not total algorithm cost or a separately timed policy. Common generation and screening are excluded from these increments. Full attempt includes mandatory terminal verification; counts include rerun coarse solves with no reuse credit.",
+        "common_prerequisites": {
+          "generation_factorizations": 114,
+          "generation_wall_seconds": 7.373359899967909,
+          "screening_factorizations": 2,
+          "screening_rhs_solves": 4,
+          "screening_primary_analysis_seconds": 0.034253899997565895,
+          "note": "Same generation and geometry/Q4 screening of both candidates charged to both policies; invalid geometry requires no Q4 solve. Screening wall overhead was not separately instrumented, so no end-to-end policy speedup is claimed."
+        }
+      },
+      {
+        "policy": "coarse_objective",
+        "attempt_budget": 1,
+        "attempted": [
+          "B3_binary"
+        ],
+        "accepted": [],
+        "selected": null,
+        "archived_audit_wall_seconds": 3.5312394000357017,
+        "factorizations": 6,
+        "rhs_solves": 12,
+        "timing_note": "Conditional audit-only retrospective replay, not total algorithm cost or a separately timed policy. Common generation and screening are excluded from these increments. Full attempt includes mandatory terminal verification; counts include rerun coarse solves with no reuse credit.",
+        "common_prerequisites": {
+          "generation_factorizations": 114,
+          "generation_wall_seconds": 7.373359899967909,
+          "screening_factorizations": 2,
+          "screening_rhs_solves": 4,
+          "screening_primary_analysis_seconds": 0.034253899997565895,
+          "note": "Same generation and geometry/Q4 screening of both candidates charged to both policies; invalid geometry requires no Q4 solve. Screening wall overhead was not separately instrumented, so no end-to-end policy speedup is claimed."
+        }
+      },
+      {
+        "policy": "coarse_objective",
+        "attempt_budget": 2,
+        "attempted": [
+          "B3_binary",
+          "B1"
+        ],
+        "accepted": [
+          "B1"
+        ],
+        "selected": "B1",
+        "archived_audit_wall_seconds": 7.580567000026349,
+        "factorizations": 12,
+        "rhs_solves": 24,
+        "timing_note": "Conditional audit-only retrospective replay, not total algorithm cost or a separately timed policy. Common generation and screening are excluded from these increments. Full attempt includes mandatory terminal verification; counts include rerun coarse solves with no reuse credit.",
+        "common_prerequisites": {
+          "generation_factorizations": 114,
+          "generation_wall_seconds": 7.373359899967909,
+          "screening_factorizations": 2,
+          "screening_rhs_solves": 4,
+          "screening_primary_analysis_seconds": 0.034253899997565895,
+          "note": "Same generation and geometry/Q4 screening of both candidates charged to both policies; invalid geometry requires no Q4 solve. Screening wall overhead was not separately instrumented, so no end-to-end policy speedup is claimed."
+        }
+      }
+    ]
+  },
+  {
+    "run": "results\\phase11\\replay_v035",
+    "volume_fraction": 0.35,
+    "equal_mass_binary_candidates": [
+      "B1",
+      "B3_binary"
+    ],
+    "coarse_valid_order": [
+      "B1"
+    ],
+    "independently_verified_order": [],
+    "selected_coarse": "B1",
+    "selected_verified": null,
+    "tie_reporting_relative_margin": 0.02,
+    "tie_rule_note": "Postprocessing reporting convention, not a certified error bound; no winner for <=2% separation",
+    "candidate_count": 6,
+    "mass_compliant_model_feasible_count": 3,
+    "valid_binary_geometry_count": 2,
+    "binary_geometry_count": 4,
+    "mass_compliant_independently_verified_count": 1,
+    "response_false_feasible_rate": null,
+    "response_false_feasible_reason": "No response limit or cheap feasibility classifier defined",
+    "partial_audit_budgets": [
+      {
+        "policy": "fixed_ID",
+        "attempt_budget": 1,
+        "attempted": [
+          "B1"
+        ],
+        "accepted": [],
+        "selected": null,
+        "archived_audit_wall_seconds": 3.1485668000532314,
+        "factorizations": 6,
+        "rhs_solves": 12,
+        "timing_note": "Conditional audit-only retrospective replay, not total algorithm cost or a separately timed policy. Common generation and screening are excluded from these increments. Full attempt includes mandatory terminal verification; counts include rerun coarse solves with no reuse credit.",
+        "common_prerequisites": {
+          "generation_factorizations": 179,
+          "generation_wall_seconds": 15.737515899993014,
+          "screening_factorizations": 1,
+          "screening_rhs_solves": 2,
+          "screening_primary_analysis_seconds": 0.014412499964237213,
+          "note": "Same generation and geometry/Q4 screening of both candidates charged to both policies; invalid geometry requires no Q4 solve. Screening wall overhead was not separately instrumented, so no end-to-end policy speedup is claimed."
+        }
+      },
+      {
+        "policy": "fixed_ID",
+        "attempt_budget": 2,
+        "attempted": [
+          "B1",
+          "B3_binary"
+        ],
+        "accepted": [],
+        "selected": null,
+        "archived_audit_wall_seconds": 3.1701072001014836,
+        "factorizations": 6,
+        "rhs_solves": 12,
+        "timing_note": "Conditional audit-only retrospective replay, not total algorithm cost or a separately timed policy. Common generation and screening are excluded from these increments. Full attempt includes mandatory terminal verification; counts include rerun coarse solves with no reuse credit.",
+        "common_prerequisites": {
+          "generation_factorizations": 179,
+          "generation_wall_seconds": 15.737515899993014,
+          "screening_factorizations": 1,
+          "screening_rhs_solves": 2,
+          "screening_primary_analysis_seconds": 0.014412499964237213,
+          "note": "Same generation and geometry/Q4 screening of both candidates charged to both policies; invalid geometry requires no Q4 solve. Screening wall overhead was not separately instrumented, so no end-to-end policy speedup is claimed."
+        }
+      },
+      {
+        "policy": "coarse_objective",
+        "attempt_budget": 1,
+        "attempted": [
+          "B1"
+        ],
+        "accepted": [],
+        "selected": null,
+        "archived_audit_wall_seconds": 3.1485668000532314,
+        "factorizations": 6,
+        "rhs_solves": 12,
+        "timing_note": "Conditional audit-only retrospective replay, not total algorithm cost or a separately timed policy. Common generation and screening are excluded from these increments. Full attempt includes mandatory terminal verification; counts include rerun coarse solves with no reuse credit.",
+        "common_prerequisites": {
+          "generation_factorizations": 179,
+          "generation_wall_seconds": 15.737515899993014,
+          "screening_factorizations": 1,
+          "screening_rhs_solves": 2,
+          "screening_primary_analysis_seconds": 0.014412499964237213,
+          "note": "Same generation and geometry/Q4 screening of both candidates charged to both policies; invalid geometry requires no Q4 solve. Screening wall overhead was not separately instrumented, so no end-to-end policy speedup is claimed."
+        }
+      },
+      {
+        "policy": "coarse_objective",
+        "attempt_budget": 2,
+        "attempted": [
+          "B1",
+          "B3_binary"
+        ],
+        "accepted": [],
+        "selected": null,
+        "archived_audit_wall_seconds": 3.1701072001014836,
+        "factorizations": 6,
+        "rhs_solves": 12,
+        "timing_note": "Conditional audit-only retrospective replay, not total algorithm cost or a separately timed policy. Common generation and screening are excluded from these increments. Full attempt includes mandatory terminal verification; counts include rerun coarse solves with no reuse credit.",
+        "common_prerequisites": {
+          "generation_factorizations": 179,
+          "generation_wall_seconds": 15.737515899993014,
+          "screening_factorizations": 1,
+          "screening_rhs_solves": 2,
+          "screening_primary_analysis_seconds": 0.014412499964237213,
+          "note": "Same generation and geometry/Q4 screening of both candidates charged to both policies; invalid geometry requires no Q4 solve. Screening wall overhead was not separately instrumented, so no end-to-end policy speedup is claimed."
+        }
+      }
+    ]
+  },
+  {
+    "run": "results\\phase11\\replay_v045",
+    "volume_fraction": 0.45,
+    "equal_mass_binary_candidates": [
+      "B1",
+      "B3_binary"
+    ],
+    "coarse_valid_order": [
+      "B3_binary",
+      "B1"
+    ],
+    "independently_verified_order": [
+      "B1"
+    ],
+    "selected_coarse": "B3_binary",
+    "selected_verified": "B1",
+    "tie_reporting_relative_margin": 0.02,
+    "tie_rule_note": "Postprocessing reporting convention, not a certified error bound; no winner for <=2% separation",
+    "candidate_count": 6,
+    "mass_compliant_model_feasible_count": 4,
+    "valid_binary_geometry_count": 4,
+    "binary_geometry_count": 4,
+    "mass_compliant_independently_verified_count": 2,
+    "response_false_feasible_rate": null,
+    "response_false_feasible_reason": "No response limit or cheap feasibility classifier defined",
+    "partial_audit_budgets": [
+      {
+        "policy": "fixed_ID",
+        "attempt_budget": 1,
+        "attempted": [
+          "B1"
+        ],
+        "accepted": [
+          "B1"
+        ],
+        "selected": "B1",
+        "archived_audit_wall_seconds": 4.625190899998415,
+        "factorizations": 6,
+        "rhs_solves": 12,
+        "timing_note": "Conditional audit-only retrospective replay, not total algorithm cost or a separately timed policy. Common generation and screening are excluded from these increments. Full attempt includes mandatory terminal verification; counts include rerun coarse solves with no reuse credit.",
+        "common_prerequisites": {
+          "generation_factorizations": 133,
+          "generation_wall_seconds": 12.132648300030269,
+          "screening_factorizations": 2,
+          "screening_rhs_solves": 4,
+          "screening_primary_analysis_seconds": 0.04167920001782477,
+          "note": "Same generation and geometry/Q4 screening of both candidates charged to both policies; invalid geometry requires no Q4 solve. Screening wall overhead was not separately instrumented, so no end-to-end policy speedup is claimed."
+        }
+      },
+      {
+        "policy": "fixed_ID",
+        "attempt_budget": 2,
+        "attempted": [
+          "B1",
+          "B3_binary"
+        ],
+        "accepted": [
+          "B1"
+        ],
+        "selected": "B1",
+        "archived_audit_wall_seconds": 9.24397550005233,
+        "factorizations": 12,
+        "rhs_solves": 24,
+        "timing_note": "Conditional audit-only retrospective replay, not total algorithm cost or a separately timed policy. Common generation and screening are excluded from these increments. Full attempt includes mandatory terminal verification; counts include rerun coarse solves with no reuse credit.",
+        "common_prerequisites": {
+          "generation_factorizations": 133,
+          "generation_wall_seconds": 12.132648300030269,
+          "screening_factorizations": 2,
+          "screening_rhs_solves": 4,
+          "screening_primary_analysis_seconds": 0.04167920001782477,
+          "note": "Same generation and geometry/Q4 screening of both candidates charged to both policies; invalid geometry requires no Q4 solve. Screening wall overhead was not separately instrumented, so no end-to-end policy speedup is claimed."
+        }
+      },
+      {
+        "policy": "coarse_objective",
+        "attempt_budget": 1,
+        "attempted": [
+          "B3_binary"
+        ],
+        "accepted": [],
+        "selected": null,
+        "archived_audit_wall_seconds": 4.618784600053914,
+        "factorizations": 6,
+        "rhs_solves": 12,
+        "timing_note": "Conditional audit-only retrospective replay, not total algorithm cost or a separately timed policy. Common generation and screening are excluded from these increments. Full attempt includes mandatory terminal verification; counts include rerun coarse solves with no reuse credit.",
+        "common_prerequisites": {
+          "generation_factorizations": 133,
+          "generation_wall_seconds": 12.132648300030269,
+          "screening_factorizations": 2,
+          "screening_rhs_solves": 4,
+          "screening_primary_analysis_seconds": 0.04167920001782477,
+          "note": "Same generation and geometry/Q4 screening of both candidates charged to both policies; invalid geometry requires no Q4 solve. Screening wall overhead was not separately instrumented, so no end-to-end policy speedup is claimed."
+        }
+      },
+      {
+        "policy": "coarse_objective",
+        "attempt_budget": 2,
+        "attempted": [
+          "B3_binary",
+          "B1"
+        ],
+        "accepted": [
+          "B1"
+        ],
+        "selected": "B1",
+        "archived_audit_wall_seconds": 9.24397550005233,
+        "factorizations": 12,
+        "rhs_solves": 24,
+        "timing_note": "Conditional audit-only retrospective replay, not total algorithm cost or a separately timed policy. Common generation and screening are excluded from these increments. Full attempt includes mandatory terminal verification; counts include rerun coarse solves with no reuse credit.",
+        "common_prerequisites": {
+          "generation_factorizations": 133,
+          "generation_wall_seconds": 12.132648300030269,
+          "screening_factorizations": 2,
+          "screening_rhs_solves": 4,
+          "screening_primary_analysis_seconds": 0.04167920001782477,
+          "note": "Same generation and geometry/Q4 screening of both candidates charged to both policies; invalid geometry requires no Q4 solve. Screening wall overhead was not separately instrumented, so no end-to-end policy speedup is claimed."
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,100 @@
+{
+  "candidate": "B3_binary",
+  "hash": "a4191fd38fc58fbca7384eb57e6362e1f4cc70ecac01dba1b9a4021b0e9f1a48",
+  "problem_signature": "5dda08a8e2d399f34c010e4e272c554d9435a0697e0f4775c02006fe73f1940e",
+  "source_geometry_hash": "d82f15258d19e8901879bcbd238013f2fbb52684123eb133b2f056c82ebcbc7a",
+  "representation": "binary",
+  "mesh_h_mm": 0.125,
+  "source_h_mm": 2.0,
+  "volume_mm3": 14400.0,
+  "mass_kg": 0.03888,
+  "volume_fraction": 0.45,
+  "volume_budget_fraction": 0.45,
+  "volume_feasible": true,
+  "pads_preserved": true,
+  "geometry_status": {
+    "valid": true,
+    "connected": true,
+    "pads_preserved": true,
+    "pads_present": true,
+    "support_pad_present": true,
+    "load_pad_present": true,
+    "pads_connected": true,
+    "component_count": 1,
+    "solid_cells": 184320,
+    "solid_area": 2880.0,
+    "offending_area": 0.0,
+    "component_areas": [
+      2880.0
+    ]
+  },
+  "status": "independent_verification_failed",
+  "solver_passed": true,
+  "optimization_feasible": true,
+  "independent_verified": false,
+  "physical_validation": "not_assessed",
+  "manufacturability": "not_assessed",
+  "response_feasibility": "not_defined_no_response_limit",
+  "stress_status": "diagnostic_only",
+  "factorizations": 1,
+  "rhs_solves": 2,
+  "q4_elements": 184320,
+  "q4_ndof": 376026,
+  "compliance_n_mm": 1064.678766132084,
+  "primary_analysis_seconds": 13.813989999995101,
+  "diagnostics": {
+    "residual_max": 6.913733262711007e-10,
+    "symmetry_error": 1.3413417839856506e-17,
+    "energy_error_max": 2.634270254904716e-10,
+    "element_energy_error_max": 2.3496104351917397e-09,
+    "force_balance_max": 4.018617241127826e-09,
+    "moment_balance_max": 3.144015001529018e-09,
+    "minimum_relative_lu_pivot": 0.0033605619591987987,
+    "pivot_ratio_is_condition_estimate": false,
+    "energy_includes_prescribed_displacement_work": false,
+    "solver": "scipy.sparse.linalg.splu",
+    "ordering": "COLAMD",
+    "passed": true
+  },
+  "load_gram": [
+    [
+      452.8777515040758,
+      -146.74170627219883
+    ],
+    [
+      -146.74170623750484,
+      1064.678766132084
+    ]
+  ],
+  "load_weighted_displacement_mm": 1.064678766132084,
+  "max_displacement_all_nodes_mm": 1.092959989301141,
+  "max_material_displacement_mm": 1.092959989301141,
+  "max_pad_displacement_mm": 1.092959989301141,
+  "small_deformation_review_trigger": false,
+  "worst_compliance_n_mm": 1098.054324477817,
+  "worst_angle_degrees": -12.813610938895675,
+  "load_gram_diagnostics": {
+    "reciprocity_relative": 4.174086366238966e-11,
+    "reciprocity_tolerance": 1e-08,
+    "reciprocity_passed": true,
+    "uses_symmetric_quadratic_part": true
+  },
+  "grey_indicator": 0.0,
+  "wall_seconds": 168.92776550003327,
+  "cpu_seconds": 142.046875,
+  "independent_failure": {
+    "type": "MemoryError",
+    "message": "Unable to allocate 2.20 GiB for an array with shape (294626640,) and data type float64"
+  },
+  "exception": {
+    "type": "MemoryError",
+    "message": "Unable to allocate 2.20 GiB for an array with shape (294626640,) and data type float64",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\sayni\\Desktop\\PROMETHEUS\\scripts\\phase11_refine.py\", line 69, in worker\n    record,arrays=evaluate_candidate(Candidate(entry['candidate_name'],np.load(ROOT/entry['array_path']),'binary'),\n                  ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        make_l_mesh(2.),Material(),Benchmark(volume_fraction=entry['volume_setting']),h,True,False)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\sayni\\Desktop\\PROMETHEUS\\prometheus\\evaluation.py\", line 169, in evaluate_candidate\n    checked=bracket_verify(mesh,moduli,material,load=benchmark.load)\n  File \"C:\\Users\\sayni\\Desktop\\PROMETHEUS\\prometheus\\verification.py\", line 363, in bracket_verify\n    result = solve_p2(p2, moduli, material, forces, {int(i): 0. for i in fixed})\n  File \"C:\\Users\\sayni\\Desktop\\PROMETHEUS\\prometheus\\verification.py\", line 276, in solve_p2\n    pivots = np.abs(factor.U.diagonal())\n                    ^^^^^^^^\nnumpy._core._exceptions._ArrayMemoryError: Unable to allocate 2.20 GiB for an array with shape (294626640,) and data type float64\n"
+  },
+  "attempt_wall_seconds": 169.85043329995824,
+  "attempt_cpu_seconds": 142.65625,
+  "process_peak_memory_bytes": 8315076608,
+  "source_archive": "results/phase1_v045/candidates/B3_binary/physical_source.npy",
+  "source_input_sha256": "8c4a7974002d7584a134f1f839488312e1a8fecd80ecc8ab689e88b54384a23f",
+  "analyzed_array_sha256": "8c4a7974002d7584a134f1f839488312e1a8fecd80ecc8ab689e88b54384a23f"
+}

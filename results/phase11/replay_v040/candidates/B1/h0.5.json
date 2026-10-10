@@ -1,0 +1,202 @@
+{
+  "candidate": "B1",
+  "hash": "353bef616f81ab71875697d727f53b6d31ba7762d55eb2800a5140e316a57e98",
+  "problem_signature": "54409d409b105f87431821bc09f6513ae57e59322ea7375bbe43574b6dfe5619",
+  "source_geometry_hash": "d82f15258d19e8901879bcbd238013f2fbb52684123eb133b2f056c82ebcbc7a",
+  "representation": "binary",
+  "mesh_h_mm": 0.5,
+  "source_h_mm": 2.0,
+  "volume_mm3": 12800.0,
+  "mass_kg": 0.03456,
+  "volume_fraction": 0.4,
+  "volume_budget_fraction": 0.4,
+  "volume_feasible": true,
+  "pads_preserved": true,
+  "geometry_status": {
+    "valid": true,
+    "connected": true,
+    "pads_preserved": true,
+    "pads_present": true,
+    "support_pad_present": true,
+    "load_pad_present": true,
+    "pads_connected": true,
+    "component_count": 1,
+    "solid_cells": 10240,
+    "solid_area": 2560.0,
+    "offending_area": 0.0,
+    "component_areas": [
+      2560.0
+    ]
+  },
+  "status": "evaluated",
+  "solver_passed": true,
+  "optimization_feasible": true,
+  "independent_verified": true,
+  "physical_validation": "not_assessed",
+  "manufacturability": "not_assessed",
+  "response_feasibility": "not_defined_no_response_limit",
+  "stress_status": "diagnostic_only",
+  "factorizations": 2,
+  "rhs_solves": 4,
+  "q4_elements": 10240,
+  "q4_ndof": 21322,
+  "compliance_n_mm": 12987.600593725545,
+  "primary_analysis_seconds": 0.5475467999931425,
+  "diagnostics": {
+    "residual_max": 1.0123139401760587e-09,
+    "symmetry_error": 9.422123955861426e-18,
+    "energy_error_max": 9.08209661181628e-11,
+    "element_energy_error_max": 2.381194359047557e-09,
+    "force_balance_max": 3.294097110498162e-09,
+    "moment_balance_max": 2.489547335926545e-09,
+    "minimum_relative_lu_pivot": 0.0017795856917157404,
+    "pivot_ratio_is_condition_estimate": false,
+    "energy_includes_prescribed_displacement_work": false,
+    "solver": "scipy.sparse.linalg.splu",
+    "ordering": "COLAMD",
+    "passed": true
+  },
+  "load_gram": [
+    [
+      1085.8492149922834,
+      -2883.179976644196
+    ],
+    [
+      -2883.179976549374,
+      12987.600593725545
+    ]
+  ],
+  "load_weighted_displacement_mm": 12.987600593725546,
+  "max_displacement_all_nodes_mm": 13.698592261945063,
+  "max_material_displacement_mm": 13.698592261945063,
+  "max_pad_displacement_mm": 13.698592261945063,
+  "small_deformation_review_trigger": true,
+  "worst_compliance_n_mm": 13649.262106352066,
+  "worst_angle_degrees": -12.925018885534657,
+  "load_gram_diagnostics": {
+    "reciprocity_relative": 9.819870544079908e-12,
+    "reciprocity_tolerance": 1e-08,
+    "reciprocity_passed": true,
+    "uses_symmetric_quadratic_part": true
+  },
+  "grey_indicator": 0.0,
+  "stress": {
+    "unrestricted_peak_mpa": 2026.8224814534658,
+    "regular_p95_mpa": 625.3384751689827,
+    "regular_region_area_mm2": 2446.25,
+    "regular_region_status": "defined",
+    "diagnostic_only": true
+  },
+  "independent": {
+    "element": "P2_triangle",
+    "load_gram": [
+      [
+        1090.3483062098894,
+        -2892.892038131669
+      ],
+      [
+        -2892.89203677579,
+        13027.747319051856
+      ]
+    ],
+    "diagnostics": {
+      "passed": true,
+      "solver_converged": true,
+      "element": "P2_triangle",
+      "triangles": 20480,
+      "nodes": 41801,
+      "ndof": 83602,
+      "stiffness_nnz": 1897604,
+      "stiffness_quadrature": "three-point degree-two exact",
+      "symmetry_error": 4.611812607061669e-17,
+      "free_residual_relative": [
+        9.214367399691528e-10,
+        3.648772029648485e-09
+      ],
+      "energy_error_relative": [
+        1.7437447436281037e-09,
+        2.2033111062990695e-09
+      ],
+      "applied_resultant": [
+        [
+          999.9999999999991,
+          0.0
+        ],
+        [
+          0.0,
+          -999.9999999999991
+        ]
+      ],
+      "reaction_resultant": [
+        [
+          -999.9999986659789,
+          -3.2885705678609156e-06
+        ],
+        [
+          1.60423815032118e-06,
+          999.999994130896
+        ]
+      ],
+      "reaction_moment": [
+        20000.000097119264,
+        119999.99958847105
+      ],
+      "applied_moment": [
+        -19999.999999999996,
+        -119999.99999999999
+      ],
+      "resultant_balance": [
+        [
+          1.3340211673096292e-06,
+          -3.2885705678609156e-06
+        ],
+        [
+          1.60423815032118e-06,
+          -5.869104441558193e-06
+        ]
+      ],
+      "moment_balance": [
+        9.711925031297142e-05,
+        -0.0004115289360697716
+      ],
+      "resultant_balance_relative": [
+        2.0864305686449463e-09,
+        6.727635790210351e-09
+      ],
+      "moment_balance_relative": [
+        8.093270859414292e-10,
+        3.4294078005814333e-09
+      ],
+      "twice_strain_energy": [
+        1090.3483043086003,
+        13027.747290347676
+      ],
+      "prescribed_dofs": 322,
+      "lu_pivot_min_max_ratio": 0.0006813736757845036,
+      "factorizations": 1,
+      "rhs": 2,
+      "conditioning_note": "LU pivot ratio is diagnostic, not a matrix condition estimate",
+      "max_pad_displacement": 13.741153989075551,
+      "load_patch_mean_displacement": 13.027747319051857
+    },
+    "solver_passed": true,
+    "wall_seconds": 2.2254742000368424,
+    "compliance_n_mm": 13027.747319051856,
+    "load_gram_diagnostics": {
+      "reciprocity_relative": 1.3997906124337203e-10,
+      "reciprocity_tolerance": 1e-08,
+      "reciprocity_passed": true,
+      "uses_symmetric_quadratic_part": true
+    },
+    "max_pad_displacement_mm": 13.741153989075551,
+    "worst_compliance_n_mm": 13691.860047144472,
+    "worst_angle_degrees": -12.929203094464714,
+    "q4_relative_compliance_difference": 0.003081632176546749,
+    "q4_relative_pad_difference": 0.003097391031664853,
+    "triangles": 20480,
+    "ndof": 83602
+  },
+  "wall_seconds": 3.376590700005181,
+  "cpu_seconds": 2.953125,
+  "process_peak_memory_bytes": 2124165120
+}

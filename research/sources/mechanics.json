@@ -1,0 +1,85 @@
+[
+  {
+    "id": "M01",
+    "title": "Efficient topology optimization in MATLAB using 88 lines of code",
+    "authors": ["Erik Andreassen", "Anders Clausen", "Mattias Schevenels", "Boyan S. Lazarov", "Ole Sigmund"],
+    "year": 2011,
+    "venue": "Structural and Multidisciplinary Optimization 43(1), 1–16",
+    "url": "https://orbit.dtu.dk/en/publications/efficient-topology-optimization-in-matlab-using-88-lines-of-code/",
+    "doi": "10.1007/s00158-010-0594-7",
+    "access": "Primary DTU publication record and authors' educational-code page read; author-hosted uncorrected full-text PDF accessible. Direct DOI open returned an error; DOI and bibliographic details verified on DTU record. Accessed 2026-10-10.",
+    "contribution": "Compact educational density-filtered compliance topology optimization implementation with efficient finite-element assembly and OC updates.",
+    "supported_claim": "A classical density-based compliance optimizer and density filter are an established reproducible baseline, with author-supplied source code; they are not a new PROMETHEUS contribution.",
+    "limitations": "Educational examples are not independent validation of a manufactured bracket. The source footer reserves rights, as verified in the separate tools evidence record T46; it is not treated as permissively licensed code. PROMETHEUS domain, padding convention, units and stopping rules are proposed extensions, not reproduced experimental results from this paper.",
+    "supporting_urls": [
+      "https://www.topopt.mek.dtu.dk/apps-and-software/efficient-topology-optimization-in-matlab",
+      "https://www.topopt.mek.dtu.dk/-/media/subsites/topopt/apps/dokumenter-og-filer-til-apps/topopt88.pdf?hash=E80FAB2808804A29FFB181CA05D2EEFECAA86686&la=da"
+    ]
+  },
+  {
+    "id": "M02",
+    "title": "On projection methods, convergence and robust formulations in topology optimization",
+    "authors": ["Fengwen Wang", "Boyan Stefanov Lazarov", "Ole Sigmund"],
+    "year": 2011,
+    "venue": "Structural and Multidisciplinary Optimization 43, 767–784",
+    "url": "https://doi.org/10.1007/s00158-010-0602-y",
+    "doi": "10.1007/s00158-010-0602-y",
+    "access": "Publisher abstract/metadata and DTU-hosted article text accessible. Publication online 2010-12-24, journal issue 2011. Publisher notes a correction published 2022-09-17; correction details were not evaluated. Accessed 2026-10-10.",
+    "contribution": "Distinguishes simple projection from erosion/intermediate/dilation robust formulations and studies mesh convergence.",
+    "supported_claim": "A single density projection does not by itself ensure local mesh convergence; manufacturing robustness and size control need explicit treatment beyond merely setting a filter radius.",
+    "limitations": "Use is limited to this caution and identification of robust projection as prior art. No blanket guarantee for arbitrary implementations is inferred, and no corrected theorem or numerical result is relied upon.",
+    "supporting_urls": ["https://backend.orbit.dtu.dk/ws/files/38488317/DCAMM_report_S145.pdf"]
+  },
+  {
+    "id": "M03",
+    "title": "Introduction to VVUQ | Part 2: Verification",
+    "authors": ["ASME Task Group on VVUQ Concepts in Engineering Education"],
+    "year": 2025,
+    "venue": "ASME Codes & Standards educational module, version 1, 11 February 2025",
+    "url": "https://www.asme.org/getmedia/e446ce87-543d-4e2d-ba2c-67a18b64bc5b/vvuq-intro-module-part-2-verification.pdf",
+    "doi": null,
+    "access": "Official seven-page module fully accessible and text inspected; CC BY 4.0 noted in source. Full paid ASME V&V 10 standard was not reviewed. Accessed 2026-10-10.",
+    "contribution": "Explains code verification against known solutions and solution verification through numerical error assessment.",
+    "supported_claim": "Code correctness, solution accuracy and physical validation are distinct evidence needs; analytic/manufactured solutions and multiple refined grids support numerical verification.",
+    "limitations": "This educational source does not prescribe the numerical tolerances chosen for PROMETHEUS and does not establish standards compliance or structural certification. No claim is made that the module contains a complete physical-test protocol."
+  },
+  {
+    "id": "M04",
+    "title": "How to Identify and Resolve Singularities in the Model when Meshing",
+    "authors": ["Walter Frei"],
+    "year": 2013,
+    "venue": "COMSOL official technical blog, 29 October 2013",
+    "url": "https://www.comsol.com/blogs/how-identify-resolve-singularities-model-meshing",
+    "doi": null,
+    "access": "Official vendor technical explanation fully accessible. Accessed 2026-10-10.",
+    "contribution": "Illustrates nonconvergent corner stresses and distinguishes local derivative quantities from global displacement/energy quantities.",
+    "supported_claim": "Sharp re-entrant corners can have increasing pointwise stress under refinement even when displacement or integral quantities converge; global agreement does not establish a converged peak stress.",
+    "limitations": "Vendor-authored explanatory material, not a new peer-reviewed theorem or independent validation experiment. The PROMETHEUS 6 mm exclusion and stress percentile are declared diagnostics, not values supplied or validated by this source."
+  },
+  {
+    "id": "M05",
+    "title": "scikit-fem: A Python package for finite element assembly",
+    "authors": ["Tom Gustafsson", "G. D. McBain"],
+    "year": 2020,
+    "venue": "Journal of Open Source Software 5(52), 2369",
+    "url": "https://joss.theoj.org/papers/10.21105/joss.02369",
+    "doi": "10.21105/joss.02369",
+    "access": "Publisher record with bibliography/review links inspected; author-institution full-text accessible. Published 2020-08-21. Accessed 2026-10-10.",
+    "contribution": "Lightweight Python finite-element matrix and vector assembly library with an openly reviewed software publication.",
+    "supported_claim": "scikit-fem is a plausible independent assembly library for a PC-scale verification path; it is not itself evidence that the proposed L-plate setup is correct.",
+    "limitations": "The paper does not validate PROMETHEUS inputs, material models, conversion procedures, or physical performance. Current installation/version and licence must be pinned in the execution environment."
+  },
+  {
+    "id": "M06",
+    "title": "Gallery of examples — scikit-fem documentation",
+    "authors": ["scikit-fem contributors"],
+    "year": "n.d.",
+    "venue": "Official project documentation, continuously updated",
+    "url": "https://scikit-fem.readthedocs.io/en/latest/listofexamples.html",
+    "doi": null,
+    "access": "Official gallery inspected on 2026-10-10; source-code example links exposed. Version-specific snapshot not archived in Phase 0.",
+    "contribution": "Executable examples covering finite-element formulations including linear elasticity, higher-order triangles and other mechanics models.",
+    "supported_claim": "The library has documented elasticity examples and is suitable to investigate as an independent assembly route.",
+    "limitations": "Example availability is not plug-and-play support for this exact plane-stress benchmark. The independent weak form, plane-stress parameters, quadrature and boundary assembly still require implementation and verification."
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "status": "postprocessing_export_failed",
+  "stage": "CSV flattening after JSON evidence writes",
+  "exception": "AttributeError",
+  "message": "NoneType object has no attribute get: explicit null kinematics for rejected geometry was not handled in the CSV exporter",
+  "kinematic_computation_completed": true,
+  "original_json_records_preserved": true,
+  "factorizations": 0,
+  "rhs_solves": 0,
+  "wall_seconds": null,
+  "wall_seconds_note": "The failed initial batch did not reach its cost write; its end-to-end duration was not retained and is not invented",
+  "recovery": "Correct only the new CSV exporter and rerun into a new complete subdirectory; preserve every original file"
+}

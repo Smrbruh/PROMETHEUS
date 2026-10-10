@@ -1,0 +1,31 @@
+{
+  "files": {
+    "prometheus/audit_responses.py": "75489fc65eac57a215bff8dd5e4ee715a04afee8b8483e0e237b758cba526c82",
+    "prometheus/binary_audit.py": "eee3c118471ab29e981707edb2a254884767204369a6fa200ba1f0c0eebc1701",
+    "prometheus/kinematic_audit.py": "43f9713d72c4d98fa1e700c47466f8379e27b93d73d678fdd105302c40d79997",
+    "prometheus/reference_labels.py": "d1ee2ab3325235c7e6167168a8b450df35a8a5918bf11dcb0087b0505a0dc318",
+    "scripts/check_phase11_evidence.py": "e2bb8090cfafd45da26c62468d38506a52cf49ff1e8bf0a2de25f25b2e4b73fb",
+    "scripts/phase11_figures.py": "4287b7491838d23bbba94ebfb734946fe9c68b4b130cceb18b0cc13905eee101",
+    "scripts/phase11_geometry.py": "3ded051c2c5fb532e22549bd011b5eca894840ef4d5110d6e12e1f7c98dfd3d2",
+    "scripts/phase11_kinematics.py": "95fe59b2e8693c4b58dfbc849d09d2aa0870b10a96c5ec40ee3587e5ed561ee1",
+    "scripts/phase11_preservation.py": "132927b6f969cb07185534df020284a2179a61d7f116f6de73d0b9f29511318f",
+    "scripts/phase11_refine.py": "e78133491d914eb26f00c67c0bb7dc6cdda966478ba926927bba84b775d14bbb",
+    "scripts/phase11_repair_kinematics.py": "acc5d2a50aaf2bf934ecf6c4bf88a7420909d8f357a6991cb48f37403ae4bb95",
+    "scripts/phase11_reproduce.py": "dc948ba31c550aff9f164a7a7d3dec4c11250b33897a739b297909bf6802c2f4",
+    "scripts/phase11_tables.py": "76bfc9c65bb371289758bea99986c5da2328f13627193262344f7042708c036a",
+    "tests/test_audit_responses.py": "2ab6148aa40858923cdda3145f4d9186550ac46c276b965ef75fc75c68968e8f",
+    "tests/test_binary_audit.py": "60fb2c2c80020d7e7d1c9bc481a41e70bcca558911ed478067f57e441e93ac94",
+    "tests/test_kinematic_audit.py": "97f654598ab913f0325474117357cd17afdd2169ca832e4230c5919e70bb82f5",
+    "tests/test_phase11_refine.py": "43b37ebcf6630cfbb4a90640d7ddb367e1a40a4dd77d10df3f143c29fdbcdc2a",
+    "tests/test_reference_labels.py": "394970994f616f9af2c158c16e991080ec690c2a4ee9e16c5da9a8e656406e1e",
+    "research/BINARY_GEOMETRY_AUDIT.md": "7b140cf42c96feb99021be298d29f52e6af3ecafec04850955677357a518067c",
+    "research/KINEMATIC_AUDIT.md": "36b9e1e638949531e676db3412bc6473203e8015adc0d2670e28198488bcd0a9",
+    "research/NUMERICAL_TRUTH_AUDIT.md": "814472e902f4a85faf85db7d42f26791d9b7d93cfd11cadac841b42a071339e8",
+    "research/PHASE1_1_DECISION.md": "a2ddb03ae5131f9f7c17c0084d93c354e1321002a4701b80982b9c89cd360ebd",
+    "research/PHASE1_1_REPRODUCE.md": "10003141879f3af0b33083e18a6de28fbf1b69b403bd73b56fce65409ad86d67",
+    "research/REFERENCE_LABEL_PROTOCOL.md": "fa5f74bb0c4e45c3627c1540dd52cbb03e2867d62e83cf0c92f7b8a18cd7fa09",
+    ".gitattributes": "198b17b47844846e8a998aef1e323a376ed8140da1172ad7c3fec544ad720ae6"
+  },
+  "original_files_unchanged": true,
+  "original_inventory": "results/phase11/preservation_before.json"
+}

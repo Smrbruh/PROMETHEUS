@@ -1,0 +1,30 @@
+{
+  "schema_version": "prometheus.phase11.repair-kinematics.v1",
+  "created_utc": "2026-10-10T19:39:44.631589+00:00",
+  "command": [
+    "scripts/phase11_repair_kinematics.py",
+    "--output",
+    "results/phase11/kinematics/repair"
+  ],
+  "catalog_key": "v035_repair",
+  "catalog_identity_sha256": "bf8c06c3aec735410019bf75e7ae00d63c858eb9b523ff98774436c6ead985fb",
+  "input_sha256": {
+    "results/phase11/geometry/catalog.json": "a0e2612fa9befeb6dabc0c83a73dd295c6b14d888ae7349950b26a972d367f7f",
+    "results/phase11/refinement/attempts/v035_repair/h0.25/record.json": "8d5a4823cf1f74f33b7963a0339e63abcc236eb1b00343067564defe3e8101f8",
+    "results/phase11/refinement/attempts/v035_repair/h0.25/fields.npz": "5b2b991b47b77bf047b9a3d17d096172c1ab7c7e63fffc0e0370a6a8411469e0",
+    "results/phase11/geometry/arrays/v035_repair_d51ed6f3d6179ed7.npy": "1a2febe9572c3a6a5ef6ddd27716017fd8817fcdc45f6d8d9ac3bb5b2e55c47a",
+    "results/phase1_v035/source_mesh.npz": "7c2160c57f8123e51c7fd462253ed42cede81f429ecdd738b26cc65405d43d52"
+  },
+  "code_protocol_sha256": {
+    "scripts/phase11_repair_kinematics.py": "acc5d2a50aaf2bf934ecf6c4bf88a7420909d8f357a6991cb48f37403ae4bb95",
+    "scripts/phase11_kinematics.py": "95fe59b2e8693c4b58dfbc849d09d2aa0870b10a96c5ec40ee3587e5ed561ee1",
+    "prometheus/kinematic_audit.py": "43f9713d72c4d98fa1e700c47466f8379e27b93d73d678fdd105302c40d79997",
+    "prometheus/fem.py": "f054d215bfb39499f80ff48eea2bb641fc3f88b904ca86d701916091ad101708",
+    "research/REFERENCE_LABEL_PROTOCOL.md": "fa5f74bb0c4e45c3627c1540dd52cbb03e2867d62e83cf0c92f7b8a18cd7fa09"
+  },
+  "python": "3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.4.6",
+  "source_preservation_checked": true,
+  "basis": "RIGHT/DOWN columns already scaled to1000N; angle coefficients sin(theta),cos(theta)",
+  "scope": "Late computed Q4 addendum only; no mechanics solve or acceptance change"
+}

@@ -1,0 +1,227 @@
+[
+  {
+    "id": "R01",
+    "title": "A general framework for robust topology optimization under load-uncertainty including stress constraints",
+    "authors": [
+      "Carl-Johan Thore",
+      "Erik Holmberg",
+      "Anders Klarbring"
+    ],
+    "year": 2017,
+    "venue": "Computer Methods in Applied Mechanics and Engineering 319, 1–18",
+    "doi": "10.1016/j.cma.2017.02.015",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0045782516318102",
+    "access": "Publisher abstract, highlights and introduction preview retrieved; not full-paper reproduction.",
+    "contribution": "Worst-case load formulations including compliance and stress.",
+    "supported_claim": "Robust load counterexamples and worst-case stress are established prior art.",
+    "limitations": "Numerical demonstrations do not validate PROMETHEUS or arbitrary manufacturing/physical uncertainty."
+  },
+  {
+    "id": "R02",
+    "title": "AK-MCS: An active learning reliability method combining Kriging and Monte Carlo Simulation",
+    "authors": [
+      "B. Echard",
+      "N. Gayton",
+      "M. Lemaire"
+    ],
+    "year": 2011,
+    "venue": "Structural Safety 33(2), 145–154",
+    "doi": "10.1016/j.strusafe.2011.01.002",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0167473011000038",
+    "access": "Publisher indexed abstract/introduction/section previews; direct full-page retrieval failed.",
+    "contribution": "Sequential Kriging classification near a reliability limit state.",
+    "supported_claim": "Adaptive selection of expensive evaluations near feasibility boundaries is established.",
+    "limitations": "Reliability estimation over a distribution differs from design ranking; proposed adaptations require labeling and fair tuning."
+  },
+  {
+    "id": "R03",
+    "title": "Active learning for structural reliability: survey, general framework and benchmark",
+    "authors": [
+      "M. Moustapha",
+      "S. Marelli",
+      "B. Sudret"
+    ],
+    "year": 2022,
+    "venue": "Structural Safety, article 102174; arXiv:2106.01713 v2",
+    "doi": "10.1016/j.strusafe.2021.102174",
+    "url": "https://arxiv.org/abs/2106.01713",
+    "access": "Author-deposited abstract and journal metadata accessed.",
+    "contribution": "Modular reliability framework and comparison of 39 strategies on 20 problems.",
+    "supported_claim": "Surrogate, reliability estimator, acquisition and stopping rule must all be controlled in comparisons.",
+    "limitations": "Cross-method study is useful benchmark evidence, not independent replication of proposed PROMETHEUS."
+  },
+  {
+    "id": "R04",
+    "title": "Robust optimisation of computationally expensive models using adaptive multi-fidelity emulation",
+    "authors": [
+      "M. Ellison",
+      "F. A. DiazDelaO",
+      "N. Z. Ince",
+      "M. Willetts"
+    ],
+    "year": 2021,
+    "venue": "Applied Mathematical Modelling 100, 92–106",
+    "doi": "10.1016/j.apm.2021.07.020",
+    "url": "https://discovery.ucl.ac.uk/id/eprint/10134527/",
+    "access": "Institutional metadata and abstract, open full-text link located.",
+    "contribution": "Gaussian-process robust optimization with adaptive multifidelity training.",
+    "supported_claim": "Combining robustness, surrogates and fidelity allocation is not new.",
+    "limitations": "Repository abstract supports mechanism; no reproduced performance or license conclusion about code."
+  },
+  {
+    "id": "R05",
+    "title": "A Latent Variable Approach for Non-Hierarchical Multi-Fidelity Adaptive Sampling",
+    "authors": [
+      "Yi-Ping Chen",
+      "Liwei Wang",
+      "Yigitcan Comlek",
+      "Wei Chen"
+    ],
+    "year": 2024,
+    "venue": "Computer Methods in Applied Mechanics and Engineering 421, 116773",
+    "doi": "10.1016/j.cma.2024.116773",
+    "url": "https://arxiv.org/abs/2310.03298",
+    "access": "Author preprint metadata; publisher indexed text and author's laboratory PDF first page verified.",
+    "contribution": "MuFASa uses latent-variable GP correlation and pre-posterior sample benefit across fidelities.",
+    "supported_claim": "Benefit per cost and nonhierarchical fidelity selection are existing mechanisms.",
+    "limitations": "Author-reported gains; no independent replication checked; no presumed guarantee for geometric discontinuities."
+  },
+  {
+    "id": "R06",
+    "title": "Robust topology optimization of continuum structures under material uncertainties using multifidelity Monte Carlo",
+    "authors": [
+      "Jaeyub Hyun",
+      "Anirban Chaudhuri",
+      "Karen E. Willcox",
+      "H. Alicia Kim"
+    ],
+    "year": 2026,
+    "venue": "Computer Methods in Applied Mechanics and Engineering 451, 118714 (1 April 2026)",
+    "doi": "10.1016/j.cma.2025.118714",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0045782525009867",
+    "access": "Publisher indexed abstract, metadata and section previews; direct abs-page returned 403.",
+    "contribution": "MFMC model selection and sample allocation inside robust density topology optimization.",
+    "supported_claim": "Robust topology optimization with cost-aware fidelity allocation is already published.",
+    "limitations": "DOI includes 2025 but journal issue is 2026. Speedup claims are author reports and not transferred to this PC or bracket."
+  },
+  {
+    "id": "R07",
+    "title": "AK-MCS-C2: Active Kriging Monte Carlo Simulation method with conformal certification for failure probability estimation",
+    "authors": [
+      "Edgar Jaber",
+      "Vincent Chabridon",
+      "Mathilde Mougeot"
+    ],
+    "year": 2026,
+    "venue": "arXiv:2606.20191 v1, submitted 18 June 2026; preprint",
+    "doi": "10.48550/arXiv.2606.20191",
+    "url": "https://arxiv.org/abs/2606.20191",
+    "access": "Author-deposited metadata and abstract only.",
+    "contribution": "Active Kriging with cross-conformal error control.",
+    "supported_claim": "Calibrated/certified active reliability learning is an active and crowded frontier.",
+    "limitations": "Guarantee assumptions and proofs not reviewed; no journal peer review or independent validation verified. Do not adopt guarantees."
+  },
+  {
+    "id": "R08",
+    "title": "Bayesian calibration of computer models",
+    "authors": [
+      "Marc C. Kennedy",
+      "Anthony O'Hagan"
+    ],
+    "year": 2001,
+    "venue": "Journal of the Royal Statistical Society: Series B 63(3), 425–464",
+    "doi": "10.1111/1467-9868.00294",
+    "url": "https://rss.onlinelibrary.wiley.com/doi/abs/10.1111/1467-9868.00294",
+    "access": "Publisher bibliographic details and abstract; issue year 2001 despite webpage electronic date 2002.",
+    "contribution": "Joint calibration uncertainty and model discrepancy.",
+    "supported_claim": "Learning simulation-to-observation discrepancy has a longstanding mathematical basis.",
+    "limitations": "Calibration is not validation; parameter/discrepancy identifiability must be examined on independent observations."
+  },
+  {
+    "id": "R09",
+    "title": "Bayesian experimental design for model discrepancy calibration: An auto-differentiable ensemble Kalman inversion approach",
+    "authors": [
+      "Huchen Yang",
+      "Xinghao Dong",
+      "Jin-Long Wu"
+    ],
+    "year": 2026,
+    "venue": "Journal of Computational Physics 545, 114469 (15 January 2026)",
+    "doi": "10.1016/j.jcp.2025.114469",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S002199912500751X",
+    "access": "Publisher indexed metadata and abstract preview.",
+    "contribution": "Experimental design accounting for model discrepancy through differentiable ensemble Kalman inversion.",
+    "supported_claim": "Selecting experiments to learn discrepancy is itself prior art.",
+    "limitations": "No full derivation audit, code execution or independent replication. DOI year differs from journal issue year."
+  },
+  {
+    "id": "R10",
+    "title": "Machine learning techniques for generating designs for three-dimensional objects",
+    "authors": [
+      "Ran Zhang",
+      "Morgan Fabian",
+      "Ebot Ndip-Agbor",
+      "Lee Morris Taylor"
+    ],
+    "year": 2022,
+    "venue": "US11468634B2; Autodesk Inc.; published 11 October 2022",
+    "doi": null,
+    "url": "https://patents.google.com/patent/US11468634B2/en",
+    "access": "Public patent text including bibliographic data and description accessed.",
+    "contribution": "Describes using coarse structural analyses and learned updates of finer design geometry.",
+    "supported_claim": "Coarse/fine ML-assisted generative topology workflows have patent prior art.",
+    "limitations": "Technical disclosure only; not performance validation, exhaustive patent search, claim construction, enforceability or freedom-to-operate opinion."
+  }
+,
+{
+  "id": "R11",
+  "title": "Multi-Information Source Optimization",
+  "authors": [
+    "Matthias Poloczek",
+    "Jialei Wang",
+    "Peter I. Frazier"
+  ],
+  "year": 2017,
+  "venue": "Advances in Neural Information Processing Systems 30",
+  "doi": null,
+  "url": "https://papers.nips.cc/paper_files/paper/2017/hash/df1f1d20ee86704251795841e6a9405a-Abstract.html",
+  "access": "Primary conference abstract and paper text retrieved.",
+  "contribution": "Knowledge-gradient information selection across biased, noisy, differently priced models.",
+  "supported_claim": "Discrepancy-aware expected benefit per cost is established, directly challenging H2's generic acquisition.",
+  "limitations": "No automatic guarantee under discontinuous topology, unknown fidelity bias or feasibility constraints."
+},
+{
+  "id": "R12",
+  "title": "Multi-Fidelity Best-Arm Identification",
+  "authors": [
+    "Riccardo Poiani",
+    "Alberto Maria Metelli",
+    "Marcello Restelli"
+  ],
+  "year": 2022,
+  "venue": "Advances in Neural Information Processing Systems 35",
+  "doi": "10.52202/068431-1298",
+  "url": "https://papers.neurips.cc/paper_files/paper/2022/hash/71c31ebf577ffdad5f4a74156daad518-Abstract-Conference.html",
+  "access": "Primary conference abstract and paper text; DOI displayed on proceedings page.",
+  "contribution": "Cost bounds and successive elimination using known fidelity bias bounds.",
+  "supported_claim": "Finite-catalogue multifidelity selection is an established research problem.",
+  "limitations": "Known bias-bound and stochastic observation assumptions do not automatically hold for deterministic FE reconstruction discrepancy."
+},
+{
+  "id": "R13",
+  "title": "An efficient simulation procedure for ranking the top simulated designs in the presence of stochastic constraints",
+  "authors": [
+    "Hui Xiao",
+    "Hu Chen",
+    "Loo Hay Lee"
+  ],
+  "year": 2019,
+  "venue": "Automatica 103, 106–115",
+  "doi": "10.1016/j.automatica.2018.12.008",
+  "url": "https://www.sciencedirect.com/science/article/pii/S0005109818306071",
+  "access": "Publisher metadata, abstract and introduction preview.",
+  "contribution": "Simulation budget allocation for ranking feasible designs.",
+  "supported_claim": "Constrained ranking and selection, not merely unconstrained BO, must be included in H2 prior art.",
+  "limitations": "Stochastic simulation allocation differs from deterministic mesh/model bias; adapting it requires explicit assumptions."
+}
+]

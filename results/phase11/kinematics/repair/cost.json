@@ -1,0 +1,10 @@
+{
+  "wall_seconds": 1.8308434000355192,
+  "cpu_seconds": 1.59375,
+  "factorizations": 0,
+  "rhs_solves": 0,
+  "mechanics_solves": 0,
+  "records": 3,
+  "source_attempt_wall_seconds": 13.2930513000465,
+  "note": "Postprocessing cost is separate from the archived Q4/P2 attempt cost; the P2 failure remains recorded"
+}

@@ -1,0 +1,17 @@
+{
+  "passed": false,
+  "status": "resolution_unverified",
+  "q4_compliance_h1_to_h0_5": 0.013371003784732875,
+  "q4_pad_h1_to_h0_5": 0.013810416871788689,
+  "p2_compliance_h1_to_h0_5": 0.004624265517838773,
+  "p2_pad_h1_to_h0_5": 0.004777353202394867,
+  "finest_compliance_agreement": 0.006230623413846746,
+  "finest_pad_agreement": 0.0064653173861304045,
+  "q4_compliance_h2_to_h1": 0.03231327317447532,
+  "p2_compliance_h2_to_h1": 0.009844116035611779,
+  "compliance_refinement_trend_improves": true,
+  "q4_compliance_nondecreasing": true,
+  "p2_compliance_nondecreasing": true,
+  "compliance_monotonicity_relative_tolerance": 1e-08,
+  "physical_validation": "not_assessed"
+}

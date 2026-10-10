@@ -1,0 +1,548 @@
+[
+  {
+    "catalog_key": "v035_B0",
+    "mesh_h_mm": 2.0,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v035_B0",
+    "mesh_h_mm": 1.0,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v035_B0",
+    "mesh_h_mm": 0.5,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v035_B0",
+    "mesh_h_mm": 0.25,
+    "status": "not_required_all_declared_angles_passed",
+    "attempt_record_exists": false,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v035_B0",
+    "mesh_h_mm": 0.125,
+    "status": "not_required_all_declared_angles_passed",
+    "attempt_record_exists": false,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v035_B0",
+    "mesh_h_mm": 0.0625,
+    "status": "not_required_all_declared_angles_passed",
+    "attempt_record_exists": false,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v035_B1",
+    "mesh_h_mm": 2.0,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v035_B1",
+    "mesh_h_mm": 1.0,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v035_B1",
+    "mesh_h_mm": 0.5,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v035_B1",
+    "mesh_h_mm": 0.25,
+    "status": "independent_verification_failed",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v035_B1",
+    "mesh_h_mm": 0.125,
+    "status": "not_attempted_after_terminal_failure",
+    "attempt_record_exists": false,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v035_B1",
+    "mesh_h_mm": 0.0625,
+    "status": "not_attempted_after_terminal_failure",
+    "attempt_record_exists": false,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v035_B3_binary",
+    "mesh_h_mm": 2.0,
+    "status": "geometry_failed",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v035_B3_binary",
+    "mesh_h_mm": 1.0,
+    "status": "not_attempted_geometry_rejected",
+    "attempt_record_exists": false,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v035_B3_binary",
+    "mesh_h_mm": 0.5,
+    "status": "not_attempted_geometry_rejected",
+    "attempt_record_exists": false,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v035_B3_binary",
+    "mesh_h_mm": 0.25,
+    "status": "not_attempted_geometry_rejected",
+    "attempt_record_exists": false,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v035_B3_binary",
+    "mesh_h_mm": 0.125,
+    "status": "not_attempted_geometry_rejected",
+    "attempt_record_exists": false,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v035_B3_binary",
+    "mesh_h_mm": 0.0625,
+    "status": "not_attempted_geometry_rejected",
+    "attempt_record_exists": false,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v035_B3_threshold",
+    "mesh_h_mm": 2.0,
+    "status": "geometry_failed",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v035_B3_threshold",
+    "mesh_h_mm": 1.0,
+    "status": "not_attempted_geometry_rejected",
+    "attempt_record_exists": false,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v035_B3_threshold",
+    "mesh_h_mm": 0.5,
+    "status": "not_attempted_geometry_rejected",
+    "attempt_record_exists": false,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v035_B3_threshold",
+    "mesh_h_mm": 0.25,
+    "status": "not_attempted_geometry_rejected",
+    "attempt_record_exists": false,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v035_B3_threshold",
+    "mesh_h_mm": 0.125,
+    "status": "not_attempted_geometry_rejected",
+    "attempt_record_exists": false,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v035_B3_threshold",
+    "mesh_h_mm": 0.0625,
+    "status": "not_attempted_geometry_rejected",
+    "attempt_record_exists": false,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v040_B0",
+    "mesh_h_mm": 2.0,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v040_B0",
+    "mesh_h_mm": 1.0,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v040_B0",
+    "mesh_h_mm": 0.5,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v040_B0",
+    "mesh_h_mm": 0.25,
+    "status": "not_required_all_declared_angles_passed",
+    "attempt_record_exists": false,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v040_B0",
+    "mesh_h_mm": 0.125,
+    "status": "not_required_all_declared_angles_passed",
+    "attempt_record_exists": false,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v040_B0",
+    "mesh_h_mm": 0.0625,
+    "status": "not_required_all_declared_angles_passed",
+    "attempt_record_exists": false,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v040_B1",
+    "mesh_h_mm": 2.0,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v040_B1",
+    "mesh_h_mm": 1.0,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v040_B1",
+    "mesh_h_mm": 0.5,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v040_B1",
+    "mesh_h_mm": 0.25,
+    "status": "not_required_all_declared_angles_passed",
+    "attempt_record_exists": false,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v040_B1",
+    "mesh_h_mm": 0.125,
+    "status": "not_required_all_declared_angles_passed",
+    "attempt_record_exists": false,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v040_B1",
+    "mesh_h_mm": 0.0625,
+    "status": "not_required_all_declared_angles_passed",
+    "attempt_record_exists": false,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v040_B3_binary",
+    "mesh_h_mm": 2.0,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v040_B3_binary",
+    "mesh_h_mm": 1.0,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v040_B3_binary",
+    "mesh_h_mm": 0.5,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v040_B3_binary",
+    "mesh_h_mm": 0.25,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v040_B3_binary",
+    "mesh_h_mm": 0.125,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v040_B3_binary",
+    "mesh_h_mm": 0.0625,
+    "status": "not_required_all_declared_angles_passed",
+    "attempt_record_exists": false,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v040_B3_threshold",
+    "mesh_h_mm": 2.0,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v040_B3_threshold",
+    "mesh_h_mm": 1.0,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v040_B3_threshold",
+    "mesh_h_mm": 0.5,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v040_B3_threshold",
+    "mesh_h_mm": 0.25,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v040_B3_threshold",
+    "mesh_h_mm": 0.125,
+    "status": "memory_limit",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v040_B3_threshold",
+    "mesh_h_mm": 0.0625,
+    "status": "not_attempted_after_terminal_failure",
+    "attempt_record_exists": false,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v045_B0",
+    "mesh_h_mm": 2.0,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v045_B0",
+    "mesh_h_mm": 1.0,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v045_B0",
+    "mesh_h_mm": 0.5,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v045_B0",
+    "mesh_h_mm": 0.25,
+    "status": "not_required_all_declared_angles_passed",
+    "attempt_record_exists": false,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v045_B0",
+    "mesh_h_mm": 0.125,
+    "status": "not_required_all_declared_angles_passed",
+    "attempt_record_exists": false,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v045_B0",
+    "mesh_h_mm": 0.0625,
+    "status": "not_required_all_declared_angles_passed",
+    "attempt_record_exists": false,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v045_B1",
+    "mesh_h_mm": 2.0,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v045_B1",
+    "mesh_h_mm": 1.0,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v045_B1",
+    "mesh_h_mm": 0.5,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v045_B1",
+    "mesh_h_mm": 0.25,
+    "status": "not_required_all_declared_angles_passed",
+    "attempt_record_exists": false,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v045_B1",
+    "mesh_h_mm": 0.125,
+    "status": "not_required_all_declared_angles_passed",
+    "attempt_record_exists": false,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v045_B1",
+    "mesh_h_mm": 0.0625,
+    "status": "not_required_all_declared_angles_passed",
+    "attempt_record_exists": false,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v045_B3_binary",
+    "mesh_h_mm": 2.0,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v045_B3_binary",
+    "mesh_h_mm": 1.0,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v045_B3_binary",
+    "mesh_h_mm": 0.5,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v045_B3_binary",
+    "mesh_h_mm": 0.25,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v045_B3_binary",
+    "mesh_h_mm": 0.125,
+    "status": "independent_verification_failed",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v045_B3_binary",
+    "mesh_h_mm": 0.0625,
+    "status": "not_attempted_after_terminal_failure",
+    "attempt_record_exists": false,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v045_B3_threshold",
+    "mesh_h_mm": 2.0,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v045_B3_threshold",
+    "mesh_h_mm": 1.0,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v045_B3_threshold",
+    "mesh_h_mm": 0.5,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v045_B3_threshold",
+    "mesh_h_mm": 0.25,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v045_B3_threshold",
+    "mesh_h_mm": 0.125,
+    "status": "memory_limit",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v045_B3_threshold",
+    "mesh_h_mm": 0.0625,
+    "status": "not_attempted_after_terminal_failure",
+    "attempt_record_exists": false,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v035_repair",
+    "mesh_h_mm": 2.0,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v035_repair",
+    "mesh_h_mm": 1.0,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v035_repair",
+    "mesh_h_mm": 0.5,
+    "status": "evaluated",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v035_repair",
+    "mesh_h_mm": 0.25,
+    "status": "independent_verification_failed",
+    "attempt_record_exists": true,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v035_repair",
+    "mesh_h_mm": 0.125,
+    "status": "not_attempted_after_terminal_failure",
+    "attempt_record_exists": false,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  },
+  {
+    "catalog_key": "v035_repair",
+    "mesh_h_mm": 0.0625,
+    "status": "not_attempted_after_terminal_failure",
+    "attempt_record_exists": false,
+    "note": "Conditional protocol: unattempted levels have no numerical response or convergence claim."
+  }
+]

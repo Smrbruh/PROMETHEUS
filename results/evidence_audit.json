@@ -1,0 +1,38 @@
+{
+  "checks_passed": true,
+  "scope": "Artifact integrity, not a new mechanics solve or physical validation",
+  "runs": [
+    {
+      "run": "phase1_v040_verified",
+      "summary_sha256": "fba3f60f79a07661b385f268f77ed4420dd6e88cfa7ef3ef6ee22ed57ab5ac38",
+      "candidate_groups": 6,
+      "source_and_specification_hashes_match": true,
+      "arrays_counts_and_statuses_match": true
+    },
+    {
+      "run": "phase1_v035",
+      "summary_sha256": "affc8ce68901ba705e44e2d5aae714bf5d1a857582d17cf8ea6ea269f57ab041",
+      "candidate_groups": 6,
+      "source_and_specification_hashes_match": true,
+      "arrays_counts_and_statuses_match": true
+    },
+    {
+      "run": "phase1_v045",
+      "summary_sha256": "d760797649807e1e64b1741ebe4a0cba7a3144b9bcb0c0a82fc8e34ef2484730",
+      "candidate_groups": 6,
+      "source_and_specification_hashes_match": true,
+      "arrays_counts_and_statuses_match": true
+    },
+    {
+      "run": "phase1_h1_reoptimization",
+      "summary_sha256": "b94b0874e42de309484465759467fa444637ca0bb17959608eb8d40be69e5f4b",
+      "candidate_groups": 1,
+      "source_and_specification_hashes_match": true,
+      "arrays_counts_and_statuses_match": true
+    }
+  ],
+  "tests": 104,
+  "test_record_sha256": "78d4fd336a666e9e4320e06acd7116ea491134931026150960e1919c6a93b91b",
+  "report_links_checked": 7,
+  "script_sha256": "c945d1d2452eba694f68d8de80dfbf94216ee3bdec31a60b53bb9a866042cee7"
+}

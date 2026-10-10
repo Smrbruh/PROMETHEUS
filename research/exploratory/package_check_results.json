@@ -1,0 +1,9 @@
+{
+  "scope": "structural document QA, not scientific validation",
+  "required_documents": 12,
+  "markdown_files": 24,
+  "source_records": 102,
+  "local_links_checked": 96,
+  "issues": [],
+  "passed": true
+}

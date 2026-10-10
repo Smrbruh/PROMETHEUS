@@ -1,0 +1,5 @@
+# Versions actually used in the Phase 1 environment; Python 3.14.4 / Windows.
+numpy==2.4.6
+scipy==1.17.1
+pytest==9.1.0
+matplotlib==3.10.9

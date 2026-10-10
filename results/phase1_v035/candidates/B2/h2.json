@@ -1,0 +1,78 @@
+{
+  "candidate": "B2",
+  "hash": "35f2a4d1914e55f87dd0937cff24fc2ac47aa0564e05128ef61f2a79e5fc0b4c",
+  "problem_signature": "866559087802b1868d0101ae443b20bbae110d5e0aabf6d3b62d4655de01f3ad",
+  "source_geometry_hash": "d82f15258d19e8901879bcbd238013f2fbb52684123eb133b2f056c82ebcbc7a",
+  "representation": "density",
+  "mesh_h_mm": 2.0,
+  "source_h_mm": 2.0,
+  "volume_mm3": 11199.999999999845,
+  "mass_kg": 0.030239999999999583,
+  "volume_fraction": 0.34999999999999515,
+  "volume_budget_fraction": 0.35,
+  "volume_feasible": true,
+  "pads_preserved": true,
+  "geometry_status": null,
+  "status": "evaluated",
+  "solver_passed": true,
+  "optimization_feasible": true,
+  "independent_verified": false,
+  "physical_validation": "not_assessed",
+  "manufacturability": "not_assessed",
+  "response_feasibility": "not_defined_no_response_limit",
+  "stress_status": "diagnostic_only",
+  "factorizations": 1,
+  "rhs_solves": 2,
+  "q4_elements": 1600,
+  "q4_ndof": 3402,
+  "compliance_n_mm": 18256.37624096944,
+  "primary_analysis_seconds": 0.08086420001927763,
+  "diagnostics": {
+    "residual_max": 6.469165312149165e-11,
+    "symmetry_error": 1.0414463507727917e-17,
+    "energy_error_max": 2.0179246913242506e-11,
+    "element_energy_error_max": 6.394628286633604e-11,
+    "force_balance_max": 7.522550606451287e-11,
+    "moment_balance_max": 7.218277460196986e-11,
+    "minimum_relative_lu_pivot": 0.0015415983747751666,
+    "pivot_ratio_is_condition_estimate": false,
+    "energy_includes_prescribed_displacement_work": false,
+    "solver": "scipy.sparse.linalg.splu",
+    "ordering": "COLAMD",
+    "passed": true
+  },
+  "load_gram": [
+    [
+      1671.5128845835309,
+      -3360.068075565039
+    ],
+    [
+      -3360.068075555096,
+      18256.37624096944
+    ]
+  ],
+  "load_weighted_displacement_mm": 18.256376240969438,
+  "max_displacement_all_nodes_mm": 19.823781021834034,
+  "max_material_displacement_mm": 19.084939194316963,
+  "max_pad_displacement_mm": 19.084939194316963,
+  "small_deformation_review_trigger": true,
+  "worst_compliance_n_mm": 18911.261513119527,
+  "worst_angle_degrees": -11.028820700726605,
+  "load_gram_diagnostics": {
+    "reciprocity_relative": 7.424847332108561e-13,
+    "reciprocity_tolerance": 1e-08,
+    "reciprocity_passed": true,
+    "uses_symmetric_quadratic_part": true
+  },
+  "grey_indicator": 0.8046883132668273,
+  "stress": {
+    "unrestricted_peak_mpa": 194.2731604432064,
+    "regular_p95_mpa": 69.94869648111639,
+    "regular_region_area_mm2": 488.0,
+    "regular_region_status": "defined",
+    "diagnostic_only": true
+  },
+  "wall_seconds": 0.166364100005012,
+  "cpu_seconds": 0.09375,
+  "process_peak_memory_bytes": 2130931712
+}

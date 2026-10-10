@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "status": "numerically_verified",
+  "q4_compliance_h1_to_h0_5": 0.008470663477181896,
+  "q4_pad_h1_to_h0_5": 0.008112065427884911,
+  "p2_compliance_h1_to_h0_5": 0.0017817088726355317,
+  "p2_pad_h1_to_h0_5": 0.0016358754810495912,
+  "finest_compliance_agreement": 0.0032892068758831874,
+  "finest_pad_agreement": 0.003148171401068569,
+  "q4_compliance_h2_to_h1": 0.025777017105895313,
+  "p2_compliance_h2_to_h1": 0.004369649520399554,
+  "compliance_refinement_trend_improves": true,
+  "q4_compliance_nondecreasing": true,
+  "p2_compliance_nondecreasing": true,
+  "compliance_monotonicity_relative_tolerance": 1e-08,
+  "physical_validation": "not_assessed"
+}

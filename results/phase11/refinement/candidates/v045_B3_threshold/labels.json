@@ -1,0 +1,251 @@
+{
+  "-20.0": {
+    "schema_version": "phase1.1-reference-label-v1",
+    "numerical_status": "unresolved",
+    "passed": false,
+    "eligible_reference": false,
+    "classification": "constraint_over_budget",
+    "verified_metrics": [
+      "compliance_n_mm",
+      "max_pad_displacement_mm"
+    ],
+    "physical_validation": "not_assessed",
+    "finest_is_exact_truth": false,
+    "historical_label": {
+      "passed": false,
+      "status": "resolution_unverified",
+      "q4_compliance_h1_to_h0_5": 0.02024986801335237,
+      "q4_pad_h1_to_h0_5": 0.01882050055742017,
+      "p2_compliance_h1_to_h0_5": 0.0077254689398999635,
+      "p2_pad_h1_to_h0_5": 0.007180441254298568,
+      "finest_compliance_agreement": 0.009539258303868321,
+      "finest_pad_agreement": 0.008865998624986509,
+      "q4_compliance_h2_to_h1": 0.0451920171409118,
+      "p2_compliance_h2_to_h1": 0.016607176363960592,
+      "compliance_refinement_trend_improves": true,
+      "q4_compliance_nondecreasing": true,
+      "p2_compliance_nondecreasing": true,
+      "compliance_monotonicity_relative_tolerance": 1e-08,
+      "physical_validation": "not_assessed"
+    },
+    "historical_label_modified": false,
+    "reason_codes": [
+      "unsuccessful_selected_attempt",
+      "independent_missing"
+    ],
+    "reasons": [
+      "h=0.125 has status 'memory_limit'; no accepted solve is inferred",
+      "h=0.125 has no independent response record"
+    ],
+    "selected_levels_mm": [
+      0.5,
+      0.25,
+      0.125
+    ],
+    "reference_estimate": null,
+    "thresholds": {
+      "compliance_relative": 0.01,
+      "pad_relative": 0.02,
+      "compliance_monotonicity_relative": 1e-08,
+      "compliance_trend_comparison_slack": 1e-10,
+      "volume_full_domain_fraction_slack": 1e-06,
+      "same_h_q4_p2_agreement_required": true
+    },
+    "geometry_status": "geometry_valid",
+    "geometry_reason": "Edge connectivity, preserved pads and absence of local point contacts established",
+    "constraint_status": "over_budget",
+    "constraint_reason": "Measured material volume exceeds the declared budget and tolerance",
+    "frozen_identity": {
+      "candidate": "B3_threshold",
+      "hash": "eb73e2d514d16b7d10bb36dbd3f0f7fa734f5a23055698cbb0cbe3e4a979fcee",
+      "representation": "binary",
+      "source_h_mm": 2.0,
+      "problem_signature": "9bb844198da403adbc8a36b62ae6f0dba2bc3ac50caca3db473f48db6fd62a9b",
+      "source_geometry_hash": "d82f15258d19e8901879bcbd238013f2fbb52684123eb133b2f056c82ebcbc7a",
+      "response_angle_degrees": -20.0
+    },
+    "response_angle_degrees": -20.0,
+    "response_scope": "Fixed -20-degree load; no other angle, angular maximum, stress or physical claim",
+    "attempted_levels_mm": [
+      2.0,
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "committed_levels_mm": [
+      2.0,
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "status": "constraint_over_budget"
+  },
+  "0.0": {
+    "schema_version": "phase1.1-reference-label-v1",
+    "numerical_status": "unresolved",
+    "passed": false,
+    "eligible_reference": false,
+    "classification": "constraint_over_budget",
+    "verified_metrics": [
+      "compliance_n_mm",
+      "max_pad_displacement_mm"
+    ],
+    "physical_validation": "not_assessed",
+    "finest_is_exact_truth": false,
+    "historical_label": {
+      "passed": false,
+      "status": "resolution_unverified",
+      "q4_compliance_h1_to_h0_5": 0.02024986801335237,
+      "q4_pad_h1_to_h0_5": 0.01882050055742017,
+      "p2_compliance_h1_to_h0_5": 0.0077254689398999635,
+      "p2_pad_h1_to_h0_5": 0.007180441254298568,
+      "finest_compliance_agreement": 0.009539258303868321,
+      "finest_pad_agreement": 0.008865998624986509,
+      "q4_compliance_h2_to_h1": 0.0451920171409118,
+      "p2_compliance_h2_to_h1": 0.016607176363960592,
+      "compliance_refinement_trend_improves": true,
+      "q4_compliance_nondecreasing": true,
+      "p2_compliance_nondecreasing": true,
+      "compliance_monotonicity_relative_tolerance": 1e-08,
+      "physical_validation": "not_assessed"
+    },
+    "historical_label_modified": false,
+    "reason_codes": [
+      "unsuccessful_selected_attempt",
+      "independent_missing"
+    ],
+    "reasons": [
+      "h=0.125 has status 'memory_limit'; no accepted solve is inferred",
+      "h=0.125 has no independent response record"
+    ],
+    "selected_levels_mm": [
+      0.5,
+      0.25,
+      0.125
+    ],
+    "reference_estimate": null,
+    "thresholds": {
+      "compliance_relative": 0.01,
+      "pad_relative": 0.02,
+      "compliance_monotonicity_relative": 1e-08,
+      "compliance_trend_comparison_slack": 1e-10,
+      "volume_full_domain_fraction_slack": 1e-06,
+      "same_h_q4_p2_agreement_required": true
+    },
+    "geometry_status": "geometry_valid",
+    "geometry_reason": "Edge connectivity, preserved pads and absence of local point contacts established",
+    "constraint_status": "over_budget",
+    "constraint_reason": "Measured material volume exceeds the declared budget and tolerance",
+    "frozen_identity": {
+      "candidate": "B3_threshold",
+      "hash": "eb73e2d514d16b7d10bb36dbd3f0f7fa734f5a23055698cbb0cbe3e4a979fcee",
+      "representation": "binary",
+      "source_h_mm": 2.0,
+      "problem_signature": "5dda08a8e2d399f34c010e4e272c554d9435a0697e0f4775c02006fe73f1940e",
+      "source_geometry_hash": "d82f15258d19e8901879bcbd238013f2fbb52684123eb133b2f056c82ebcbc7a",
+      "response_angle_degrees": 0.0
+    },
+    "response_angle_degrees": 0.0,
+    "response_scope": "Fixed 0-degree load; no other angle, angular maximum, stress or physical claim",
+    "attempted_levels_mm": [
+      2.0,
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "committed_levels_mm": [
+      2.0,
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "status": "constraint_over_budget"
+  },
+  "20.0": {
+    "schema_version": "phase1.1-reference-label-v1",
+    "numerical_status": "unresolved",
+    "passed": false,
+    "eligible_reference": false,
+    "classification": "constraint_over_budget",
+    "verified_metrics": [
+      "compliance_n_mm",
+      "max_pad_displacement_mm"
+    ],
+    "physical_validation": "not_assessed",
+    "finest_is_exact_truth": false,
+    "historical_label": {
+      "passed": false,
+      "status": "resolution_unverified",
+      "q4_compliance_h1_to_h0_5": 0.02024986801335237,
+      "q4_pad_h1_to_h0_5": 0.01882050055742017,
+      "p2_compliance_h1_to_h0_5": 0.0077254689398999635,
+      "p2_pad_h1_to_h0_5": 0.007180441254298568,
+      "finest_compliance_agreement": 0.009539258303868321,
+      "finest_pad_agreement": 0.008865998624986509,
+      "q4_compliance_h2_to_h1": 0.0451920171409118,
+      "p2_compliance_h2_to_h1": 0.016607176363960592,
+      "compliance_refinement_trend_improves": true,
+      "q4_compliance_nondecreasing": true,
+      "p2_compliance_nondecreasing": true,
+      "compliance_monotonicity_relative_tolerance": 1e-08,
+      "physical_validation": "not_assessed"
+    },
+    "historical_label_modified": false,
+    "reason_codes": [
+      "unsuccessful_selected_attempt",
+      "independent_missing"
+    ],
+    "reasons": [
+      "h=0.125 has status 'memory_limit'; no accepted solve is inferred",
+      "h=0.125 has no independent response record"
+    ],
+    "selected_levels_mm": [
+      0.5,
+      0.25,
+      0.125
+    ],
+    "reference_estimate": null,
+    "thresholds": {
+      "compliance_relative": 0.01,
+      "pad_relative": 0.02,
+      "compliance_monotonicity_relative": 1e-08,
+      "compliance_trend_comparison_slack": 1e-10,
+      "volume_full_domain_fraction_slack": 1e-06,
+      "same_h_q4_p2_agreement_required": true
+    },
+    "geometry_status": "geometry_valid",
+    "geometry_reason": "Edge connectivity, preserved pads and absence of local point contacts established",
+    "constraint_status": "over_budget",
+    "constraint_reason": "Measured material volume exceeds the declared budget and tolerance",
+    "frozen_identity": {
+      "candidate": "B3_threshold",
+      "hash": "eb73e2d514d16b7d10bb36dbd3f0f7fa734f5a23055698cbb0cbe3e4a979fcee",
+      "representation": "binary",
+      "source_h_mm": 2.0,
+      "problem_signature": "9d722ea673cf3cba8ba4a8860d72028ca7998e68d15a5fbddc561986066fa295",
+      "source_geometry_hash": "d82f15258d19e8901879bcbd238013f2fbb52684123eb133b2f056c82ebcbc7a",
+      "response_angle_degrees": 20.0
+    },
+    "response_angle_degrees": 20.0,
+    "response_scope": "Fixed 20-degree load; no other angle, angular maximum, stress or physical claim",
+    "attempted_levels_mm": [
+      2.0,
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "committed_levels_mm": [
+      2.0,
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "status": "constraint_over_budget"
+  }
+}

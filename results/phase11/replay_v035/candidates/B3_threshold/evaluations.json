@@ -1,0 +1,49 @@
+[
+  {
+    "candidate": "B3_threshold",
+    "hash": "66bd9932da9eeaa9a6b30009fc7ea32d2e1b93a8dac0765781c26cfe212126af",
+    "problem_signature": "866559087802b1868d0101ae443b20bbae110d5e0aabf6d3b62d4655de01f3ad",
+    "source_geometry_hash": "d82f15258d19e8901879bcbd238013f2fbb52684123eb133b2f056c82ebcbc7a",
+    "representation": "binary",
+    "mesh_h_mm": 2.0,
+    "source_h_mm": 2.0,
+    "volume_mm3": 10760.0,
+    "mass_kg": 0.029052,
+    "volume_fraction": 0.33625,
+    "volume_budget_fraction": 0.35,
+    "volume_feasible": true,
+    "pads_preserved": true,
+    "geometry_status": {
+      "valid": false,
+      "connected": false,
+      "pads_preserved": true,
+      "pads_present": true,
+      "support_pad_present": true,
+      "load_pad_present": true,
+      "pads_connected": true,
+      "component_count": 4,
+      "solid_cells": 538,
+      "solid_area": 2152.0,
+      "offending_area": 24.0,
+      "component_areas": [
+        2128.0,
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    "status": "geometry_failed",
+    "solver_passed": false,
+    "optimization_feasible": false,
+    "independent_verified": false,
+    "physical_validation": "not_assessed",
+    "manufacturability": "not_assessed",
+    "response_feasibility": "not_defined_no_response_limit",
+    "stress_status": "diagnostic_only",
+    "factorizations": 0,
+    "rhs_solves": 0,
+    "wall_seconds": 0.021268200012855232,
+    "cpu_seconds": 0.015625,
+    "process_peak_memory_bytes": 2129293312
+  }
+]

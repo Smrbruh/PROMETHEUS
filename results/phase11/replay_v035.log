@@ -1,0 +1,56 @@
+SIMP run 1/1, volume=0.35
+  evaluation 1: C=18256.376, V=0.35000000
+  evaluation 25: C=2798.3433, V=0.34999999
+  evaluation 50: C=2704.2352, V=0.34999999
+  evaluation 75: C=2690.8625, V=0.35000000
+  evaluation 100: C=2686.2448, V=0.34999999
+  evaluation 125: C=2683.6619, V=0.35000000
+  evaluation 150: C=2681.9974, V=0.35000000
+  evaluation 175: C=2680.7757, V=0.34999999
+Audit B0, h=2 mm
+Audit B0, h=1 mm
+Audit B0, h=0.5 mm
+Audit B1, h=2 mm
+Audit B1, h=1 mm
+Audit B1, h=0.5 mm
+Audit B2, h=2 mm
+Audit B3, h=2 mm
+Audit B3, h=1 mm
+Audit B3, h=0.5 mm
+Audit B3_binary, h=2 mm
+Audit B3_threshold, h=2 mm
+{
+  "output": "C:\\Users\\sayni\\Desktop\\PROMETHEUS\\results\\phase11\\replay_v035",
+  "optimization": "converged",
+  "evaluations": 179,
+  "reproducibility": {
+    "repeated": false,
+    "identical_arrays": null,
+    "identical_numerical_history": null
+  },
+  "verification": {
+    "B0": "numerically_verified",
+    "B1": "resolution_unverified",
+    "B2": "resolution_unverified",
+    "B3": "numerically_verified",
+    "B3_binary": "geometry_failed",
+    "B3_threshold": "geometry_failed"
+  },
+  "cost": {
+    "optimization_factorizations": 179,
+    "optimization_rhs_solves": 179,
+    "evaluation_factorizations": 19,
+    "evaluation_rhs_solves": 38,
+    "ersatz_factorizations": 2,
+    "ersatz_rhs_solves": 4,
+    "sensitivity_factorizations": 0,
+    "sensitivity_rhs_solves": 0,
+    "failed_audit_attempts": 0,
+    "wall_seconds": 68.53050599998096,
+    "cpu_seconds": 54.265625,
+    "peak_memory_bytes": 2129293312,
+    "completed_factorizations": 200,
+    "completed_rhs_solves": 221,
+    "failed_attempt_cost_note": "Failed attempts remain charged in wall/CPU time; factorization stage counts are unknown for failures."
+  }
+}

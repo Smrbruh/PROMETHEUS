@@ -1,0 +1,170 @@
+[
+  {
+    "volume_setting": 0.35,
+    "angle_degrees": -20.0,
+    "observed_unqualified_order": [
+      "v035_repair",
+      "v035_B1"
+    ],
+    "observed_meshes_mm": [
+      0.5,
+      0.5
+    ],
+    "eligible_order": [],
+    "within_2_percent_of_best": [],
+    "note": "Observed order may mix mesh spacings and is not an eligibility or certified continuum-ranking claim; tie margin is reporting only."
+  },
+  {
+    "volume_setting": 0.35,
+    "angle_degrees": 0.0,
+    "observed_unqualified_order": [
+      "v035_B1",
+      "v035_repair"
+    ],
+    "observed_meshes_mm": [
+      0.5,
+      0.5
+    ],
+    "eligible_order": [],
+    "within_2_percent_of_best": [],
+    "note": "Observed order may mix mesh spacings and is not an eligibility or certified continuum-ranking claim; tie margin is reporting only."
+  },
+  {
+    "volume_setting": 0.35,
+    "angle_degrees": 20.0,
+    "observed_unqualified_order": [
+      "v035_B1",
+      "v035_repair"
+    ],
+    "observed_meshes_mm": [
+      0.5,
+      0.5
+    ],
+    "eligible_order": [],
+    "within_2_percent_of_best": [],
+    "note": "Observed order may mix mesh spacings and is not an eligibility or certified continuum-ranking claim; tie margin is reporting only."
+  },
+  {
+    "volume_setting": 0.4,
+    "angle_degrees": -20.0,
+    "observed_unqualified_order": [
+      "v040_B3_binary",
+      "v040_B3_threshold",
+      "v040_B1"
+    ],
+    "observed_meshes_mm": [
+      0.125,
+      0.25,
+      0.5
+    ],
+    "eligible_order": [
+      "v040_B3_binary",
+      "v040_B1"
+    ],
+    "within_2_percent_of_best": [
+      "v040_B3_binary"
+    ],
+    "note": "Observed order may mix mesh spacings and is not an eligibility or certified continuum-ranking claim; tie margin is reporting only."
+  },
+  {
+    "volume_setting": 0.4,
+    "angle_degrees": 0.0,
+    "observed_unqualified_order": [
+      "v040_B3_binary",
+      "v040_B3_threshold",
+      "v040_B1"
+    ],
+    "observed_meshes_mm": [
+      0.125,
+      0.25,
+      0.5
+    ],
+    "eligible_order": [
+      "v040_B3_binary",
+      "v040_B1"
+    ],
+    "within_2_percent_of_best": [
+      "v040_B3_binary"
+    ],
+    "note": "Observed order may mix mesh spacings and is not an eligibility or certified continuum-ranking claim; tie margin is reporting only."
+  },
+  {
+    "volume_setting": 0.4,
+    "angle_degrees": 20.0,
+    "observed_unqualified_order": [
+      "v040_B3_binary",
+      "v040_B3_threshold",
+      "v040_B1"
+    ],
+    "observed_meshes_mm": [
+      0.125,
+      0.25,
+      0.5
+    ],
+    "eligible_order": [
+      "v040_B3_binary",
+      "v040_B1"
+    ],
+    "within_2_percent_of_best": [
+      "v040_B3_binary"
+    ],
+    "note": "Observed order may mix mesh spacings and is not an eligibility or certified continuum-ranking claim; tie margin is reporting only."
+  },
+  {
+    "volume_setting": 0.45,
+    "angle_degrees": -20.0,
+    "observed_unqualified_order": [
+      "v045_B3_binary",
+      "v045_B1"
+    ],
+    "observed_meshes_mm": [
+      0.25,
+      0.5
+    ],
+    "eligible_order": [
+      "v045_B1"
+    ],
+    "within_2_percent_of_best": [
+      "v045_B1"
+    ],
+    "note": "Observed order may mix mesh spacings and is not an eligibility or certified continuum-ranking claim; tie margin is reporting only."
+  },
+  {
+    "volume_setting": 0.45,
+    "angle_degrees": 0.0,
+    "observed_unqualified_order": [
+      "v045_B3_binary",
+      "v045_B1"
+    ],
+    "observed_meshes_mm": [
+      0.25,
+      0.5
+    ],
+    "eligible_order": [
+      "v045_B1"
+    ],
+    "within_2_percent_of_best": [
+      "v045_B1"
+    ],
+    "note": "Observed order may mix mesh spacings and is not an eligibility or certified continuum-ranking claim; tie margin is reporting only."
+  },
+  {
+    "volume_setting": 0.45,
+    "angle_degrees": 20.0,
+    "observed_unqualified_order": [
+      "v045_B3_binary",
+      "v045_B1"
+    ],
+    "observed_meshes_mm": [
+      0.25,
+      0.5
+    ],
+    "eligible_order": [
+      "v045_B1"
+    ],
+    "within_2_percent_of_best": [
+      "v045_B1"
+    ],
+    "note": "Observed order may mix mesh spacings and is not an eligibility or certified continuum-ranking claim; tie margin is reporting only."
+  }
+]

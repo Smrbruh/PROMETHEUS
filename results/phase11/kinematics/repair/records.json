@@ -1,0 +1,581 @@
+[
+  {
+    "catalog_key": "v035_repair",
+    "candidate_name": "binary-d51ed6f3d6179ed716f11b90d5e49f2f018436296d4e413422614fe9b0d152bd",
+    "catalog_identity_sha256": "bf8c06c3aec735410019bf75e7ae00d63c858eb9b523ff98774436c6ead985fb",
+    "geometry_sha256": "eda41e1e69baf7b8964ecb40ef05f4073d9af0c48e5ec4f15fbdb94fc82bb969",
+    "candidate_content_hash": "09f3f9a93969934b1f0bf8afe5c5d2385f949b36f584310296f04ea5cc463d0d",
+    "volume_setting": 0.35,
+    "actual_volume_fraction": 0.344375,
+    "angle_degrees": -20.0,
+    "load_magnitude_N": 1000.0,
+    "mesh_h_mm": 0.25,
+    "status": "kinematic_diagnostic_only_successful_q4_partial_audit",
+    "source_status": "independent_verification_failed",
+    "source_q4_solver_passed": true,
+    "source_independent_verified": false,
+    "source_independent_failure": {
+      "type": "ArithmeticError",
+      "message": "P2 free-DOF equilibrium residual exceeds 1e-8"
+    },
+    "source_fields_path": "results/phase11/refinement/attempts/v035_repair/h0.25/fields.npz",
+    "source_fields_sha256": "5b2b991b47b77bf047b9a3d17d096172c1ab7c7e63fffc0e0370a6a8411469e0",
+    "max_displacement_mm": 33.14714904389111,
+    "max_pad_displacement_mm": 33.14714904389111,
+    "max_displacement_over_120mm": 0.2762262420324259,
+    "max_pad_displacement_over_120mm": 0.2762262420324259,
+    "kinematics": {
+      "schema_version": 1,
+      "status": "kinematic_diagnostic_only",
+      "input_model": "One displacement field from the linear model; no new equilibrium solve",
+      "tensor_scope": "2D in-plane block only; no thickness strain or nonlinear plane-stress closure",
+      "definitions": {
+        "H_ij": "du_i/dX_j",
+        "linear_strain": "(H+H.T)/2",
+        "quadratic_correction": "H.T@H/2",
+        "green_lagrange": "linear_strain+quadratic_correction",
+        "infinitesimal_rotation": "(H_yx-H_xy)/2; not exact finite rotation",
+        "polar_rotation": "angle of proper polar rotation of F=I+H when det(F)>0"
+      },
+      "statistics": {
+        "weight": "reference area at Gauss points in mm^2",
+        "area_l2": "sqrt(sum(w*Frobenius_norm^2)); units mm for dimensionless tensor",
+        "area_rms": "area_l2/sqrt(reference area); dimensionless",
+        "area_weighted_p95": "inverse weighted empirical CDF; dimensionless",
+        "rotation_units": "radians; area_l2 carries radians times mm"
+      },
+      "quadrature_order": 2,
+      "cells": 35264,
+      "exclusion_radius_mm": 6.0,
+      "singular_points_mm": [
+        [
+          40.0,
+          40.0
+        ],
+        [
+          0.0,
+          80.0
+        ],
+        [
+          40.0,
+          80.0
+        ],
+        [
+          120.0,
+          10.0
+        ],
+        [
+          120.0,
+          30.0
+        ]
+      ],
+      "regular_region_caveat": "Original five singularities only; new pixel corners remain and no safety threshold follows",
+      "global": {
+        "status": "diagnostic_only",
+        "area_mm2": 2204.0000000000005,
+        "gauss_points": 141056,
+        "metrics": {
+          "displacement_gradient_frobenius": {
+            "area_l2": 22.547356895464812,
+            "area_rms": 0.4802748489852608,
+            "area_weighted_p95": 1.4126676267215321,
+            "maximum": 1.4330393418406877
+          },
+          "linear_strain_frobenius": {
+            "area_l2": 0.24279890428656478,
+            "area_rms": 0.005171790539824725,
+            "area_weighted_p95": 0.008317917413970255,
+            "maximum": 0.13530801616474372
+          },
+          "quadratic_correction_frobenius": {
+            "area_l2": 10.995674234573436,
+            "area_rms": 0.23421573566181908,
+            "area_weighted_p95": 0.7055617007315339,
+            "maximum": 0.7266820959355179
+          },
+          "green_lagrange_frobenius": {
+            "area_l2": 10.996776925454716,
+            "area_rms": 0.23423922376727374,
+            "area_weighted_p95": 0.7054996191588657,
+            "maximum": 0.7480369155071734
+          },
+          "skew_gradient_frobenius": {
+            "area_l2": 22.546049579993873,
+            "area_rms": 0.48024700222950617,
+            "area_weighted_p95": 1.4126671677210965,
+            "maximum": 1.432618594052024
+          },
+          "infinitesimal_rotation_absolute": {
+            "area_l2": 15.942464546981778,
+            "area_rms": 0.3395859119209948,
+            "area_weighted_p95": 0.9989065338551812,
+            "maximum": 1.0130143227081239
+          }
+        },
+        "quadratic_to_linear_area_l2_ratio": 45.28716580036839,
+        "quadratic_to_linear_p95_ratio": 84.82432147577187,
+        "ratio_note": "Ratios of region norms/statistics, not a percentile of pointwise ratios; zero denominators return null",
+        "polar_rotation_absolute_radians": {
+          "area_l2": 12.667716402950504,
+          "area_rms": 0.26983143126806586,
+          "area_weighted_p95": 0.7848818708809963,
+          "maximum": 0.7886411954255274
+        },
+        "polar_rotation_defined_area_mm2": 2204.0000000000005,
+        "determinant_F_minimum": 0.9491208916858866,
+        "determinant_F_maximum": 2.0537743959113204,
+        "nonpositive_determinant_area_mm2": 0.0,
+        "nonpositive_determinant_area_fraction": 0.0
+      },
+      "regular": {
+        "status": "diagnostic_only",
+        "area_mm2": 2006.2500000000005,
+        "gauss_points": 128400,
+        "metrics": {
+          "displacement_gradient_frobenius": {
+            "area_l2": 19.889316474011903,
+            "area_rms": 0.44404535695099057,
+            "area_weighted_p95": 1.4124134056955464,
+            "maximum": 1.4330393418406877
+          },
+          "linear_strain_frobenius": {
+            "area_l2": 0.24196073375945884,
+            "area_rms": 0.0054019724876281944,
+            "area_weighted_p95": 0.00912222349585435,
+            "maximum": 0.13530801616474372
+          },
+          "quadratic_correction_frobenius": {
+            "area_l2": 9.631671376854968,
+            "area_rms": 0.21503498926966913,
+            "area_weighted_p95": 0.7053080167014614,
+            "maximum": 0.7266820959355179
+          },
+          "green_lagrange_frobenius": {
+            "area_l2": 9.633204604556507,
+            "area_rms": 0.21506921983977983,
+            "area_weighted_p95": 0.7052221403473681,
+            "maximum": 0.7480369155071734
+          },
+          "skew_gradient_frobenius": {
+            "area_l2": 19.887844649602407,
+            "area_rms": 0.44401249725990277,
+            "area_weighted_p95": 1.412413345398145,
+            "maximum": 1.432618594052024
+          },
+          "infinitesimal_rotation_absolute": {
+            "area_l2": 14.06282981491846,
+            "area_rms": 0.31396424774405063,
+            "area_weighted_p95": 0.9987270543694056,
+            "maximum": 1.0130143227081239
+          }
+        },
+        "quadratic_to_linear_area_l2_ratio": 39.80675387780122,
+        "quadratic_to_linear_p95_ratio": 77.31755498229055,
+        "ratio_note": "Ratios of region norms/statistics, not a percentile of pointwise ratios; zero denominators return null",
+        "polar_rotation_absolute_radians": {
+          "area_l2": 11.209297375439332,
+          "area_rms": 0.25025678789668104,
+          "area_weighted_p95": 0.7847926968309124,
+          "maximum": 0.7886411954255274
+        },
+        "polar_rotation_defined_area_mm2": 2006.2500000000005,
+        "determinant_F_minimum": 0.9491208916858866,
+        "determinant_F_maximum": 2.0537743959113204,
+        "nonpositive_determinant_area_mm2": 0.0,
+        "nonpositive_determinant_area_fraction": 0.0
+      },
+      "interpretation": "Quadratic kinematic terms evaluated on a linear field; not nonlinear response, response error, strength, or a safe-load extrapolation",
+      "physical_validation": "not_assessed",
+      "nonlinear_equilibrium": "not_solved"
+    },
+    "factorizations": 0,
+    "rhs_solves": 0,
+    "acceptance_effect": "None; partial Q4 postprocessing does not confer P2 or reference acceptance"
+  },
+  {
+    "catalog_key": "v035_repair",
+    "candidate_name": "binary-d51ed6f3d6179ed716f11b90d5e49f2f018436296d4e413422614fe9b0d152bd",
+    "catalog_identity_sha256": "bf8c06c3aec735410019bf75e7ae00d63c858eb9b523ff98774436c6ead985fb",
+    "geometry_sha256": "eda41e1e69baf7b8964ecb40ef05f4073d9af0c48e5ec4f15fbdb94fc82bb969",
+    "candidate_content_hash": "09f3f9a93969934b1f0bf8afe5c5d2385f949b36f584310296f04ea5cc463d0d",
+    "volume_setting": 0.35,
+    "actual_volume_fraction": 0.344375,
+    "angle_degrees": 0.0,
+    "load_magnitude_N": 1000.0,
+    "mesh_h_mm": 0.25,
+    "status": "kinematic_diagnostic_only_successful_q4_partial_audit",
+    "source_status": "independent_verification_failed",
+    "source_q4_solver_passed": true,
+    "source_independent_verified": false,
+    "source_independent_failure": {
+      "type": "ArithmeticError",
+      "message": "P2 free-DOF equilibrium residual exceeds 1e-8"
+    },
+    "source_fields_path": "results/phase11/refinement/attempts/v035_repair/h0.25/fields.npz",
+    "source_fields_sha256": "5b2b991b47b77bf047b9a3d17d096172c1ab7c7e63fffc0e0370a6a8411469e0",
+    "max_displacement_mm": 43.95181757027756,
+    "max_pad_displacement_mm": 43.95181757027756,
+    "max_displacement_over_120mm": 0.36626514641897967,
+    "max_pad_displacement_over_120mm": 0.36626514641897967,
+    "kinematics": {
+      "schema_version": 1,
+      "status": "kinematic_diagnostic_only",
+      "input_model": "One displacement field from the linear model; no new equilibrium solve",
+      "tensor_scope": "2D in-plane block only; no thickness strain or nonlinear plane-stress closure",
+      "definitions": {
+        "H_ij": "du_i/dX_j",
+        "linear_strain": "(H+H.T)/2",
+        "quadratic_correction": "H.T@H/2",
+        "green_lagrange": "linear_strain+quadratic_correction",
+        "infinitesimal_rotation": "(H_yx-H_xy)/2; not exact finite rotation",
+        "polar_rotation": "angle of proper polar rotation of F=I+H when det(F)>0"
+      },
+      "statistics": {
+        "weight": "reference area at Gauss points in mm^2",
+        "area_l2": "sqrt(sum(w*Frobenius_norm^2)); units mm for dimensionless tensor",
+        "area_rms": "area_l2/sqrt(reference area); dimensionless",
+        "area_weighted_p95": "inverse weighted empirical CDF; dimensionless",
+        "rotation_units": "radians; area_l2 carries radians times mm"
+      },
+      "quadrature_order": 2,
+      "cells": 35264,
+      "exclusion_radius_mm": 6.0,
+      "singular_points_mm": [
+        [
+          40.0,
+          40.0
+        ],
+        [
+          0.0,
+          80.0
+        ],
+        [
+          40.0,
+          80.0
+        ],
+        [
+          120.0,
+          10.0
+        ],
+        [
+          120.0,
+          30.0
+        ]
+      ],
+      "regular_region_caveat": "Original five singularities only; new pixel corners remain and no safety threshold follows",
+      "global": {
+        "status": "diagnostic_only",
+        "area_mm2": 2204.0000000000005,
+        "gauss_points": 141056,
+        "metrics": {
+          "displacement_gradient_frobenius": {
+            "area_l2": 29.79998621919622,
+            "area_rms": 0.6347610474940448,
+            "area_weighted_p95": 1.867091498833463,
+            "maximum": 1.8945988387487054
+          },
+          "linear_strain_frobenius": {
+            "area_l2": 0.3165577653104073,
+            "area_rms": 0.006742907101459322,
+            "area_weighted_p95": 0.010851669165049682,
+            "maximum": 0.18259871068908978
+          },
+          "quadratic_correction_frobenius": {
+            "area_l2": 19.2125057610691,
+            "area_rms": 0.4092401315952867,
+            "area_weighted_p95": 1.2324980294486574,
+            "maximum": 1.2701873824109753
+          },
+          "green_lagrange_frobenius": {
+            "area_l2": 19.214112878878698,
+            "area_rms": 0.4092743643555559,
+            "area_weighted_p95": 1.2324614701825938,
+            "maximum": 1.29468964793847
+          },
+          "skew_gradient_frobenius": {
+            "area_l2": 29.798304814963974,
+            "area_rms": 0.6347252323797735,
+            "area_weighted_p95": 1.8670909525550257,
+            "maximum": 1.894034966928097
+          },
+          "infinitesimal_rotation_absolute": {
+            "area_l2": 21.070583402524775,
+            "area_rms": 0.4488185160059451,
+            "area_weighted_p95": 1.320232673643709,
+            "maximum": 1.3392849689192956
+          }
+        },
+        "quadratic_to_linear_area_l2_ratio": 60.69194272403925,
+        "quadratic_to_linear_p95_ratio": 113.57681576012317,
+        "ratio_note": "Ratios of region norms/statistics, not a percentile of pointwise ratios; zero denominators return null",
+        "polar_rotation_absolute_radians": {
+          "area_l2": 14.966752667630931,
+          "area_rms": 0.3188025501424526,
+          "area_weighted_p95": 0.9225682608815855,
+          "maximum": 0.9262529866532108
+        },
+        "polar_rotation_defined_area_mm2": 2204.0000000000005,
+        "determinant_F_minimum": 0.9483650763932363,
+        "determinant_F_maximum": 2.8269835320853365,
+        "nonpositive_determinant_area_mm2": 0.0,
+        "nonpositive_determinant_area_fraction": 0.0
+      },
+      "regular": {
+        "status": "diagnostic_only",
+        "area_mm2": 2006.2500000000005,
+        "gauss_points": 128400,
+        "metrics": {
+          "displacement_gradient_frobenius": {
+            "area_l2": 26.287931096747187,
+            "area_rms": 0.5868996937431488,
+            "area_weighted_p95": 1.86672769215036,
+            "maximum": 1.8945988387487054
+          },
+          "linear_strain_frobenius": {
+            "area_l2": 0.3159059835106767,
+            "area_rms": 0.007052861036941246,
+            "area_weighted_p95": 0.011883614755012251,
+            "maximum": 0.18259871068908978
+          },
+          "quadratic_correction_frobenius": {
+            "area_l2": 16.83108741084283,
+            "area_rms": 0.37576787653746274,
+            "area_weighted_p95": 1.2320183374447475,
+            "maximum": 1.2701873824109753
+          },
+          "green_lagrange_frobenius": {
+            "area_l2": 16.833189655475927,
+            "area_rms": 0.3758148108788073,
+            "area_weighted_p95": 1.231939920725837,
+            "maximum": 1.29468964793847
+          },
+          "skew_gradient_frobenius": {
+            "area_l2": 26.28603288358495,
+            "area_rms": 0.5868573145722862,
+            "area_weighted_p95": 1.8667273381996543,
+            "maximum": 1.894034966928097
+          },
+          "infinitesimal_rotation_absolute": {
+            "area_l2": 18.587032102475497,
+            "area_rms": 0.4149707867229904,
+            "area_weighted_p95": 1.3199755594672893,
+            "maximum": 1.3392849689192956
+          }
+        },
+        "quadratic_to_linear_area_l2_ratio": 53.27878637751091,
+        "quadratic_to_linear_p95_ratio": 103.67370222306381,
+        "ratio_note": "Ratios of region norms/statistics, not a percentile of pointwise ratios; zero denominators return null",
+        "polar_rotation_absolute_radians": {
+          "area_l2": 13.2629764217223,
+          "area_rms": 0.29610686255163693,
+          "area_weighted_p95": 0.9224877401656215,
+          "maximum": 0.9262529866532108
+        },
+        "polar_rotation_defined_area_mm2": 2006.2500000000005,
+        "determinant_F_minimum": 0.9483650763932363,
+        "determinant_F_maximum": 2.8269835320853365,
+        "nonpositive_determinant_area_mm2": 0.0,
+        "nonpositive_determinant_area_fraction": 0.0
+      },
+      "interpretation": "Quadratic kinematic terms evaluated on a linear field; not nonlinear response, response error, strength, or a safe-load extrapolation",
+      "physical_validation": "not_assessed",
+      "nonlinear_equilibrium": "not_solved"
+    },
+    "factorizations": 0,
+    "rhs_solves": 0,
+    "acceptance_effect": "None; partial Q4 postprocessing does not confer P2 or reference acceptance"
+  },
+  {
+    "catalog_key": "v035_repair",
+    "candidate_name": "binary-d51ed6f3d6179ed716f11b90d5e49f2f018436296d4e413422614fe9b0d152bd",
+    "catalog_identity_sha256": "bf8c06c3aec735410019bf75e7ae00d63c858eb9b523ff98774436c6ead985fb",
+    "geometry_sha256": "eda41e1e69baf7b8964ecb40ef05f4073d9af0c48e5ec4f15fbdb94fc82bb969",
+    "candidate_content_hash": "09f3f9a93969934b1f0bf8afe5c5d2385f949b36f584310296f04ea5cc463d0d",
+    "volume_setting": 0.35,
+    "actual_volume_fraction": 0.344375,
+    "angle_degrees": 20.0,
+    "load_magnitude_N": 1000.0,
+    "mesh_h_mm": 0.25,
+    "status": "kinematic_diagnostic_only_successful_q4_partial_audit",
+    "source_status": "independent_verification_failed",
+    "source_q4_solver_passed": true,
+    "source_independent_verified": false,
+    "source_independent_failure": {
+      "type": "ArithmeticError",
+      "message": "P2 free-DOF equilibrium residual exceeds 1e-8"
+    },
+    "source_fields_path": "results/phase11/refinement/attempts/v035_repair/h0.25/fields.npz",
+    "source_fields_sha256": "5b2b991b47b77bf047b9a3d17d096172c1ab7c7e63fffc0e0370a6a8411469e0",
+    "max_displacement_mm": 49.4601571798794,
+    "max_pad_displacement_mm": 49.4601571798794,
+    "max_displacement_over_120mm": 0.412167976498995,
+    "max_pad_displacement_over_120mm": 0.412167976498995,
+    "kinematics": {
+      "schema_version": 1,
+      "status": "kinematic_diagnostic_only",
+      "input_model": "One displacement field from the linear model; no new equilibrium solve",
+      "tensor_scope": "2D in-plane block only; no thickness strain or nonlinear plane-stress closure",
+      "definitions": {
+        "H_ij": "du_i/dX_j",
+        "linear_strain": "(H+H.T)/2",
+        "quadratic_correction": "H.T@H/2",
+        "green_lagrange": "linear_strain+quadratic_correction",
+        "infinitesimal_rotation": "(H_yx-H_xy)/2; not exact finite rotation",
+        "polar_rotation": "angle of proper polar rotation of F=I+H when det(F)>0"
+      },
+      "statistics": {
+        "weight": "reference area at Gauss points in mm^2",
+        "area_l2": "sqrt(sum(w*Frobenius_norm^2)); units mm for dimensionless tensor",
+        "area_rms": "area_l2/sqrt(reference area); dimensionless",
+        "area_weighted_p95": "inverse weighted empirical CDF; dimensionless",
+        "rotation_units": "radians; area_l2 carries radians times mm"
+      },
+      "quadrature_order": 2,
+      "cells": 35264,
+      "exclusion_radius_mm": 6.0,
+      "singular_points_mm": [
+        [
+          40.0,
+          40.0
+        ],
+        [
+          0.0,
+          80.0
+        ],
+        [
+          40.0,
+          80.0
+        ],
+        [
+          120.0,
+          10.0
+        ],
+        [
+          120.0,
+          30.0
+        ]
+      ],
+      "regular_region_caveat": "Original five singularities only; new pixel corners remain and no safety threshold follows",
+      "global": {
+        "status": "diagnostic_only",
+        "area_mm2": 2204.0000000000005,
+        "gauss_points": 141056,
+        "metrics": {
+          "displacement_gradient_frobenius": {
+            "area_l2": 33.46105190408215,
+            "area_rms": 0.7127443684254386,
+            "area_weighted_p95": 2.096333770758753,
+            "maximum": 2.1276417893789157
+          },
+          "linear_strain_frobenius": {
+            "area_l2": 0.35403365576325363,
+            "area_rms": 0.007541170406168409,
+            "area_weighted_p95": 0.012113050797853618,
+            "maximum": 0.20855655863121364
+          },
+          "quadratic_correction_frobenius": {
+            "area_l2": 24.22378971182185,
+            "area_rms": 0.5159840685378089,
+            "area_weighted_p95": 1.5537313295618338,
+            "maximum": 1.6018936919333282
+          },
+          "green_lagrange_frobenius": {
+            "area_l2": 24.226075972474526,
+            "area_rms": 0.5160327675269984,
+            "area_weighted_p95": 1.5537208948680916,
+            "maximum": 1.6294689912017826
+          },
+          "skew_gradient_frobenius": {
+            "area_l2": 33.45917893042604,
+            "area_rms": 0.7127044727452483,
+            "area_weighted_p95": 2.0963336968807393,
+            "maximum": 2.1270027698136094
+          },
+          "infinitesimal_rotation_absolute": {
+            "area_l2": 23.659212314638307,
+            "area_rms": 0.503958165660148,
+            "area_weighted_p95": 1.482331772694235,
+            "maximum": 1.5040180821377724
+          }
+        },
+        "quadratic_to_linear_area_l2_ratio": 68.42227940052281,
+        "quadratic_to_linear_p95_ratio": 128.26919951802302,
+        "ratio_note": "Ratios of region norms/statistics, not a percentile of pointwise ratios; zero denominators return null",
+        "polar_rotation_absolute_radians": {
+          "area_l2": 15.895959522171315,
+          "area_rms": 0.33859532158832506,
+          "area_weighted_p95": 0.9773246569135284,
+          "maximum": 0.9808449076936506
+        },
+        "polar_rotation_defined_area_mm2": 2204.0000000000005,
+        "determinant_F_minimum": 0.9502053412897535,
+        "determinant_F_maximum": 3.299570903603016,
+        "nonpositive_determinant_area_mm2": 0.0,
+        "nonpositive_determinant_area_fraction": 0.0
+      },
+      "regular": {
+        "status": "diagnostic_only",
+        "area_mm2": 2006.2500000000005,
+        "gauss_points": 128400,
+        "metrics": {
+          "displacement_gradient_frobenius": {
+            "area_l2": 29.518685866133268,
+            "area_rms": 0.6590289525172077,
+            "area_weighted_p95": 2.0958802572436364,
+            "maximum": 2.1276417893789157
+          },
+          "linear_strain_frobenius": {
+            "area_l2": 0.35349730884799074,
+            "area_rms": 0.007892118308526175,
+            "area_weighted_p95": 0.013256006282020713,
+            "maximum": 0.20855655863121364
+          },
+          "quadratic_correction_frobenius": {
+            "area_l2": 21.222818461278816,
+            "area_rms": 0.47381688613875816,
+            "area_weighted_p95": 1.5530597329248135,
+            "maximum": 1.6018936919333282
+          },
+          "green_lagrange_frobenius": {
+            "area_l2": 21.225649470700343,
+            "area_rms": 0.47388009075369586,
+            "area_weighted_p95": 1.553010388231628,
+            "maximum": 1.6294689912017826
+          },
+          "skew_gradient_frobenius": {
+            "area_l2": 29.51656915896718,
+            "area_rms": 0.6589816952879131,
+            "area_weighted_p95": 2.095880130754849,
+            "maximum": 2.1270027698136094
+          },
+          "infinitesimal_rotation_absolute": {
+            "area_l2": 20.8713662096674,
+            "area_rms": 0.46597042541589045,
+            "area_weighted_p95": 1.4820110530109016,
+            "maximum": 1.5040180821377724
+          }
+        },
+        "quadratic_to_linear_area_l2_ratio": 60.03671861163999,
+        "quadratic_to_linear_p95_ratio": 117.15894666037144,
+        "ratio_note": "Ratios of region norms/statistics, not a percentile of pointwise ratios; zero denominators return null",
+        "polar_rotation_absolute_radians": {
+          "area_l2": 14.096572663431163,
+          "area_rms": 0.3147175846036629,
+          "area_weighted_p95": 0.9772406951988949,
+          "maximum": 0.9808449076936506
+        },
+        "polar_rotation_defined_area_mm2": 2006.2500000000005,
+        "determinant_F_minimum": 0.9502053412897535,
+        "determinant_F_maximum": 3.299570903603016,
+        "nonpositive_determinant_area_mm2": 0.0,
+        "nonpositive_determinant_area_fraction": 0.0
+      },
+      "interpretation": "Quadratic kinematic terms evaluated on a linear field; not nonlinear response, response error, strength, or a safe-load extrapolation",
+      "physical_validation": "not_assessed",
+      "nonlinear_equilibrium": "not_solved"
+    },
+    "factorizations": 0,
+    "rhs_solves": 0,
+    "acceptance_effect": "None; partial Q4 postprocessing does not confer P2 or reference acceptance"
+  }
+]
